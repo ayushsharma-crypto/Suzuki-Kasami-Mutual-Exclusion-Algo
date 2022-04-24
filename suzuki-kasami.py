@@ -1,14 +1,20 @@
 import random
 import threading
+import numpy as np
+from mpi4py import MPI
 from collections import deque
 from threading import Thread
 from time import sleep
-import numpy as np
-from mpi4py import MPI
+import sys
+from datetime import datetime
+
 
 comm = MPI.COMM_WORLD
 rank = comm.Get_rank()
 total_nodes = comm.Get_size()
+
+REQUEST_MESSAGE_TYPE = 'RN'
+TOKEN_MESSAGE_TYPE = 'token'
 
 LOCKS = {
     "request": threading.Lock(),
@@ -32,20 +38,24 @@ def listener():
     global DATA_STRUCTURE
     while True:
         mes = comm.recv(source=MPI.ANY_SOURCE)
-        if mes[0] == 'RN':
+        if mes[0] == REQUEST_MESSAGE_TYPE:
             with LOCKS["rn"]:
                 rid = mes[1]
                 seq = mes[2]
                 DATA_STRUCTURE['RN'][rid] = max([seq, DATA_STRUCTURE['RN'][rid]])
                 if seq < DATA_STRUCTURE['RN'][rid]:
-                    print("Outdated message from ",rid)
+                    print(
+                        "%s: Request from %d has expired." % (datetime.now().strftime('%M:%S'), rid))
+                    sys.stdout.flush()
                 if DATA_STRUCTURE['has_token'] and \
                    not DATA_STRUCTURE['in_cs'] and \
                    DATA_STRUCTURE['RN'][rid] == DATA_STRUCTURE['LN'][rid]+1:
                    DATA_STRUCTURE['has_token'] = False
                    send_token(rid)
-        elif mes[0] == 'token':
+        elif mes[0] == TOKEN_MESSAGE_TYPE:
             with LOCKS['token']:
+                print("%s: I'm %d and I got a token." % (datetime.now().strftime('%M:%S'), rank))
+                sys.stdout.flush()
                 DATA_STRUCTURE['has_token'] = True
                 DATA_STRUCTURE['waiting_for_token'] = False
                 DATA_STRUCTURE['LN'] = mes[1]
@@ -57,11 +67,13 @@ def request():
     with LOCKS["request"]:
         if not DATA_STRUCTURE["has_token"]:
             DATA_STRUCTURE["RN"][rank] += 1
+            print("%s: I'm %d and want a token for the %d time." % (datetime.now().strftime('%M:%S'), rank, DATA_STRUCTURE['RN'][rank]))
+            sys.stdout.flush()
             DATA_STRUCTURE["waiting_for_token"]=True
             for i in range(total_nodes):
                 if rank!=i:
                     comm.send([
-                        'RN', 
+                        REQUEST_MESSAGE_TYPE, 
                         rank, 
                         DATA_STRUCTURE["RN"][rank]
                     ], dest=i)
@@ -69,8 +81,10 @@ def request():
 def send_token(recipient):
     global DATA_STRUCTURE
     with LOCKS["send"]:
+        print("%s: I'm %d and sending the token to %d." % (datetime.now().strftime('%M:%S'), rank, recipient))
+        sys.stdout.flush()
         comm.send([
-            'token', 
+            TOKEN_MESSAGE_TYPE, 
             DATA_STRUCTURE["LN"],
             DATA_STRUCTURE["token_queue"]
         ], dest=recipient)
@@ -83,6 +97,9 @@ def release_cs():
             if k not in DATA_STRUCTURE["token_queue"]:
                 if DATA_STRUCTURE["RN"][k]== (DATA_STRUCTURE["LN"][k]+1):
                     DATA_STRUCTURE["token_queue"].append(k)
+                    print("%s: I'm %d and it adds %d to the queue. Queue after adding: %s." % (
+                        datetime.now().strftime('%M:%S'), rank, k, str(DATA_STRUCTURE['token_queue'])))
+                    sys.stdout.flush()
         if len(DATA_STRUCTURE["token_queue"])!=0:
             DATA_STRUCTURE["has_token"]=0
             send_token(DATA_STRUCTURE["token_queue"].popleft())
@@ -92,14 +109,21 @@ def run_cs():
     with LOCKS["cs"]:
         if DATA_STRUCTURE["has_token"]:
             DATA_STRUCTURE["in_cs"] = True
+            print("%s: I am %d and execute %d CS." % (datetime.now().strftime('%M:%S'), rank, DATA_STRUCTURE['RN'][rank]))
+            sys.stdout.flush()
             sleep(random.uniform(2, 5))
             DATA_STRUCTURE["in_cs"] = False
+            print("%s: I'm %d and finished %d CS." % (datetime.now().strftime('%M:%S'), rank, DATA_STRUCTURE['RN'][rank]))
+            sys.stdout.flush()
             release_cs()
             
 
 if __name__=="__main__":
     DATA_STRUCTURE["RN"][0]=1
+    # giving a token to start the process 0
     if rank==0:
+        print("%s: I am %d and have a startup token." % (datetime.now().strftime('%M:%S'), rank))
+        sys.stdout.flush()
         DATA_STRUCTURE["has_token"]=True
     
     try:
