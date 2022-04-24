@@ -9,7 +9,7 @@ from time import sleep
 from mpi4py import MPI
 
 comm = MPI.COMM_WORLD
-tid = comm.Get_rank()
+pid = comm.Get_rank()
 N = comm.Get_size()
 
 cs_lock = threading.Lock()
@@ -24,15 +24,12 @@ has_token = 0
 in_cs = 0
 waiting_for_token = 0
 
-RN = []
-LN = []
-for i in range(0, N):
-    LN.append(0)
-    RN.append(0)
+RN = [0]*N
+LN = [0]*N
 
-# wreczenie tokenu na start procesowi 0
-if tid == 0:
-    print("%s: Jestem %d i posiadam token startowy." % (datetime.now().strftime('%M:%S'), tid))
+# giving a token to start the process 0
+if pid == 0:
+    print("%s: I am %d and have a startup token." % (datetime.now().strftime('%M:%S'), pid))
     sys.stdout.flush()
     has_token = 1
 RN[0] = 1
@@ -54,7 +51,7 @@ def receive_request():
                 RN[requester_id] = max([cs_value, RN[requester_id]])
                 if cs_value < RN[requester_id]:
                     print(
-                        "%s: Request od %d jest przedawniony." % (datetime.now().strftime('%M:%S'), requester_id))
+                        "%s: Request from %d has expired." % (datetime.now().strftime('%M:%S'), requester_id))
                     sys.stdout.flush()
 
                 if (has_token == 1) and (in_cs == 0) and (RN[requester_id] == (LN[requester_id] + 1)):
@@ -63,7 +60,7 @@ def receive_request():
 
         elif message[0] == 'token':
             with token_lock:
-                print("%s: Jestem %d i otrzymalem token." % (datetime.now().strftime('%M:%S'), tid))
+                print("%s: I'm %d and I got a token." % (datetime.now().strftime('%M:%S'), pid))
                 sys.stdout.flush()
                 has_token = 1
                 waiting_for_token = 0
@@ -74,15 +71,15 @@ def receive_request():
 
 def send_request(message):
     for i in range(N):
-        if tid != i:
-            to_send = ['RN', tid, message]
+        if pid != i:
+            to_send = ['RN', pid, message]
             comm.send(to_send, dest=i)
 
 
 def send_token(recipent):
     global Q
     with send_lock:
-        print("%s: Jestem %d i wysylam token do %d." % (datetime.now().strftime('%M:%S'), tid, recipent))
+        print("%s: I'm %d and sending the token to %d." % (datetime.now().strftime('%M:%S'), pid, recipent))
         sys.stdout.flush()
         global in_cs
         to_send = ['token', LN, Q]
@@ -96,11 +93,11 @@ def request_cs():
     global has_token
     with request_lock:
         if has_token == 0:
-            RN[tid] += 1
-            print("%s: Jestem %d i chce token po raz %d." % (datetime.now().strftime('%M:%S'), tid, RN[tid]))
+            RN[pid] += 1
+            print("%s: I'm %d and want a token for the %d time." % (datetime.now().strftime('%M:%S'), pid, RN[pid]))
             sys.stdout.flush()
             waiting_for_token = 1
-            send_request(RN[tid])
+            send_request(RN[pid])
 
 
 def release_cs():
@@ -110,13 +107,13 @@ def release_cs():
     global Q
     global has_token
     with release_lock:
-        LN[tid] = RN[tid]
+        LN[pid] = RN[pid]
         for k in range(N):
             if k not in Q:
                 if RN[k] == (LN[k] + 1):
                     Q.append(k)
-                    print("%s: Jestem %d i dodaje %d do kolejki. Kolejka po dodaniu: %s." % (
-                        datetime.now().strftime('%M:%S'), tid, k, str(Q)))
+                    print("%s: I'm %d and it adds %d to the queue. Queue after adding: %s." % (
+                        datetime.now().strftime('%M:%S'), pid, k, str(Q)))
                     sys.stdout.flush()
         if len(Q) != 0:
             has_token = 0
@@ -129,10 +126,10 @@ def critical_section():
     with cs_lock:
         if has_token == 1:
             in_cs = 1
-            print("%s: Jestem %d i wykonuje %d CS." % (datetime.now().strftime('%M:%S'), tid, RN[tid]))
+            print("%s: I am %d and execute %d CS." % (datetime.now().strftime('%M:%S'), pid, RN[pid]))
             sys.stdout.flush()
             sleep(random.uniform(2, 5))
-            print("%s: Jestem %d i skonczylem wykonywac %d CS." % (datetime.now().strftime('%M:%S'), tid, RN[tid]))
+            print("%s: I'm %d and finished %d CS." % (datetime.now().strftime('%M:%S'), pid, RN[pid]))
             sys.stdout.flush()
             in_cs = 0
             release_cs()
@@ -145,6 +142,7 @@ except:
     print("Error: unable to start thread!   ")
     sys.stdout.flush()
 
+# Instead of sleep, check against a random number (roulette wheel)
 while True:
     if has_token == 0:
         sleep(random.uniform(1, 3))
