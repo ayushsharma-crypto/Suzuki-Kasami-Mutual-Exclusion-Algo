@@ -43,7 +43,7 @@ def listener():
                 rid = mes[1]
                 seq = mes[2]
                 DATA_STRUCTURE['RN'][rid] = max([seq, DATA_STRUCTURE['RN'][rid]])
-                if seq < DATA_STRUCTURE['RN'][rid]:
+                if DATA_STRUCTURE['RN'][rid] > seq:
                     print(
                         "%s: Request from %d has expired." % (datetime.now().strftime('%M:%S'), rid))
                     sys.stdout.flush()
@@ -66,7 +66,7 @@ def request():
     global DATA_STRUCTURE
     with LOCKS["request"]:
         if not DATA_STRUCTURE["has_token"]:
-            DATA_STRUCTURE["RN"][rank] += 1
+            DATA_STRUCTURE["RN"][rank] = DATA_STRUCTURE["RN"][rank] + 1
             print("%s: I'm %d and want a token for the %d time." % (datetime.now().strftime('%M:%S'), rank, DATA_STRUCTURE['RN'][rank]))
             sys.stdout.flush()
             DATA_STRUCTURE["waiting_for_token"]=True
