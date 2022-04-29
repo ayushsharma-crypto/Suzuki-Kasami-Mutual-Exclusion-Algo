@@ -1,0 +1,423 @@
+52:19: I am 0 and have a startup token.
+52:19: I am 0 and execute 1 CS.
+52:23: I'm 0 and finished 1 CS.
+52:23: I'm 0 and it adds 1 to the queue. Queue after adding: deque([1]).
+52:23: I'm 0 and it adds 2 to the queue. Queue after adding: deque([1, 2]).
+52:23: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+52:23: I'm 0 and it adds 4 to the queue. Queue after adding: deque([1, 2, 3, 4]).
+52:23: I'm 0 and sending the token to 1.
+52:25: I'm 0 and want a token for the 2 time.
+52:35: I'm 0 and I got a token.
+52:35: I am 0 and execute 2 CS.
+52:38: I'm 0 and finished 2 CS.
+52:38: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+52:38: I'm 0 and sending the token to 1.
+52:40: I'm 0 and want a token for the 3 time.
+52:53: I'm 0 and I got a token.
+52:53: I am 0 and execute 3 CS.
+52:56: I'm 0 and finished 3 CS.
+52:56: I'm 0 and it adds 2 to the queue. Queue after adding: deque([1, 2]).
+52:56: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+52:56: I'm 0 and sending the token to 1.
+52:57: I'm 0 and want a token for the 4 time.
+53:11: I'm 0 and I got a token.
+53:11: I am 0 and execute 4 CS.
+53:14: I'm 0 and finished 4 CS.
+53:14: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+53:14: I'm 0 and sending the token to 1.
+53:16: I'm 0 and want a token for the 5 time.
+53:26: I'm 0 and I got a token.
+53:26: I am 0 and execute 5 CS.
+53:30: I'm 0 and finished 5 CS.
+53:30: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+53:30: I'm 0 and sending the token to 1.
+53:33: I'm 0 and want a token for the 6 time.
+53:44: I'm 0 and I got a token.
+53:44: I am 0 and execute 6 CS.
+53:47: I'm 0 and finished 6 CS.
+53:47: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+53:47: I'm 0 and sending the token to 1.
+53:50: I'm 0 and want a token for the 7 time.
+54:03: I'm 0 and I got a token.
+54:03: I am 0 and execute 7 CS.
+54:08: I'm 0 and finished 7 CS.
+54:08: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+54:08: I'm 0 and sending the token to 1.
+54:11: I'm 0 and want a token for the 8 time.
+54:21: I'm 0 and I got a token.
+54:21: I am 0 and execute 8 CS.
+54:25: I'm 0 and finished 8 CS.
+54:25: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+54:25: I'm 0 and sending the token to 1.
+54:28: I'm 0 and want a token for the 9 time.
+54:40: I'm 0 and I got a token.
+54:40: I am 0 and execute 9 CS.
+54:43: I'm 0 and finished 9 CS.
+54:43: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+54:43: I'm 0 and sending the token to 1.
+54:45: I'm 0 and want a token for the 10 time.
+54:58: I'm 0 and I got a token.
+54:58: I am 0 and execute 10 CS.
+55:02: I'm 0 and finished 10 CS.
+55:02: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+55:02: I'm 0 and sending the token to 1.
+55:03: I'm 0 and want a token for the 11 time.
+55:19: I'm 0 and I got a token.
+55:19: I am 0 and execute 11 CS.
+55:24: I'm 0 and finished 11 CS.
+55:24: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+55:24: I'm 0 and sending the token to 1.
+55:25: I'm 0 and want a token for the 12 time.
+55:39: I'm 0 and I got a token.
+55:39: I am 0 and execute 12 CS.
+55:42: I'm 0 and finished 12 CS.
+55:42: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+55:42: I'm 0 and sending the token to 1.
+55:44: I'm 0 and want a token for the 13 time.
+55:58: I'm 0 and I got a token.
+55:58: I am 0 and execute 13 CS.
+56:01: I'm 0 and finished 13 CS.
+56:01: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+56:01: I'm 0 and sending the token to 1.
+56:02: I'm 0 and want a token for the 14 time.
+56:15: I'm 0 and I got a token.
+56:15: I am 0 and execute 14 CS.
+56:20: I'm 0 and finished 14 CS.
+56:20: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+56:20: I'm 0 and sending the token to 1.
+56:22: I'm 0 and want a token for the 15 time.
+56:37: I'm 0 and I got a token.
+56:37: I am 0 and execute 15 CS.
+56:40: I'm 0 and finished 15 CS.
+56:40: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+56:40: I'm 0 and sending the token to 1.
+56:43: I'm 0 and want a token for the 16 time.
+56:52: I'm 0 and I got a token.
+56:52: I am 0 and execute 16 CS.
+56:56: I'm 0 and finished 16 CS.
+56:56: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+56:56: I'm 0 and sending the token to 1.
+56:59: I'm 0 and want a token for the 17 time.
+57:10: I'm 0 and I got a token.
+57:10: I am 0 and execute 17 CS.
+57:13: I'm 0 and finished 17 CS.
+57:13: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+57:13: I'm 0 and sending the token to 1.
+57:15: I'm 0 and want a token for the 18 time.
+57:22: I'm 0 and I got a token.
+57:22: I am 0 and execute 18 CS.
+57:25: I'm 0 and finished 18 CS.
+57:25: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+57:25: I'm 0 and sending the token to 1.
+57:27: I'm 0 and want a token for the 19 time.
+57:38: I'm 0 and I got a token.
+57:38: I am 0 and execute 19 CS.
+57:41: I'm 0 and finished 19 CS.
+57:41: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+57:41: I'm 0 and sending the token to 4.
+57:43: I'm 0 and want a token for the 20 time.
+57:58: I'm 0 and I got a token.
+57:58: I am 0 and execute 20 CS.
+58:02: I'm 0 and finished 20 CS.
+58:02: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+58:02: I'm 0 and sending the token to 4.
+58:04: I'm 0 and want a token for the 21 time.
+58:17: I'm 0 and I got a token.
+58:17: I am 0 and execute 21 CS.
+58:22: I'm 0 and finished 21 CS.
+58:22: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+58:22: I'm 0 and sending the token to 4.
+58:23: I'm 0 and want a token for the 22 time.
+58:35: I'm 0 and I got a token.
+58:35: I am 0 and execute 22 CS.
+58:38: I'm 0 and finished 22 CS.
+58:38: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+58:38: I'm 0 and sending the token to 4.
+58:41: I'm 0 and want a token for the 23 time.
+58:53: I'm 0 and I got a token.
+58:53: I am 0 and execute 23 CS.
+58:57: I'm 0 and finished 23 CS.
+58:57: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+58:57: I'm 0 and sending the token to 4.
+58:58: I'm 0 and want a token for the 24 time.
+59:11: I'm 0 and I got a token.
+59:11: I am 0 and execute 24 CS.
+59:14: I'm 0 and finished 24 CS.
+59:14: I'm 0 and it adds 1 to the queue. Queue after adding: deque([4, 1]).
+59:14: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+59:14: I'm 0 and sending the token to 4.
+59:16: I'm 0 and want a token for the 25 time.
+59:26: I'm 0 and I got a token.
+59:26: I am 0 and execute 25 CS.
+59:29: I'm 0 and finished 25 CS.
+59:29: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+59:29: I'm 0 and sending the token to 4.
+59:32: I'm 0 and want a token for the 26 time.
+59:45: I'm 0 and I got a token.
+59:45: I am 0 and execute 26 CS.
+59:49: I'm 0 and finished 26 CS.
+59:49: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+59:49: I'm 0 and sending the token to 4.
+59:51: I'm 0 and want a token for the 27 time.
+00:04: I'm 0 and I got a token.
+00:04: I am 0 and execute 27 CS.
+00:09: I'm 0 and finished 27 CS.
+00:09: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+00:09: I'm 0 and sending the token to 4.
+00:11: I'm 0 and want a token for the 28 time.
+00:24: I'm 0 and I got a token.
+00:24: I am 0 and execute 28 CS.
+00:26: I'm 0 and finished 28 CS.
+00:26: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+00:26: I'm 0 and sending the token to 4.
+00:28: I'm 0 and want a token for the 29 time.
+00:40: I'm 0 and I got a token.
+00:40: I am 0 and execute 29 CS.
+00:42: I'm 0 and finished 29 CS.
+00:42: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+00:42: I'm 0 and sending the token to 4.
+00:43: I'm 0 and want a token for the 30 time.
+00:53: I'm 0 and I got a token.
+00:53: I am 0 and execute 30 CS.
+00:57: I'm 0 and finished 30 CS.
+00:57: I'm 0 and it adds 1 to the queue. Queue after adding: deque([3, 4, 1]).
+00:57: I'm 0 and sending the token to 3.
+00:59: I'm 0 and want a token for the 31 time.
+01:11: I'm 0 and I got a token.
+01:11: I am 0 and execute 31 CS.
+01:14: I'm 0 and finished 31 CS.
+01:14: I'm 0 and it adds 1 to the queue. Queue after adding: deque([3, 4, 1]).
+01:14: I'm 0 and sending the token to 3.
+01:16: I'm 0 and want a token for the 32 time.
+01:31: I'm 0 and I got a token.
+01:31: I am 0 and execute 32 CS.
+01:35: I'm 0 and finished 32 CS.
+01:35: I'm 0 and it adds 1 to the queue. Queue after adding: deque([3, 4, 1]).
+01:35: I'm 0 and sending the token to 3.
+01:37: I'm 0 and want a token for the 33 time.
+01:49: I'm 0 and I got a token.
+01:49: I am 0 and execute 33 CS.
+01:54: I'm 0 and finished 33 CS.
+01:54: I'm 0 and it adds 1 to the queue. Queue after adding: deque([3, 4, 1]).
+01:54: I'm 0 and sending the token to 3.
+01:56: I'm 0 and want a token for the 34 time.
+02:04: I'm 0 and I got a token.
+02:04: I am 0 and execute 34 CS.
+02:06: I'm 0 and finished 34 CS.
+02:06: I'm 0 and sending the token to 3.
+02:07: I'm 0 and want a token for the 35 time.
+02:22: I'm 0 and I got a token.
+02:22: I am 0 and execute 35 CS.
+02:24: I'm 0 and finished 35 CS.
+02:24: I'm 0 and it adds 1 to the queue. Queue after adding: deque([3, 4, 1]).
+02:24: I'm 0 and sending the token to 3.
+02:27: I'm 0 and want a token for the 36 time.
+02:37: I'm 0 and I got a token.
+02:37: I am 0 and execute 36 CS.
+02:40: I'm 0 and finished 36 CS.
+02:40: I'm 0 and it adds 4 to the queue. Queue after adding: deque([2, 3, 4]).
+02:40: I'm 0 and sending the token to 2.
+02:43: I'm 0 and want a token for the 37 time.
+02:56: I'm 0 and I got a token.
+02:56: I am 0 and execute 37 CS.
+02:59: I'm 0 and finished 37 CS.
+02:59: I'm 0 and it adds 4 to the queue. Queue after adding: deque([2, 3, 4]).
+02:59: I'm 0 and sending the token to 2.
+03:00: I'm 0 and want a token for the 38 time.
+03:14: I'm 0 and I got a token.
+03:14: I am 0 and execute 38 CS.
+03:18: I'm 0 and finished 38 CS.
+03:18: I'm 0 and it adds 4 to the queue. Queue after adding: deque([2, 3, 4]).
+03:18: I'm 0 and sending the token to 2.
+03:20: I'm 0 and want a token for the 39 time.
+03:30: I'm 0 and I got a token.
+03:30: I am 0 and execute 39 CS.
+03:35: I'm 0 and finished 39 CS.
+03:35: I'm 0 and it adds 4 to the queue. Queue after adding: deque([2, 3, 4]).
+03:35: I'm 0 and sending the token to 2.
+03:36: I'm 0 and want a token for the 40 time.
+03:50: I'm 0 and I got a token.
+03:50: I am 0 and execute 40 CS.
+03:54: I'm 0 and finished 40 CS.
+03:54: I'm 0 and it adds 4 to the queue. Queue after adding: deque([2, 3, 4]).
+03:54: I'm 0 and sending the token to 2.
+03:56: I'm 0 and want a token for the 41 time.
+04:06: I'm 0 and I got a token.
+04:06: I am 0 and execute 41 CS.
+04:11: I'm 0 and finished 41 CS.
+04:11: I'm 0 and it adds 3 to the queue. Queue after adding: deque([2, 3]).
+04:11: I'm 0 and it adds 4 to the queue. Queue after adding: deque([2, 3, 4]).
+04:11: I'm 0 and sending the token to 2.
+04:12: I'm 0 and want a token for the 42 time.
+04:25: I'm 0 and I got a token.
+04:25: I am 0 and execute 42 CS.
+04:27: I'm 0 and finished 42 CS.
+04:27: I'm 0 and it adds 4 to the queue. Queue after adding: deque([2, 3, 4]).
+04:27: I'm 0 and sending the token to 2.
+04:29: I'm 0 and want a token for the 43 time.
+04:44: I'm 0 and I got a token.
+04:44: I am 0 and execute 43 CS.
+04:46: I'm 0 and finished 43 CS.
+04:46: I'm 0 and it adds 4 to the queue. Queue after adding: deque([2, 3, 4]).
+04:46: I'm 0 and sending the token to 2.
+04:49: I'm 0 and want a token for the 44 time.
+04:59: I'm 0 and I got a token.
+04:59: I am 0 and execute 44 CS.
+05:02: I'm 0 and finished 44 CS.
+05:02: I'm 0 and it adds 4 to the queue. Queue after adding: deque([2, 3, 4]).
+05:02: I'm 0 and sending the token to 2.
+05:03: I'm 0 and want a token for the 45 time.
+05:18: I'm 0 and I got a token.
+05:18: I am 0 and execute 45 CS.
+05:20: I'm 0 and finished 45 CS.
+05:20: I'm 0 and it adds 4 to the queue. Queue after adding: deque([2, 3, 4]).
+05:20: I'm 0 and sending the token to 2.
+05:23: I'm 0 and want a token for the 46 time.
+05:31: I'm 0 and I got a token.
+05:31: I am 0 and execute 46 CS.
+05:35: I'm 0 and finished 46 CS.
+05:35: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+05:35: I'm 0 and sending the token to 1.
+05:37: I'm 0 and want a token for the 47 time.
+05:45: I'm 0 and I got a token.
+05:45: I am 0 and execute 47 CS.
+05:47: I'm 0 and finished 47 CS.
+05:47: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+05:47: I'm 0 and sending the token to 1.
+05:49: I'm 0 and want a token for the 48 time.
+06:00: I'm 0 and I got a token.
+06:00: I am 0 and execute 48 CS.
+06:05: I'm 0 and finished 48 CS.
+06:05: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+06:05: I'm 0 and sending the token to 1.
+06:07: I'm 0 and want a token for the 49 time.
+06:19: I'm 0 and I got a token.
+06:19: I am 0 and execute 49 CS.
+06:22: I'm 0 and finished 49 CS.
+06:22: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+06:22: I'm 0 and sending the token to 1.
+06:24: I'm 0 and want a token for the 50 time.
+06:37: I'm 0 and I got a token.
+06:37: I am 0 and execute 50 CS.
+06:41: I'm 0 and finished 50 CS.
+06:41: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+06:41: I'm 0 and sending the token to 1.
+06:43: I'm 0 and want a token for the 51 time.
+06:55: I'm 0 and I got a token.
+06:55: I am 0 and execute 51 CS.
+06:57: I'm 0 and finished 51 CS.
+06:57: I'm 0 and it adds 3 to the queue. Queue after adding: deque([1, 2, 3]).
+06:57: I'm 0 and sending the token to 1.
+06:59: I'm 0 and want a token for the 52 time.
+07:10: I'm 0 and I got a token.
+07:10: I am 0 and execute 52 CS.
+07:13: I'm 0 and finished 52 CS.
+07:13: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+07:13: I'm 0 and sending the token to 4.
+07:14: I'm 0 and want a token for the 53 time.
+07:26: I'm 0 and I got a token.
+07:26: I am 0 and execute 53 CS.
+07:29: I'm 0 and finished 53 CS.
+07:29: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+07:29: I'm 0 and sending the token to 4.
+07:30: I'm 0 and want a token for the 54 time.
+07:45: I'm 0 and I got a token.
+07:45: I am 0 and execute 54 CS.
+07:49: I'm 0 and finished 54 CS.
+07:49: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+07:49: I'm 0 and sending the token to 4.
+07:51: I'm 0 and want a token for the 55 time.
+08:05: I'm 0 and I got a token.
+08:05: I am 0 and execute 55 CS.
+08:07: I'm 0 and finished 55 CS.
+08:07: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+08:07: I'm 0 and sending the token to 4.
+08:10: I'm 0 and want a token for the 56 time.
+08:21: I'm 0 and I got a token.
+08:21: I am 0 and execute 56 CS.
+08:25: I'm 0 and finished 56 CS.
+08:25: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+08:25: I'm 0 and sending the token to 4.
+08:26: I'm 0 and want a token for the 57 time.
+08:40: I'm 0 and I got a token.
+08:40: I am 0 and execute 57 CS.
+08:43: I'm 0 and finished 57 CS.
+08:43: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+08:43: I'm 0 and sending the token to 4.
+08:44: I'm 0 and want a token for the 58 time.
+08:57: I'm 0 and I got a token.
+08:57: I am 0 and execute 58 CS.
+09:01: I'm 0 and finished 58 CS.
+09:01: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+09:01: I'm 0 and sending the token to 4.
+09:04: I'm 0 and want a token for the 59 time.
+09:17: I'm 0 and I got a token.
+09:17: I am 0 and execute 59 CS.
+09:19: I'm 0 and finished 59 CS.
+09:19: I'm 0 and it adds 2 to the queue. Queue after adding: deque([4, 1, 2]).
+09:19: I'm 0 and sending the token to 4.
+09:20: I'm 0 and want a token for the 60 time.
+09:31: I'm 0 and I got a token.
+09:31: I am 0 and execute 60 CS.
+09:34: I'm 0 and finished 60 CS.
+09:34: I'm 0 and it adds 2 to the queue. Queue after adding: deque([1, 4, 2]).
+09:34: I'm 0 and sending the token to 1.
+09:36: I'm 0 and want a token for the 61 time.
+09:47: I'm 0 and I got a token.
+09:47: I am 0 and execute 61 CS.
+09:50: I'm 0 and finished 61 CS.
+09:50: I'm 0 and sending the token to 1.
+09:52: I'm 0 and want a token for the 62 time.
+10:04: I'm 0 and I got a token.
+10:04: I am 0 and execute 62 CS.
+10:08: I'm 0 and finished 62 CS.
+10:08: I'm 0 and sending the token to 1.
+10:11: I'm 0 and want a token for the 63 time.
+10:23: I'm 0 and I got a token.
+10:23: I am 0 and execute 63 CS.
+10:26: I'm 0 and finished 63 CS.
+10:26: I'm 0 and it adds 2 to the queue. Queue after adding: deque([1, 4, 2]).
+10:26: I'm 0 and sending the token to 1.
+10:29: I'm 0 and want a token for the 64 time.
+10:43: I'm 0 and I got a token.
+10:43: I am 0 and execute 64 CS.
+10:46: I'm 0 and finished 64 CS.
+10:46: I'm 0 and it adds 2 to the queue. Queue after adding: deque([1, 4, 2]).
+10:46: I'm 0 and sending the token to 1.
+10:49: I'm 0 and want a token for the 65 time.
+10:59: I'm 0 and I got a token.
+10:59: I am 0 and execute 65 CS.
+11:02: I'm 0 and finished 65 CS.
+11:02: I'm 0 and it adds 2 to the queue. Queue after adding: deque([1, 4, 2]).
+11:02: I'm 0 and sending the token to 1.
+11:03: I'm 0 and want a token for the 66 time.
+11:14: I'm 0 and I got a token.
+11:14: I am 0 and execute 66 CS.
+11:17: I'm 0 and finished 66 CS.
+11:17: I'm 0 and it adds 2 to the queue. Queue after adding: deque([1, 4, 2]).
+11:17: I'm 0 and sending the token to 1.
+11:19: I'm 0 and want a token for the 67 time.
+11:29: I'm 0 and I got a token.
+11:29: I am 0 and execute 67 CS.
+11:33: I'm 0 and finished 67 CS.
+11:33: I'm 0 and it adds 2 to the queue. Queue after adding: deque([1, 4, 2]).
+11:33: I'm 0 and sending the token to 1.
+11:36: I'm 0 and want a token for the 68 time.
+11:50: I'm 0 and I got a token.
+11:50: I am 0 and execute 68 CS.
+11:52: I'm 0 and finished 68 CS.
+11:52: I'm 0 and it adds 2 to the queue. Queue after adding: deque([1, 4, 2]).
+11:52: I'm 0 and sending the token to 1.
+11:54: I'm 0 and want a token for the 69 time.
+12:08: I'm 0 and I got a token.
+12:08: I am 0 and execute 69 CS.
+12:11: I'm 0 and finished 69 CS.
+12:11: I'm 0 and it adds 2 to the queue. Queue after adding: deque([1, 4, 2]).
+12:11: I'm 0 and sending the token to 1.
+12:13: I'm 0 and want a token for the 70 time.
+12:28: I'm 0 and I got a token.
+12:28: I am 0 and execute 70 CS.
+12:32: I'm 0 and finished 70 CS.
+12:32: I'm 0 and it adds 2 to the queue. Queue after adding: deque([1, 4, 2]).
+12:32: I'm 0 and sending the token to 1.
+12:34: I'm 0 and want a token for the 71 time.

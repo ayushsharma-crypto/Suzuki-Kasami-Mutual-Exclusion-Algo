@@ -37,7 +37,7 @@ DATA_STRUCTURE = {
 def print_log(data):
     global rank
     # print(rank, data)
-    filename = "Log1/process-"+str(rank)+".txt"
+    filename = "Log2/process-"+str(rank)+".txt"
     # print(rank, filename)
     with open(filename, "a") as file:
         file.write(data)
