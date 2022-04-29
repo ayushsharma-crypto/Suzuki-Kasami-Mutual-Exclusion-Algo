@@ -34,6 +34,15 @@ DATA_STRUCTURE = {
     "waiting_for_token": False
 }
 
+def print_log(data):
+    global rank
+    # print(rank, data)
+    filename = "Log1/process-"+str(rank)+".txt"
+    # print(rank, filename)
+    with open(filename, "a") as file:
+        file.write(data)
+        file.write("\n")
+
 def listener():
     global DATA_STRUCTURE
     while True:
@@ -44,7 +53,7 @@ def listener():
                 seq = mes[2]
                 DATA_STRUCTURE['RN'][rid] = max([seq, DATA_STRUCTURE['RN'][rid]])
                 if DATA_STRUCTURE['RN'][rid] > seq:
-                    print(
+                    print_log(
                         "%s: Request from %d has expired." % (datetime.now().strftime('%M:%S'), rid))
                     sys.stdout.flush()
                 if DATA_STRUCTURE['has_token'] and \
@@ -54,7 +63,7 @@ def listener():
                    send_token(rid)
         elif mes[0] == TOKEN_MESSAGE_TYPE:
             with LOCKS['token']:
-                print("%s: I'm %d and I got a token." % (datetime.now().strftime('%M:%S'), rank))
+                print_log("%s: I'm %d and I got a token." % (datetime.now().strftime('%M:%S'), rank))
                 sys.stdout.flush()
                 DATA_STRUCTURE['has_token'] = True
                 DATA_STRUCTURE['waiting_for_token'] = False
@@ -67,7 +76,7 @@ def request():
     with LOCKS["request"]:
         if not DATA_STRUCTURE["has_token"]:
             DATA_STRUCTURE["RN"][rank] = DATA_STRUCTURE["RN"][rank] + 1
-            print("%s: I'm %d and want a token for the %d time." % (datetime.now().strftime('%M:%S'), rank, DATA_STRUCTURE['RN'][rank]))
+            print_log("%s: I'm %d and want a token for the %d time." % (datetime.now().strftime('%M:%S'), rank, DATA_STRUCTURE['RN'][rank]))
             sys.stdout.flush()
             DATA_STRUCTURE["waiting_for_token"]=True
             for i in range(total_nodes):
@@ -81,7 +90,7 @@ def request():
 def send_token(recipient):
     global DATA_STRUCTURE
     with LOCKS["send"]:
-        print("%s: I'm %d and sending the token to %d." % (datetime.now().strftime('%M:%S'), rank, recipient))
+        print_log("%s: I'm %d and sending the token to %d." % (datetime.now().strftime('%M:%S'), rank, recipient))
         sys.stdout.flush()
         comm.send([
             TOKEN_MESSAGE_TYPE, 
@@ -97,7 +106,7 @@ def release_cs():
             if k not in DATA_STRUCTURE["token_queue"]:
                 if DATA_STRUCTURE["RN"][k]== (DATA_STRUCTURE["LN"][k]+1):
                     DATA_STRUCTURE["token_queue"].append(k)
-                    print("%s: I'm %d and it adds %d to the queue. Queue after adding: %s." % (
+                    print_log("%s: I'm %d and it adds %d to the queue. Queue after adding: %s." % (
                         datetime.now().strftime('%M:%S'), rank, k, str(DATA_STRUCTURE['token_queue'])))
                     sys.stdout.flush()
         if len(DATA_STRUCTURE["token_queue"])!=0:
@@ -109,11 +118,11 @@ def run_cs():
     with LOCKS["cs"]:
         if DATA_STRUCTURE["has_token"]:
             DATA_STRUCTURE["in_cs"] = True
-            print("%s: I am %d and execute %d CS." % (datetime.now().strftime('%M:%S'), rank, DATA_STRUCTURE['RN'][rank]))
+            print_log("%s: I am %d and execute %d CS." % (datetime.now().strftime('%M:%S'), rank, DATA_STRUCTURE['RN'][rank]))
             sys.stdout.flush()
             sleep(random.uniform(2, 5))
             DATA_STRUCTURE["in_cs"] = False
-            print("%s: I'm %d and finished %d CS." % (datetime.now().strftime('%M:%S'), rank, DATA_STRUCTURE['RN'][rank]))
+            print_log("%s: I'm %d and finished %d CS." % (datetime.now().strftime('%M:%S'), rank, DATA_STRUCTURE['RN'][rank]))
             sys.stdout.flush()
             release_cs()
             
@@ -122,7 +131,7 @@ if __name__=="__main__":
     DATA_STRUCTURE["RN"][0]=1
     # giving a token to start the process 0
     if rank==0:
-        print("%s: I am %d and have a startup token." % (datetime.now().strftime('%M:%S'), rank))
+        print_log("%s: I am %d and have a startup token." % (datetime.now().strftime('%M:%S'), rank))
         sys.stdout.flush()
         DATA_STRUCTURE["has_token"]=True
     
@@ -130,7 +139,7 @@ if __name__=="__main__":
         listener_thread = Thread(target=listener)
         listener_thread.start()
     except:
-        print("Error: unable to start thread!   ")
+        print_log("Error: unable to start thread!   ")
     
     while True:
         if not DATA_STRUCTURE["has_token"]:
