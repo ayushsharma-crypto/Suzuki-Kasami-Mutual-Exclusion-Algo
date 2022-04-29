@@ -1,6 +1,5 @@
 import random
 import threading
-from cv2 import line
 import numpy as np
 from mpi4py import MPI
 from collections import deque
