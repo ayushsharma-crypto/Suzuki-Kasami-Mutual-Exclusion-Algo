@@ -17,7 +17,7 @@ total_nodes = comm.Get_size()
 REQUEST_MESSAGE_TYPE = 'RN'
 TOKEN_MESSAGE_TYPE = 'token'
 
-directory = ""
+directory = 'Log' + sys.argv[1]
 
 LOCKS = {
     "request": threading.Lock(),
@@ -62,7 +62,9 @@ def listener():
                 if DATA_STRUCTURE['RN'][rid] > seq:
                     print_log(
                         "%s: Request from %d has expired." % (datetime.now().strftime('%M:%S'), rid))
-                    sys.stdout.flush()
+                else:
+                    print_log( "%s: I'm %d and I recieved outstanding request from %d." % (datetime.now().strftime('%M:%S'), rank, rid))
+                sys.stdout.flush()
                 if DATA_STRUCTURE['has_token'] and \
                    not DATA_STRUCTURE['in_cs'] and \
                    DATA_STRUCTURE['RN'][rid] == DATA_STRUCTURE['LN'][rid]+1:
@@ -170,7 +172,6 @@ def print_node_status():
 
 
 if __name__=="__main__":
-    directory = sys.argv[1]
     DATA_STRUCTURE["RN"][0]=1
     # giving a token to start the process 0
     if rank==0:
