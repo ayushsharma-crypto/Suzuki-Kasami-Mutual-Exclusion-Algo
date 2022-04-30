@@ -1,0 +1,52 @@
+27:06: I'm 1 and want a token for the 1 time.
+	 LN : [0. 0.]
+	 RN : [1. 1.]
+	 Queue Understanding : deque([])
+27:09: I'm 1 and I got a token.
+	 LN : [0. 0.]
+	 RN : [1. 1.]
+	 Queue Understanding : deque([])
+27:09: I am 1 and execute 1 CS.
+	 LN : [1. 0.]
+	 RN : [1. 1.]
+	 Queue Understanding : deque([])
+27:13: I'm 1 and finished 1 CS.
+	 LN : [1. 0.]
+	 RN : [1. 1.]
+	 Queue Understanding : deque([])
+27:13: I am 1 and execute 1 CS.
+	 LN : [1. 1.]
+	 RN : [2. 1.]
+	 Queue Understanding : deque([])
+27:17: I'm 1 and finished 1 CS.
+	 LN : [1. 1.]
+	 RN : [2. 1.]
+	 Queue Understanding : deque([])
+27:17: I'm 1 and it adds 0 to the queue. Queue after adding: deque([0]).
+	 LN : [1. 1.]
+	 RN : [2. 1.]
+	 Queue Understanding : deque([0])
+27:17: I'm 1 and sending the token to 0.
+	 LN : [1. 1.]
+	 RN : [2. 1.]
+	 Queue Understanding : deque([])
+27:19: I'm 1 and want a token for the 2 time.
+	 LN : [1. 1.]
+	 RN : [2. 2.]
+	 Queue Understanding : deque([])
+27:24: I'm 1 and I got a token.
+	 LN : [1. 1.]
+	 RN : [2. 2.]
+	 Queue Understanding : deque([])
+27:24: I am 1 and execute 2 CS.
+	 LN : [2. 1.]
+	 RN : [2. 2.]
+	 Queue Understanding : deque([])
+27:29: I'm 1 and finished 2 CS.
+	 LN : [2. 1.]
+	 RN : [2. 2.]
+	 Queue Understanding : deque([])
+27:29: I am 1 and execute 2 CS.
+	 LN : [2. 2.]
+	 RN : [3. 2.]
+	 Queue Understanding : deque([])

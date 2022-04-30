@@ -1,0 +1,103 @@
+36:09: I'm 9 and want a token for the 1 time.
+36:31: I'm 9 and I got a token.
+36:31: I am 9 and execute 1 CS.
+36:33: I'm 9 and finished 1 CS.
+36:33: I'm 9 and it adds 5 to the queue. Queue after adding: deque([10, 11, 13, 14, 0, 6, 8, 12, 1, 2, 3, 4, 5]).
+36:33: I'm 9 and sending the token to 10.
+36:36: I'm 9 and want a token for the 2 time.
+37:21: I'm 9 and I got a token.
+37:21: I am 9 and execute 2 CS.
+37:24: I'm 9 and finished 2 CS.
+37:24: I'm 9 and it adds 5 to the queue. Queue after adding: deque([10, 11, 13, 14, 0, 6, 8, 12, 1, 2, 3, 4, 5]).
+37:24: I'm 9 and sending the token to 10.
+37:26: I'm 9 and want a token for the 3 time.
+38:21: I'm 9 and I got a token.
+38:21: I am 9 and execute 3 CS.
+38:23: I'm 9 and finished 3 CS.
+38:23: I'm 9 and it adds 5 to the queue. Queue after adding: deque([10, 11, 13, 14, 0, 6, 8, 12, 1, 2, 3, 4, 5]).
+38:23: I'm 9 and sending the token to 10.
+38:25: I'm 9 and want a token for the 4 time.
+39:08: I'm 9 and I got a token.
+39:08: I am 9 and execute 4 CS.
+39:10: I'm 9 and finished 4 CS.
+39:10: I'm 9 and it adds 4 to the queue. Queue after adding: deque([10, 11, 13, 14, 0, 6, 8, 12, 1, 2, 3, 4]).
+39:10: I'm 9 and it adds 5 to the queue. Queue after adding: deque([10, 11, 13, 14, 0, 6, 8, 12, 1, 2, 3, 4, 5]).
+39:10: I'm 9 and sending the token to 10.
+39:11: I'm 9 and want a token for the 5 time.
+40:00: I'm 9 and I got a token.
+40:00: I am 9 and execute 5 CS.
+40:03: I'm 9 and finished 5 CS.
+40:03: I'm 9 and it adds 5 to the queue. Queue after adding: deque([10, 11, 13, 14, 0, 6, 8, 12, 1, 2, 3, 4, 5]).
+40:03: I'm 9 and sending the token to 10.
+40:04: I'm 9 and want a token for the 6 time.
+40:54: I'm 9 and I got a token.
+40:54: I am 9 and execute 6 CS.
+40:57: I'm 9 and finished 6 CS.
+40:57: I'm 9 and it adds 5 to the queue. Queue after adding: deque([10, 11, 13, 14, 0, 6, 8, 12, 1, 2, 3, 4, 5]).
+40:57: I'm 9 and sending the token to 10.
+41:00: I'm 9 and want a token for the 7 time.
+41:46: I'm 9 and I got a token.
+41:46: I am 9 and execute 7 CS.
+41:48: I'm 9 and finished 7 CS.
+41:48: I'm 9 and it adds 5 to the queue. Queue after adding: deque([10, 11, 13, 14, 0, 6, 8, 12, 1, 2, 3, 4, 5]).
+41:48: I'm 9 and sending the token to 10.
+41:50: I'm 9 and want a token for the 8 time.
+42:41: I'm 9 and I got a token.
+42:41: I am 9 and execute 8 CS.
+42:44: I'm 9 and finished 8 CS.
+42:44: I'm 9 and it adds 5 to the queue. Queue after adding: deque([10, 11, 13, 14, 0, 6, 8, 12, 1, 2, 3, 4, 5]).
+42:44: I'm 9 and sending the token to 10.
+42:46: I'm 9 and want a token for the 9 time.
+43:33: I'm 9 and I got a token.
+43:33: I am 9 and execute 9 CS.
+43:37: I'm 9 and finished 9 CS.
+43:37: I'm 9 and sending the token to 10.
+43:40: I'm 9 and want a token for the 10 time.
+44:29: I'm 9 and I got a token.
+44:29: I am 9 and execute 10 CS.
+44:32: I'm 9 and finished 10 CS.
+44:32: I'm 9 and it adds 5 to the queue. Queue after adding: deque([10, 11, 13, 14, 0, 6, 8, 12, 1, 2, 3, 4, 5]).
+44:32: I'm 9 and sending the token to 10.
+44:34: I'm 9 and want a token for the 11 time.
+45:21: I'm 9 and I got a token.
+45:21: I am 9 and execute 11 CS.
+45:26: I'm 9 and finished 11 CS.
+45:26: I'm 9 and it adds 5 to the queue. Queue after adding: deque([10, 11, 13, 14, 0, 6, 8, 12, 1, 2, 3, 4, 5]).
+45:26: I'm 9 and sending the token to 10.
+45:29: I'm 9 and want a token for the 12 time.
+46:19: I'm 9 and I got a token.
+46:19: I am 9 and execute 12 CS.
+46:23: I'm 9 and finished 12 CS.
+46:23: I'm 9 and it adds 5 to the queue. Queue after adding: deque([10, 11, 13, 14, 0, 6, 8, 1, 12, 2, 3, 4, 5]).
+46:23: I'm 9 and sending the token to 10.
+46:25: I'm 9 and want a token for the 13 time.
+47:19: I'm 9 and I got a token.
+47:19: I am 9 and execute 13 CS.
+47:24: I'm 9 and finished 13 CS.
+47:24: I'm 9 and it adds 5 to the queue. Queue after adding: deque([10, 11, 13, 14, 0, 6, 8, 1, 12, 2, 3, 4, 5]).
+47:24: I'm 9 and sending the token to 10.
+47:26: I'm 9 and want a token for the 14 time.
+48:12: I'm 9 and I got a token.
+48:12: I am 9 and execute 14 CS.
+48:17: I'm 9 and finished 14 CS.
+48:17: I'm 9 and it adds 5 to the queue. Queue after adding: deque([10, 11, 13, 14, 0, 6, 1, 8, 12, 2, 3, 4, 5]).
+48:17: I'm 9 and sending the token to 10.
+48:19: I'm 9 and want a token for the 15 time.
+49:05: I'm 9 and I got a token.
+49:05: I am 9 and execute 15 CS.
+49:09: I'm 9 and finished 15 CS.
+49:09: I'm 9 and it adds 5 to the queue. Queue after adding: deque([10, 11, 13, 14, 0, 6, 1, 8, 12, 2, 3, 4, 5]).
+49:09: I'm 9 and sending the token to 10.
+49:11: I'm 9 and want a token for the 16 time.
+49:58: I'm 9 and I got a token.
+49:58: I am 9 and execute 16 CS.
+50:01: I'm 9 and finished 16 CS.
+50:01: I'm 9 and it adds 5 to the queue. Queue after adding: deque([10, 11, 13, 0, 14, 6, 1, 8, 12, 2, 3, 4, 5]).
+50:01: I'm 9 and sending the token to 10.
+50:03: I'm 9 and want a token for the 17 time.
+50:46: I'm 9 and I got a token.
+50:46: I am 9 and execute 17 CS.
+50:50: I'm 9 and finished 17 CS.
+50:50: I'm 9 and it adds 5 to the queue. Queue after adding: deque([10, 11, 0, 13, 14, 6, 1, 8, 12, 2, 3, 4, 5]).
+50:50: I'm 9 and sending the token to 10.
+50:52: I'm 9 and want a token for the 18 time.

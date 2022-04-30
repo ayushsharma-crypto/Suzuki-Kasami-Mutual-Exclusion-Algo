@@ -1,5 +1,6 @@
 import random
 import threading
+from cv2 import line
 import numpy as np
 from mpi4py import MPI
 from collections import deque
@@ -9,12 +10,15 @@ import sys
 from datetime import datetime
 
 
+
 comm = MPI.COMM_WORLD
 rank = comm.Get_rank()
 total_nodes = comm.Get_size()
 
 REQUEST_MESSAGE_TYPE = 'RN'
 TOKEN_MESSAGE_TYPE = 'token'
+
+directory = ""
 
 LOCKS = {
     "request": threading.Lock(),
@@ -35,12 +39,16 @@ DATA_STRUCTURE = {
 }
 
 def print_log(data):
-    global rank
-    # print(rank, data)
-    filename = "Log2/process-"+str(rank)+".txt"
-    # print(rank, filename)
+    global rank, directory, DATA_STRUCTURE
+    filename = directory+"/process-"+str(rank)+".txt"
     with open(filename, "a") as file:
         file.write(data)
+        file.write("\n\t LN : ")
+        file.write(str(DATA_STRUCTURE["LN"]))
+        file.write("\n\t RN : ")
+        file.write(str(DATA_STRUCTURE["RN"]))
+        file.write("\n\t Queue Understanding : ")
+        file.write(str(DATA_STRUCTURE["token_queue"]))
         file.write("\n")
 
 def listener():
@@ -126,8 +134,44 @@ def run_cs():
             sys.stdout.flush()
             release_cs()
             
+def print_node_status():
+    global total_nodes
+    print("Enter rank of node to get it's latest stat:")
+    while True:
+        try:
+            node_rank = int(input())
+        except:
+            print("Non-integer val is not accepted!")
+            continue
+        if node_rank>=total_nodes:
+            print("Node rank should be less than ", total_nodes)
+        else:
+            with open(directory+"/process-"+str(node_rank)+".txt","r") as filename:
+                lines = filename.readlines()
+                idx = len(lines)-1
+                t1, t2, t3, t4 = None,None,None,None
+                while t1 is None:
+                    if t4 is None:
+                        if "Queue Understanding" in lines[idx]:
+                            t4 = idx
+                    elif t3 is None:
+                        if "RN" in lines[idx]:
+                            t3 = idx
+                    elif t2 is None:
+                        if "LN" in lines[idx]:
+                            t2 = idx
+                    elif t1 is None:
+                        if "I" in lines[idx]:
+                            t1 = idx
+                    idx = idx - 1
+                
+                print("STATUS : ",end='')
+                for i in range(t1, len(lines)):
+                    print(lines[i],end='')
+
 
 if __name__=="__main__":
+    directory = sys.argv[1]
     DATA_STRUCTURE["RN"][0]=1
     # giving a token to start the process 0
     if rank==0:
@@ -140,6 +184,13 @@ if __name__=="__main__":
         listener_thread.start()
     except:
         print_log("Error: unable to start thread!   ")
+    
+    if rank==0:        
+        try:
+            print_status_thread = Thread(target=print_node_status)
+            print_status_thread.start()
+        except:
+            print_log("Error: unable to start print status thread!   ")
     
     while True:
         if not DATA_STRUCTURE["has_token"]:
