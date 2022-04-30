@@ -1,0 +1,4300 @@
+41:41: I'm 1 and I recieved outstanding request from 6.
+	 LN : [0. 0. 0. 0. 0. 0. 0. 0.]
+	 RN : [1. 0. 0. 0. 0. 0. 1. 0.]
+	 Queue Understanding : deque([])
+41:41: I'm 1 and I recieved outstanding request from 4.
+	 LN : [0. 0. 0. 0. 0. 0. 0. 0.]
+	 RN : [1. 0. 0. 0. 1. 0. 1. 0.]
+	 Queue Understanding : deque([])
+41:42: I'm 1 and I recieved outstanding request from 2.
+	 LN : [0. 0. 0. 0. 0. 0. 0. 0.]
+	 RN : [1. 0. 1. 0. 1. 0. 1. 0.]
+	 Queue Understanding : deque([])
+41:42: I'm 1 and I recieved outstanding request from 7.
+	 LN : [0. 0. 0. 0. 0. 0. 0. 0.]
+	 RN : [1. 0. 1. 0. 1. 0. 1. 1.]
+	 Queue Understanding : deque([])
+41:42: I'm 1 and I recieved outstanding request from 3.
+	 LN : [0. 0. 0. 0. 0. 0. 0. 0.]
+	 RN : [1. 0. 1. 1. 1. 0. 1. 1.]
+	 Queue Understanding : deque([])
+41:42: I'm 1 and want a token for the 1 time.
+	 LN : [0. 0. 0. 0. 0. 0. 0. 0.]
+	 RN : [1. 1. 1. 1. 1. 0. 1. 1.]
+	 Queue Understanding : deque([])
+41:42: I'm 1 and I recieved outstanding request from 5.
+	 LN : [0. 0. 0. 0. 0. 0. 0. 0.]
+	 RN : [1. 1. 1. 1. 1. 1. 1. 1.]
+	 Queue Understanding : deque([])
+41:43: I'm 1 and I got a token.
+	 LN : [0. 0. 0. 0. 0. 0. 0. 0.]
+	 RN : [1. 1. 1. 1. 1. 1. 1. 1.]
+	 Queue Understanding : deque([])
+41:43: I am 1 and execute 1 CS.
+	 LN : [1. 0. 0. 0. 0. 0. 0. 0.]
+	 RN : [1. 1. 1. 1. 1. 1. 1. 1.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+41:46: I'm 1 and finished 1 CS.
+	 LN : [1. 0. 0. 0. 0. 0. 0. 0.]
+	 RN : [1. 1. 1. 1. 1. 1. 1. 1.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+41:46: I'm 1 and sending the token to 2.
+	 LN : [1. 1. 0. 0. 0. 0. 0. 0.]
+	 RN : [1. 1. 1. 1. 1. 1. 1. 1.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+41:46: I'm 1 and I recieved outstanding request from 0.
+	 LN : [1. 1. 0. 0. 0. 0. 0. 0.]
+	 RN : [2. 1. 1. 1. 1. 1. 1. 1.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+41:48: I'm 1 and want a token for the 2 time.
+	 LN : [1. 1. 0. 0. 0. 0. 0. 0.]
+	 RN : [2. 2. 1. 1. 1. 1. 1. 1.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+41:50: I'm 1 and I recieved outstanding request from 2.
+	 LN : [1. 1. 0. 0. 0. 0. 0. 0.]
+	 RN : [2. 2. 2. 1. 1. 1. 1. 1.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+41:54: I'm 1 and I recieved outstanding request from 3.
+	 LN : [1. 1. 0. 0. 0. 0. 0. 0.]
+	 RN : [2. 2. 2. 2. 1. 1. 1. 1.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+41:56: I'm 1 and I recieved outstanding request from 4.
+	 LN : [1. 1. 0. 0. 0. 0. 0. 0.]
+	 RN : [2. 2. 2. 2. 2. 1. 1. 1.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+41:59: I'm 1 and I recieved outstanding request from 5.
+	 LN : [1. 1. 0. 0. 0. 0. 0. 0.]
+	 RN : [2. 2. 2. 2. 2. 2. 1. 1.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:03: I'm 1 and I recieved outstanding request from 6.
+	 LN : [1. 1. 0. 0. 0. 0. 0. 0.]
+	 RN : [2. 2. 2. 2. 2. 2. 2. 1.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:06: I'm 1 and I recieved outstanding request from 7.
+	 LN : [1. 1. 0. 0. 0. 0. 0. 0.]
+	 RN : [2. 2. 2. 2. 2. 2. 2. 2.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:08: I'm 1 and I got a token.
+	 LN : [1. 1. 0. 0. 0. 0. 0. 0.]
+	 RN : [2. 2. 2. 2. 2. 2. 2. 2.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:08: I am 1 and execute 2 CS.
+	 LN : [2. 1. 1. 1. 1. 1. 1. 1.]
+	 RN : [2. 2. 2. 2. 2. 2. 2. 2.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+42:11: I'm 1 and finished 2 CS.
+	 LN : [2. 1. 1. 1. 1. 1. 1. 1.]
+	 RN : [2. 2. 2. 2. 2. 2. 2. 2.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+42:11: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 7]).
+	 LN : [2. 2. 1. 1. 1. 1. 1. 1.]
+	 RN : [2. 2. 2. 2. 2. 2. 2. 2.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+42:11: I'm 1 and sending the token to 2.
+	 LN : [2. 2. 1. 1. 1. 1. 1. 1.]
+	 RN : [2. 2. 2. 2. 2. 2. 2. 2.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:11: I'm 1 and I recieved outstanding request from 0.
+	 LN : [2. 2. 1. 1. 1. 1. 1. 1.]
+	 RN : [3. 2. 2. 2. 2. 2. 2. 2.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:13: I'm 1 and want a token for the 3 time.
+	 LN : [2. 2. 1. 1. 1. 1. 1. 1.]
+	 RN : [3. 3. 2. 2. 2. 2. 2. 2.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:15: I'm 1 and I recieved outstanding request from 2.
+	 LN : [2. 2. 1. 1. 1. 1. 1. 1.]
+	 RN : [3. 3. 3. 2. 2. 2. 2. 2.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:20: I'm 1 and I recieved outstanding request from 3.
+	 LN : [2. 2. 1. 1. 1. 1. 1. 1.]
+	 RN : [3. 3. 3. 3. 2. 2. 2. 2.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:23: I'm 1 and I recieved outstanding request from 4.
+	 LN : [2. 2. 1. 1. 1. 1. 1. 1.]
+	 RN : [3. 3. 3. 3. 3. 2. 2. 2.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:26: I'm 1 and I recieved outstanding request from 5.
+	 LN : [2. 2. 1. 1. 1. 1. 1. 1.]
+	 RN : [3. 3. 3. 3. 3. 3. 2. 2.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:31: I'm 1 and I recieved outstanding request from 6.
+	 LN : [2. 2. 1. 1. 1. 1. 1. 1.]
+	 RN : [3. 3. 3. 3. 3. 3. 3. 2.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:32: I'm 1 and I recieved outstanding request from 7.
+	 LN : [2. 2. 1. 1. 1. 1. 1. 1.]
+	 RN : [3. 3. 3. 3. 3. 3. 3. 3.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:34: I'm 1 and I got a token.
+	 LN : [2. 2. 1. 1. 1. 1. 1. 1.]
+	 RN : [3. 3. 3. 3. 3. 3. 3. 3.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:34: I am 1 and execute 3 CS.
+	 LN : [3. 2. 2. 2. 2. 2. 2. 2.]
+	 RN : [3. 3. 3. 3. 3. 3. 3. 3.]
+	 Queue Understanding : deque([2, 3, 4, 5])
+42:37: I'm 1 and finished 3 CS.
+	 LN : [3. 2. 2. 2. 2. 2. 2. 2.]
+	 RN : [3. 3. 3. 3. 3. 3. 3. 3.]
+	 Queue Understanding : deque([2, 3, 4, 5])
+42:37: I'm 1 and it adds 6 to the queue. Queue after adding: deque([2, 3, 4, 5, 6]).
+	 LN : [3. 3. 2. 2. 2. 2. 2. 2.]
+	 RN : [3. 3. 3. 3. 3. 3. 3. 3.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+42:37: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 7]).
+	 LN : [3. 3. 2. 2. 2. 2. 2. 2.]
+	 RN : [3. 3. 3. 3. 3. 3. 3. 3.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+42:37: I'm 1 and sending the token to 2.
+	 LN : [3. 3. 2. 2. 2. 2. 2. 2.]
+	 RN : [3. 3. 3. 3. 3. 3. 3. 3.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:37: I'm 1 and I recieved outstanding request from 0.
+	 LN : [3. 3. 2. 2. 2. 2. 2. 2.]
+	 RN : [4. 3. 3. 3. 3. 3. 3. 3.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:38: I'm 1 and want a token for the 4 time.
+	 LN : [3. 3. 2. 2. 2. 2. 2. 2.]
+	 RN : [4. 4. 3. 3. 3. 3. 3. 3.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:42: I'm 1 and I recieved outstanding request from 2.
+	 LN : [3. 3. 2. 2. 2. 2. 2. 2.]
+	 RN : [4. 4. 4. 3. 3. 3. 3. 3.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:48: I'm 1 and I recieved outstanding request from 3.
+	 LN : [3. 3. 2. 2. 2. 2. 2. 2.]
+	 RN : [4. 4. 4. 4. 3. 3. 3. 3.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:50: I'm 1 and I recieved outstanding request from 4.
+	 LN : [3. 3. 2. 2. 2. 2. 2. 2.]
+	 RN : [4. 4. 4. 4. 4. 3. 3. 3.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:52: I'm 1 and I recieved outstanding request from 5.
+	 LN : [3. 3. 2. 2. 2. 2. 2. 2.]
+	 RN : [4. 4. 4. 4. 4. 4. 3. 3.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:56: I'm 1 and I recieved outstanding request from 6.
+	 LN : [3. 3. 2. 2. 2. 2. 2. 2.]
+	 RN : [4. 4. 4. 4. 4. 4. 4. 3.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:58: I'm 1 and I recieved outstanding request from 7.
+	 LN : [3. 3. 2. 2. 2. 2. 2. 2.]
+	 RN : [4. 4. 4. 4. 4. 4. 4. 4.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:59: I'm 1 and I got a token.
+	 LN : [3. 3. 2. 2. 2. 2. 2. 2.]
+	 RN : [4. 4. 4. 4. 4. 4. 4. 4.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+42:59: I am 1 and execute 4 CS.
+	 LN : [4. 3. 3. 3. 3. 3. 3. 3.]
+	 RN : [4. 4. 4. 4. 4. 4. 4. 4.]
+	 Queue Understanding : deque([2, 3, 4, 5])
+43:04: I'm 1 and finished 4 CS.
+	 LN : [4. 3. 3. 3. 3. 3. 3. 3.]
+	 RN : [4. 4. 4. 4. 4. 4. 4. 4.]
+	 Queue Understanding : deque([2, 3, 4, 5])
+43:04: I'm 1 and it adds 6 to the queue. Queue after adding: deque([2, 3, 4, 5, 6]).
+	 LN : [4. 4. 3. 3. 3. 3. 3. 3.]
+	 RN : [4. 4. 4. 4. 4. 4. 4. 4.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+43:04: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 7]).
+	 LN : [4. 4. 3. 3. 3. 3. 3. 3.]
+	 RN : [4. 4. 4. 4. 4. 4. 4. 4.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+43:04: I'm 1 and sending the token to 2.
+	 LN : [4. 4. 3. 3. 3. 3. 3. 3.]
+	 RN : [4. 4. 4. 4. 4. 4. 4. 4.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:04: I'm 1 and I recieved outstanding request from 0.
+	 LN : [4. 4. 3. 3. 3. 3. 3. 3.]
+	 RN : [5. 4. 4. 4. 4. 4. 4. 4.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:07: I'm 1 and want a token for the 5 time.
+	 LN : [4. 4. 3. 3. 3. 3. 3. 3.]
+	 RN : [5. 5. 4. 4. 4. 4. 4. 4.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:08: I'm 1 and I recieved outstanding request from 2.
+	 LN : [4. 4. 3. 3. 3. 3. 3. 3.]
+	 RN : [5. 5. 5. 4. 4. 4. 4. 4.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:11: I'm 1 and I recieved outstanding request from 3.
+	 LN : [4. 4. 3. 3. 3. 3. 3. 3.]
+	 RN : [5. 5. 5. 5. 4. 4. 4. 4.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:15: I'm 1 and I recieved outstanding request from 4.
+	 LN : [4. 4. 3. 3. 3. 3. 3. 3.]
+	 RN : [5. 5. 5. 5. 5. 4. 4. 4.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:20: I'm 1 and I recieved outstanding request from 5.
+	 LN : [4. 4. 3. 3. 3. 3. 3. 3.]
+	 RN : [5. 5. 5. 5. 5. 5. 4. 4.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:24: I'm 1 and I recieved outstanding request from 6.
+	 LN : [4. 4. 3. 3. 3. 3. 3. 3.]
+	 RN : [5. 5. 5. 5. 5. 5. 5. 4.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:28: I'm 1 and I recieved outstanding request from 7.
+	 LN : [4. 4. 3. 3. 3. 3. 3. 3.]
+	 RN : [5. 5. 5. 5. 5. 5. 5. 5.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:30: I'm 1 and I got a token.
+	 LN : [4. 4. 3. 3. 3. 3. 3. 3.]
+	 RN : [5. 5. 5. 5. 5. 5. 5. 5.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:30: I am 1 and execute 5 CS.
+	 LN : [5. 4. 4. 4. 4. 4. 4. 4.]
+	 RN : [5. 5. 5. 5. 5. 5. 5. 5.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+43:33: I'm 1 and finished 5 CS.
+	 LN : [5. 4. 4. 4. 4. 4. 4. 4.]
+	 RN : [5. 5. 5. 5. 5. 5. 5. 5.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+43:33: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 7]).
+	 LN : [5. 5. 4. 4. 4. 4. 4. 4.]
+	 RN : [5. 5. 5. 5. 5. 5. 5. 5.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+43:33: I'm 1 and sending the token to 2.
+	 LN : [5. 5. 4. 4. 4. 4. 4. 4.]
+	 RN : [5. 5. 5. 5. 5. 5. 5. 5.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:33: I'm 1 and I recieved outstanding request from 0.
+	 LN : [5. 5. 4. 4. 4. 4. 4. 4.]
+	 RN : [6. 5. 5. 5. 5. 5. 5. 5.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:35: I'm 1 and want a token for the 6 time.
+	 LN : [5. 5. 4. 4. 4. 4. 4. 4.]
+	 RN : [6. 6. 5. 5. 5. 5. 5. 5.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:38: I'm 1 and I recieved outstanding request from 2.
+	 LN : [5. 5. 4. 4. 4. 4. 4. 4.]
+	 RN : [6. 6. 6. 5. 5. 5. 5. 5.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:41: I'm 1 and I recieved outstanding request from 3.
+	 LN : [5. 5. 4. 4. 4. 4. 4. 4.]
+	 RN : [6. 6. 6. 6. 5. 5. 5. 5.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:46: I'm 1 and I recieved outstanding request from 4.
+	 LN : [5. 5. 4. 4. 4. 4. 4. 4.]
+	 RN : [6. 6. 6. 6. 6. 5. 5. 5.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:47: I'm 1 and I recieved outstanding request from 5.
+	 LN : [5. 5. 4. 4. 4. 4. 4. 4.]
+	 RN : [6. 6. 6. 6. 6. 6. 5. 5.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:51: I'm 1 and I recieved outstanding request from 6.
+	 LN : [5. 5. 4. 4. 4. 4. 4. 4.]
+	 RN : [6. 6. 6. 6. 6. 6. 6. 5.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:53: I'm 1 and I recieved outstanding request from 7.
+	 LN : [5. 5. 4. 4. 4. 4. 4. 4.]
+	 RN : [6. 6. 6. 6. 6. 6. 6. 6.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:54: I'm 1 and I got a token.
+	 LN : [5. 5. 4. 4. 4. 4. 4. 4.]
+	 RN : [6. 6. 6. 6. 6. 6. 6. 6.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:54: I am 1 and execute 6 CS.
+	 LN : [6. 5. 5. 5. 5. 5. 5. 5.]
+	 RN : [6. 6. 6. 6. 6. 6. 6. 6.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+43:58: I'm 1 and finished 6 CS.
+	 LN : [6. 5. 5. 5. 5. 5. 5. 5.]
+	 RN : [6. 6. 6. 6. 6. 6. 6. 6.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+43:58: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 7]).
+	 LN : [6. 6. 5. 5. 5. 5. 5. 5.]
+	 RN : [6. 6. 6. 6. 6. 6. 6. 6.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+43:58: I'm 1 and sending the token to 2.
+	 LN : [6. 6. 5. 5. 5. 5. 5. 5.]
+	 RN : [6. 6. 6. 6. 6. 6. 6. 6.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+43:58: I'm 1 and I recieved outstanding request from 0.
+	 LN : [6. 6. 5. 5. 5. 5. 5. 5.]
+	 RN : [7. 6. 6. 6. 6. 6. 6. 6.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:00: I'm 1 and want a token for the 7 time.
+	 LN : [6. 6. 5. 5. 5. 5. 5. 5.]
+	 RN : [7. 7. 6. 6. 6. 6. 6. 6.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:04: I'm 1 and I recieved outstanding request from 2.
+	 LN : [6. 6. 5. 5. 5. 5. 5. 5.]
+	 RN : [7. 7. 7. 6. 6. 6. 6. 6.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:06: I'm 1 and I recieved outstanding request from 3.
+	 LN : [6. 6. 5. 5. 5. 5. 5. 5.]
+	 RN : [7. 7. 7. 7. 6. 6. 6. 6.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:10: I'm 1 and I recieved outstanding request from 4.
+	 LN : [6. 6. 5. 5. 5. 5. 5. 5.]
+	 RN : [7. 7. 7. 7. 7. 6. 6. 6.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:15: I'm 1 and I recieved outstanding request from 5.
+	 LN : [6. 6. 5. 5. 5. 5. 5. 5.]
+	 RN : [7. 7. 7. 7. 7. 7. 6. 6.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:17: I'm 1 and I recieved outstanding request from 6.
+	 LN : [6. 6. 5. 5. 5. 5. 5. 5.]
+	 RN : [7. 7. 7. 7. 7. 7. 7. 6.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:21: I'm 1 and I recieved outstanding request from 7.
+	 LN : [6. 6. 5. 5. 5. 5. 5. 5.]
+	 RN : [7. 7. 7. 7. 7. 7. 7. 7.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:22: I'm 1 and I got a token.
+	 LN : [6. 6. 5. 5. 5. 5. 5. 5.]
+	 RN : [7. 7. 7. 7. 7. 7. 7. 7.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:22: I am 1 and execute 7 CS.
+	 LN : [7. 6. 6. 6. 6. 6. 6. 6.]
+	 RN : [7. 7. 7. 7. 7. 7. 7. 7.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+44:25: I'm 1 and finished 7 CS.
+	 LN : [7. 6. 6. 6. 6. 6. 6. 6.]
+	 RN : [7. 7. 7. 7. 7. 7. 7. 7.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+44:25: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 7]).
+	 LN : [7. 7. 6. 6. 6. 6. 6. 6.]
+	 RN : [7. 7. 7. 7. 7. 7. 7. 7.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+44:25: I'm 1 and sending the token to 2.
+	 LN : [7. 7. 6. 6. 6. 6. 6. 6.]
+	 RN : [7. 7. 7. 7. 7. 7. 7. 7.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:25: I'm 1 and I recieved outstanding request from 0.
+	 LN : [7. 7. 6. 6. 6. 6. 6. 6.]
+	 RN : [8. 7. 7. 7. 7. 7. 7. 7.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:27: I'm 1 and want a token for the 8 time.
+	 LN : [7. 7. 6. 6. 6. 6. 6. 6.]
+	 RN : [8. 8. 7. 7. 7. 7. 7. 7.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:29: I'm 1 and I recieved outstanding request from 2.
+	 LN : [7. 7. 6. 6. 6. 6. 6. 6.]
+	 RN : [8. 8. 8. 7. 7. 7. 7. 7.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:31: I'm 1 and I recieved outstanding request from 3.
+	 LN : [7. 7. 6. 6. 6. 6. 6. 6.]
+	 RN : [8. 8. 8. 8. 7. 7. 7. 7.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:37: I'm 1 and I recieved outstanding request from 4.
+	 LN : [7. 7. 6. 6. 6. 6. 6. 6.]
+	 RN : [8. 8. 8. 8. 8. 7. 7. 7.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:40: I'm 1 and I recieved outstanding request from 5.
+	 LN : [7. 7. 6. 6. 6. 6. 6. 6.]
+	 RN : [8. 8. 8. 8. 8. 8. 7. 7.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:42: I'm 1 and I recieved outstanding request from 6.
+	 LN : [7. 7. 6. 6. 6. 6. 6. 6.]
+	 RN : [8. 8. 8. 8. 8. 8. 8. 7.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:48: I'm 1 and I recieved outstanding request from 7.
+	 LN : [7. 7. 6. 6. 6. 6. 6. 6.]
+	 RN : [8. 8. 8. 8. 8. 8. 8. 8.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:50: I'm 1 and I got a token.
+	 LN : [7. 7. 6. 6. 6. 6. 6. 6.]
+	 RN : [8. 8. 8. 8. 8. 8. 8. 8.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:50: I am 1 and execute 8 CS.
+	 LN : [8. 7. 7. 7. 7. 7. 7. 7.]
+	 RN : [8. 8. 8. 8. 8. 8. 8. 8.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+44:55: I'm 1 and finished 8 CS.
+	 LN : [8. 7. 7. 7. 7. 7. 7. 7.]
+	 RN : [8. 8. 8. 8. 8. 8. 8. 8.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+44:55: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 7]).
+	 LN : [8. 8. 7. 7. 7. 7. 7. 7.]
+	 RN : [8. 8. 8. 8. 8. 8. 8. 8.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+44:55: I'm 1 and sending the token to 2.
+	 LN : [8. 8. 7. 7. 7. 7. 7. 7.]
+	 RN : [8. 8. 8. 8. 8. 8. 8. 8.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:55: I'm 1 and I recieved outstanding request from 0.
+	 LN : [8. 8. 7. 7. 7. 7. 7. 7.]
+	 RN : [9. 8. 8. 8. 8. 8. 8. 8.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+44:58: I'm 1 and want a token for the 9 time.
+	 LN : [8. 8. 7. 7. 7. 7. 7. 7.]
+	 RN : [9. 9. 8. 8. 8. 8. 8. 8.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:00: I'm 1 and I recieved outstanding request from 2.
+	 LN : [8. 8. 7. 7. 7. 7. 7. 7.]
+	 RN : [9. 9. 9. 8. 8. 8. 8. 8.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:04: I'm 1 and I recieved outstanding request from 3.
+	 LN : [8. 8. 7. 7. 7. 7. 7. 7.]
+	 RN : [9. 9. 9. 9. 8. 8. 8. 8.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:05: I'm 1 and I recieved outstanding request from 4.
+	 LN : [8. 8. 7. 7. 7. 7. 7. 7.]
+	 RN : [9. 9. 9. 9. 9. 8. 8. 8.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:07: I'm 1 and I recieved outstanding request from 5.
+	 LN : [8. 8. 7. 7. 7. 7. 7. 7.]
+	 RN : [9. 9. 9. 9. 9. 9. 8. 8.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:11: I'm 1 and I recieved outstanding request from 6.
+	 LN : [8. 8. 7. 7. 7. 7. 7. 7.]
+	 RN : [9. 9. 9. 9. 9. 9. 9. 8.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:14: I'm 1 and I recieved outstanding request from 7.
+	 LN : [8. 8. 7. 7. 7. 7. 7. 7.]
+	 RN : [9. 9. 9. 9. 9. 9. 9. 9.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:15: I'm 1 and I got a token.
+	 LN : [8. 8. 7. 7. 7. 7. 7. 7.]
+	 RN : [9. 9. 9. 9. 9. 9. 9. 9.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:15: I am 1 and execute 9 CS.
+	 LN : [9. 8. 8. 8. 8. 8. 8. 8.]
+	 RN : [9. 9. 9. 9. 9. 9. 9. 9.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+45:20: I'm 1 and finished 9 CS.
+	 LN : [9. 8. 8. 8. 8. 8. 8. 8.]
+	 RN : [9. 9. 9. 9. 9. 9. 9. 9.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+45:20: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 7]).
+	 LN : [9. 9. 8. 8. 8. 8. 8. 8.]
+	 RN : [9. 9. 9. 9. 9. 9. 9. 9.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+45:20: I'm 1 and sending the token to 2.
+	 LN : [9. 9. 8. 8. 8. 8. 8. 8.]
+	 RN : [9. 9. 9. 9. 9. 9. 9. 9.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:20: I'm 1 and I recieved outstanding request from 0.
+	 LN : [9. 9. 8. 8. 8. 8. 8. 8.]
+	 RN : [10.  9.  9.  9.  9.  9.  9.  9.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:22: I'm 1 and want a token for the 10 time.
+	 LN : [9. 9. 8. 8. 8. 8. 8. 8.]
+	 RN : [10. 10.  9.  9.  9.  9.  9.  9.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:25: I'm 1 and I recieved outstanding request from 2.
+	 LN : [9. 9. 8. 8. 8. 8. 8. 8.]
+	 RN : [10. 10. 10.  9.  9.  9.  9.  9.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:26: I'm 1 and I recieved outstanding request from 3.
+	 LN : [9. 9. 8. 8. 8. 8. 8. 8.]
+	 RN : [10. 10. 10. 10.  9.  9.  9.  9.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:30: I'm 1 and I recieved outstanding request from 4.
+	 LN : [9. 9. 8. 8. 8. 8. 8. 8.]
+	 RN : [10. 10. 10. 10. 10.  9.  9.  9.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:32: I'm 1 and I recieved outstanding request from 5.
+	 LN : [9. 9. 8. 8. 8. 8. 8. 8.]
+	 RN : [10. 10. 10. 10. 10. 10.  9.  9.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:37: I'm 1 and I recieved outstanding request from 6.
+	 LN : [9. 9. 8. 8. 8. 8. 8. 8.]
+	 RN : [10. 10. 10. 10. 10. 10. 10.  9.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:40: I'm 1 and I recieved outstanding request from 7.
+	 LN : [9. 9. 8. 8. 8. 8. 8. 8.]
+	 RN : [10. 10. 10. 10. 10. 10. 10. 10.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:41: I'm 1 and I got a token.
+	 LN : [9. 9. 8. 8. 8. 8. 8. 8.]
+	 RN : [10. 10. 10. 10. 10. 10. 10. 10.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:41: I am 1 and execute 10 CS.
+	 LN : [10.  9.  9.  9.  9.  9.  9.  9.]
+	 RN : [10. 10. 10. 10. 10. 10. 10. 10.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+45:45: I'm 1 and finished 10 CS.
+	 LN : [10.  9.  9.  9.  9.  9.  9.  9.]
+	 RN : [10. 10. 10. 10. 10. 10. 10. 10.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+45:45: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 7]).
+	 LN : [10. 10.  9.  9.  9.  9.  9.  9.]
+	 RN : [10. 10. 10. 10. 10. 10. 10. 10.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+45:45: I'm 1 and sending the token to 2.
+	 LN : [10. 10.  9.  9.  9.  9.  9.  9.]
+	 RN : [10. 10. 10. 10. 10. 10. 10. 10.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:45: I'm 1 and I recieved outstanding request from 0.
+	 LN : [10. 10.  9.  9.  9.  9.  9.  9.]
+	 RN : [11. 10. 10. 10. 10. 10. 10. 10.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:47: I'm 1 and want a token for the 11 time.
+	 LN : [10. 10.  9.  9.  9.  9.  9.  9.]
+	 RN : [11. 11. 10. 10. 10. 10. 10. 10.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:51: I'm 1 and I recieved outstanding request from 2.
+	 LN : [10. 10.  9.  9.  9.  9.  9.  9.]
+	 RN : [11. 11. 11. 10. 10. 10. 10. 10.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:55: I'm 1 and I recieved outstanding request from 3.
+	 LN : [10. 10.  9.  9.  9.  9.  9.  9.]
+	 RN : [11. 11. 11. 11. 10. 10. 10. 10.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+45:59: I'm 1 and I recieved outstanding request from 4.
+	 LN : [10. 10.  9.  9.  9.  9.  9.  9.]
+	 RN : [11. 11. 11. 11. 11. 10. 10. 10.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:02: I'm 1 and I recieved outstanding request from 5.
+	 LN : [10. 10.  9.  9.  9.  9.  9.  9.]
+	 RN : [11. 11. 11. 11. 11. 11. 10. 10.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:09: I'm 1 and I recieved outstanding request from 6.
+	 LN : [10. 10.  9.  9.  9.  9.  9.  9.]
+	 RN : [11. 11. 11. 11. 11. 11. 11. 10.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:11: I'm 1 and I recieved outstanding request from 7.
+	 LN : [10. 10.  9.  9.  9.  9.  9.  9.]
+	 RN : [11. 11. 11. 11. 11. 11. 11. 11.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:14: I'm 1 and I got a token.
+	 LN : [10. 10.  9.  9.  9.  9.  9.  9.]
+	 RN : [11. 11. 11. 11. 11. 11. 11. 11.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:14: I am 1 and execute 11 CS.
+	 LN : [11. 10. 10. 10. 10. 10. 10. 10.]
+	 RN : [11. 11. 11. 11. 11. 11. 11. 11.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+46:16: I'm 1 and finished 11 CS.
+	 LN : [11. 10. 10. 10. 10. 10. 10. 10.]
+	 RN : [11. 11. 11. 11. 11. 11. 11. 11.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+46:16: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 7]).
+	 LN : [11. 11. 10. 10. 10. 10. 10. 10.]
+	 RN : [11. 11. 11. 11. 11. 11. 11. 11.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+46:16: I'm 1 and sending the token to 2.
+	 LN : [11. 11. 10. 10. 10. 10. 10. 10.]
+	 RN : [11. 11. 11. 11. 11. 11. 11. 11.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:16: I'm 1 and I recieved outstanding request from 0.
+	 LN : [11. 11. 10. 10. 10. 10. 10. 10.]
+	 RN : [12. 11. 11. 11. 11. 11. 11. 11.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:18: I'm 1 and want a token for the 12 time.
+	 LN : [11. 11. 10. 10. 10. 10. 10. 10.]
+	 RN : [12. 12. 11. 11. 11. 11. 11. 11.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:21: I'm 1 and I recieved outstanding request from 2.
+	 LN : [11. 11. 10. 10. 10. 10. 10. 10.]
+	 RN : [12. 12. 12. 11. 11. 11. 11. 11.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:25: I'm 1 and I recieved outstanding request from 3.
+	 LN : [11. 11. 10. 10. 10. 10. 10. 10.]
+	 RN : [12. 12. 12. 12. 11. 11. 11. 11.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:30: I'm 1 and I recieved outstanding request from 4.
+	 LN : [11. 11. 10. 10. 10. 10. 10. 10.]
+	 RN : [12. 12. 12. 12. 12. 11. 11. 11.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:35: I'm 1 and I recieved outstanding request from 5.
+	 LN : [11. 11. 10. 10. 10. 10. 10. 10.]
+	 RN : [12. 12. 12. 12. 12. 12. 11. 11.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:38: I'm 1 and I recieved outstanding request from 6.
+	 LN : [11. 11. 10. 10. 10. 10. 10. 10.]
+	 RN : [12. 12. 12. 12. 12. 12. 12. 11.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:42: I'm 1 and I recieved outstanding request from 7.
+	 LN : [11. 11. 10. 10. 10. 10. 10. 10.]
+	 RN : [12. 12. 12. 12. 12. 12. 12. 12.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:45: I'm 1 and I got a token.
+	 LN : [11. 11. 10. 10. 10. 10. 10. 10.]
+	 RN : [12. 12. 12. 12. 12. 12. 12. 12.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:45: I am 1 and execute 12 CS.
+	 LN : [12. 11. 11. 11. 11. 11. 11. 11.]
+	 RN : [12. 12. 12. 12. 12. 12. 12. 12.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+46:47: I'm 1 and finished 12 CS.
+	 LN : [12. 11. 11. 11. 11. 11. 11. 11.]
+	 RN : [12. 12. 12. 12. 12. 12. 12. 12.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+46:47: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 7]).
+	 LN : [12. 12. 11. 11. 11. 11. 11. 11.]
+	 RN : [12. 12. 12. 12. 12. 12. 12. 12.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+46:47: I'm 1 and sending the token to 2.
+	 LN : [12. 12. 11. 11. 11. 11. 11. 11.]
+	 RN : [12. 12. 12. 12. 12. 12. 12. 12.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:48: I'm 1 and I recieved outstanding request from 0.
+	 LN : [12. 12. 11. 11. 11. 11. 11. 11.]
+	 RN : [13. 12. 12. 12. 12. 12. 12. 12.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:50: I'm 1 and want a token for the 13 time.
+	 LN : [12. 12. 11. 11. 11. 11. 11. 11.]
+	 RN : [13. 13. 12. 12. 12. 12. 12. 12.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:51: I'm 1 and I recieved outstanding request from 2.
+	 LN : [12. 12. 11. 11. 11. 11. 11. 11.]
+	 RN : [13. 13. 13. 12. 12. 12. 12. 12.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+46:57: I'm 1 and I recieved outstanding request from 3.
+	 LN : [12. 12. 11. 11. 11. 11. 11. 11.]
+	 RN : [13. 13. 13. 13. 12. 12. 12. 12.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:00: I'm 1 and I recieved outstanding request from 4.
+	 LN : [12. 12. 11. 11. 11. 11. 11. 11.]
+	 RN : [13. 13. 13. 13. 13. 12. 12. 12.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:04: I'm 1 and I recieved outstanding request from 5.
+	 LN : [12. 12. 11. 11. 11. 11. 11. 11.]
+	 RN : [13. 13. 13. 13. 13. 13. 12. 12.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:09: I'm 1 and I recieved outstanding request from 6.
+	 LN : [12. 12. 11. 11. 11. 11. 11. 11.]
+	 RN : [13. 13. 13. 13. 13. 13. 13. 12.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:12: I'm 1 and I recieved outstanding request from 7.
+	 LN : [12. 12. 11. 11. 11. 11. 11. 11.]
+	 RN : [13. 13. 13. 13. 13. 13. 13. 13.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:14: I'm 1 and I got a token.
+	 LN : [12. 12. 11. 11. 11. 11. 11. 11.]
+	 RN : [13. 13. 13. 13. 13. 13. 13. 13.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:14: I am 1 and execute 13 CS.
+	 LN : [13. 12. 12. 12. 12. 12. 12. 12.]
+	 RN : [13. 13. 13. 13. 13. 13. 13. 13.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+47:16: I'm 1 and finished 13 CS.
+	 LN : [13. 12. 12. 12. 12. 12. 12. 12.]
+	 RN : [13. 13. 13. 13. 13. 13. 13. 13.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+47:16: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 7]).
+	 LN : [13. 13. 12. 12. 12. 12. 12. 12.]
+	 RN : [13. 13. 13. 13. 13. 13. 13. 13.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+47:16: I'm 1 and sending the token to 2.
+	 LN : [13. 13. 12. 12. 12. 12. 12. 12.]
+	 RN : [13. 13. 13. 13. 13. 13. 13. 13.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:16: I'm 1 and I recieved outstanding request from 0.
+	 LN : [13. 13. 12. 12. 12. 12. 12. 12.]
+	 RN : [14. 13. 13. 13. 13. 13. 13. 13.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:19: I'm 1 and want a token for the 14 time.
+	 LN : [13. 13. 12. 12. 12. 12. 12. 12.]
+	 RN : [14. 14. 13. 13. 13. 13. 13. 13.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:21: I'm 1 and I recieved outstanding request from 2.
+	 LN : [13. 13. 12. 12. 12. 12. 12. 12.]
+	 RN : [14. 14. 14. 13. 13. 13. 13. 13.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:26: I'm 1 and I recieved outstanding request from 3.
+	 LN : [13. 13. 12. 12. 12. 12. 12. 12.]
+	 RN : [14. 14. 14. 14. 13. 13. 13. 13.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:30: I'm 1 and I recieved outstanding request from 4.
+	 LN : [13. 13. 12. 12. 12. 12. 12. 12.]
+	 RN : [14. 14. 14. 14. 14. 13. 13. 13.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:35: I'm 1 and I recieved outstanding request from 5.
+	 LN : [13. 13. 12. 12. 12. 12. 12. 12.]
+	 RN : [14. 14. 14. 14. 14. 14. 13. 13.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:38: I'm 1 and I recieved outstanding request from 6.
+	 LN : [13. 13. 12. 12. 12. 12. 12. 12.]
+	 RN : [14. 14. 14. 14. 14. 14. 14. 13.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:41: I'm 1 and I recieved outstanding request from 7.
+	 LN : [13. 13. 12. 12. 12. 12. 12. 12.]
+	 RN : [14. 14. 14. 14. 14. 14. 14. 14.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:42: I'm 1 and I got a token.
+	 LN : [13. 13. 12. 12. 12. 12. 12. 12.]
+	 RN : [14. 14. 14. 14. 14. 14. 14. 14.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:42: I am 1 and execute 14 CS.
+	 LN : [14. 13. 13. 13. 13. 13. 13. 13.]
+	 RN : [14. 14. 14. 14. 14. 14. 14. 14.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+47:44: I'm 1 and finished 14 CS.
+	 LN : [14. 13. 13. 13. 13. 13. 13. 13.]
+	 RN : [14. 14. 14. 14. 14. 14. 14. 14.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+47:44: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 7]).
+	 LN : [14. 14. 13. 13. 13. 13. 13. 13.]
+	 RN : [14. 14. 14. 14. 14. 14. 14. 14.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+47:44: I'm 1 and sending the token to 2.
+	 LN : [14. 14. 13. 13. 13. 13. 13. 13.]
+	 RN : [14. 14. 14. 14. 14. 14. 14. 14.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:44: I'm 1 and I recieved outstanding request from 0.
+	 LN : [14. 14. 13. 13. 13. 13. 13. 13.]
+	 RN : [15. 14. 14. 14. 14. 14. 14. 14.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:46: I'm 1 and want a token for the 15 time.
+	 LN : [14. 14. 13. 13. 13. 13. 13. 13.]
+	 RN : [15. 15. 14. 14. 14. 14. 14. 14.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:48: I'm 1 and I recieved outstanding request from 2.
+	 LN : [14. 14. 13. 13. 13. 13. 13. 13.]
+	 RN : [15. 15. 15. 14. 14. 14. 14. 14.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:55: I'm 1 and I recieved outstanding request from 3.
+	 LN : [14. 14. 13. 13. 13. 13. 13. 13.]
+	 RN : [15. 15. 15. 15. 14. 14. 14. 14.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+47:56: I'm 1 and I recieved outstanding request from 4.
+	 LN : [14. 14. 13. 13. 13. 13. 13. 13.]
+	 RN : [15. 15. 15. 15. 15. 14. 14. 14.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:00: I'm 1 and I recieved outstanding request from 5.
+	 LN : [14. 14. 13. 13. 13. 13. 13. 13.]
+	 RN : [15. 15. 15. 15. 15. 15. 14. 14.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:03: I'm 1 and I recieved outstanding request from 6.
+	 LN : [14. 14. 13. 13. 13. 13. 13. 13.]
+	 RN : [15. 15. 15. 15. 15. 15. 15. 14.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:07: I'm 1 and I recieved outstanding request from 7.
+	 LN : [14. 14. 13. 13. 13. 13. 13. 13.]
+	 RN : [15. 15. 15. 15. 15. 15. 15. 15.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:10: I'm 1 and I got a token.
+	 LN : [14. 14. 13. 13. 13. 13. 13. 13.]
+	 RN : [15. 15. 15. 15. 15. 15. 15. 15.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:10: I am 1 and execute 15 CS.
+	 LN : [15. 14. 14. 14. 14. 14. 14. 14.]
+	 RN : [15. 15. 15. 15. 15. 15. 15. 15.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+48:14: I'm 1 and finished 15 CS.
+	 LN : [15. 14. 14. 14. 14. 14. 14. 14.]
+	 RN : [15. 15. 15. 15. 15. 15. 15. 15.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+48:14: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 7]).
+	 LN : [15. 15. 14. 14. 14. 14. 14. 14.]
+	 RN : [15. 15. 15. 15. 15. 15. 15. 15.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+48:14: I'm 1 and sending the token to 2.
+	 LN : [15. 15. 14. 14. 14. 14. 14. 14.]
+	 RN : [15. 15. 15. 15. 15. 15. 15. 15.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:14: I'm 1 and I recieved outstanding request from 0.
+	 LN : [15. 15. 14. 14. 14. 14. 14. 14.]
+	 RN : [16. 15. 15. 15. 15. 15. 15. 15.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:16: I'm 1 and want a token for the 16 time.
+	 LN : [15. 15. 14. 14. 14. 14. 14. 14.]
+	 RN : [16. 16. 15. 15. 15. 15. 15. 15.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:20: I'm 1 and I recieved outstanding request from 2.
+	 LN : [15. 15. 14. 14. 14. 14. 14. 14.]
+	 RN : [16. 16. 16. 15. 15. 15. 15. 15.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:23: I'm 1 and I recieved outstanding request from 3.
+	 LN : [15. 15. 14. 14. 14. 14. 14. 14.]
+	 RN : [16. 16. 16. 16. 15. 15. 15. 15.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:29: I'm 1 and I recieved outstanding request from 4.
+	 LN : [15. 15. 14. 14. 14. 14. 14. 14.]
+	 RN : [16. 16. 16. 16. 16. 15. 15. 15.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:33: I'm 1 and I recieved outstanding request from 5.
+	 LN : [15. 15. 14. 14. 14. 14. 14. 14.]
+	 RN : [16. 16. 16. 16. 16. 16. 15. 15.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:36: I'm 1 and I recieved outstanding request from 6.
+	 LN : [15. 15. 14. 14. 14. 14. 14. 14.]
+	 RN : [16. 16. 16. 16. 16. 16. 16. 15.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:40: I'm 1 and I recieved outstanding request from 7.
+	 LN : [15. 15. 14. 14. 14. 14. 14. 14.]
+	 RN : [16. 16. 16. 16. 16. 16. 16. 16.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:41: I'm 1 and I got a token.
+	 LN : [15. 15. 14. 14. 14. 14. 14. 14.]
+	 RN : [16. 16. 16. 16. 16. 16. 16. 16.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:41: I am 1 and execute 16 CS.
+	 LN : [16. 15. 15. 15. 15. 15. 15. 15.]
+	 RN : [16. 16. 16. 16. 16. 16. 16. 16.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+48:46: I'm 1 and finished 16 CS.
+	 LN : [16. 15. 15. 15. 15. 15. 15. 15.]
+	 RN : [16. 16. 16. 16. 16. 16. 16. 16.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+48:46: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 7]).
+	 LN : [16. 16. 15. 15. 15. 15. 15. 15.]
+	 RN : [16. 16. 16. 16. 16. 16. 16. 16.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+48:46: I'm 1 and sending the token to 2.
+	 LN : [16. 16. 15. 15. 15. 15. 15. 15.]
+	 RN : [16. 16. 16. 16. 16. 16. 16. 16.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:46: I'm 1 and I recieved outstanding request from 0.
+	 LN : [16. 16. 15. 15. 15. 15. 15. 15.]
+	 RN : [17. 16. 16. 16. 16. 16. 16. 16.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:48: I'm 1 and want a token for the 17 time.
+	 LN : [16. 16. 15. 15. 15. 15. 15. 15.]
+	 RN : [17. 17. 16. 16. 16. 16. 16. 16.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:50: I'm 1 and I recieved outstanding request from 2.
+	 LN : [16. 16. 15. 15. 15. 15. 15. 15.]
+	 RN : [17. 17. 17. 16. 16. 16. 16. 16.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:56: I'm 1 and I recieved outstanding request from 3.
+	 LN : [16. 16. 15. 15. 15. 15. 15. 15.]
+	 RN : [17. 17. 17. 17. 16. 16. 16. 16.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+48:59: I'm 1 and I recieved outstanding request from 4.
+	 LN : [16. 16. 15. 15. 15. 15. 15. 15.]
+	 RN : [17. 17. 17. 17. 17. 16. 16. 16.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:03: I'm 1 and I recieved outstanding request from 5.
+	 LN : [16. 16. 15. 15. 15. 15. 15. 15.]
+	 RN : [17. 17. 17. 17. 17. 17. 16. 16.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:06: I'm 1 and I recieved outstanding request from 6.
+	 LN : [16. 16. 15. 15. 15. 15. 15. 15.]
+	 RN : [17. 17. 17. 17. 17. 17. 17. 16.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:12: I'm 1 and I recieved outstanding request from 7.
+	 LN : [16. 16. 15. 15. 15. 15. 15. 15.]
+	 RN : [17. 17. 17. 17. 17. 17. 17. 17.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:13: I'm 1 and I got a token.
+	 LN : [16. 16. 15. 15. 15. 15. 15. 15.]
+	 RN : [17. 17. 17. 17. 17. 17. 17. 17.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:13: I am 1 and execute 17 CS.
+	 LN : [17. 16. 16. 16. 16. 16. 16. 16.]
+	 RN : [17. 17. 17. 17. 17. 17. 17. 17.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+49:17: I'm 1 and finished 17 CS.
+	 LN : [17. 16. 16. 16. 16. 16. 16. 16.]
+	 RN : [17. 17. 17. 17. 17. 17. 17. 17.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+49:17: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 7]).
+	 LN : [17. 17. 16. 16. 16. 16. 16. 16.]
+	 RN : [17. 17. 17. 17. 17. 17. 17. 17.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+49:17: I'm 1 and sending the token to 2.
+	 LN : [17. 17. 16. 16. 16. 16. 16. 16.]
+	 RN : [17. 17. 17. 17. 17. 17. 17. 17.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:17: I'm 1 and I recieved outstanding request from 0.
+	 LN : [17. 17. 16. 16. 16. 16. 16. 16.]
+	 RN : [18. 17. 17. 17. 17. 17. 17. 17.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:19: I'm 1 and want a token for the 18 time.
+	 LN : [17. 17. 16. 16. 16. 16. 16. 16.]
+	 RN : [18. 18. 17. 17. 17. 17. 17. 17.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:24: I'm 1 and I recieved outstanding request from 2.
+	 LN : [17. 17. 16. 16. 16. 16. 16. 16.]
+	 RN : [18. 18. 18. 17. 17. 17. 17. 17.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:27: I'm 1 and I recieved outstanding request from 3.
+	 LN : [17. 17. 16. 16. 16. 16. 16. 16.]
+	 RN : [18. 18. 18. 18. 17. 17. 17. 17.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:29: I'm 1 and I recieved outstanding request from 4.
+	 LN : [17. 17. 16. 16. 16. 16. 16. 16.]
+	 RN : [18. 18. 18. 18. 18. 17. 17. 17.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:32: I'm 1 and I recieved outstanding request from 5.
+	 LN : [17. 17. 16. 16. 16. 16. 16. 16.]
+	 RN : [18. 18. 18. 18. 18. 18. 17. 17.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:35: I'm 1 and I recieved outstanding request from 6.
+	 LN : [17. 17. 16. 16. 16. 16. 16. 16.]
+	 RN : [18. 18. 18. 18. 18. 18. 18. 17.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:41: I'm 1 and I recieved outstanding request from 7.
+	 LN : [17. 17. 16. 16. 16. 16. 16. 16.]
+	 RN : [18. 18. 18. 18. 18. 18. 18. 18.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:41: I'm 1 and I got a token.
+	 LN : [17. 17. 16. 16. 16. 16. 16. 16.]
+	 RN : [18. 18. 18. 18. 18. 18. 18. 18.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:41: I am 1 and execute 18 CS.
+	 LN : [18. 17. 17. 17. 17. 17. 17. 17.]
+	 RN : [18. 18. 18. 18. 18. 18. 18. 18.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+49:44: I'm 1 and finished 18 CS.
+	 LN : [18. 17. 17. 17. 17. 17. 17. 17.]
+	 RN : [18. 18. 18. 18. 18. 18. 18. 18.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+49:44: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 7]).
+	 LN : [18. 18. 17. 17. 17. 17. 17. 17.]
+	 RN : [18. 18. 18. 18. 18. 18. 18. 18.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 7])
+49:44: I'm 1 and sending the token to 2.
+	 LN : [18. 18. 17. 17. 17. 17. 17. 17.]
+	 RN : [18. 18. 18. 18. 18. 18. 18. 18.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:44: I'm 1 and I recieved outstanding request from 0.
+	 LN : [18. 18. 17. 17. 17. 17. 17. 17.]
+	 RN : [19. 18. 18. 18. 18. 18. 18. 18.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:46: I'm 1 and want a token for the 19 time.
+	 LN : [18. 18. 17. 17. 17. 17. 17. 17.]
+	 RN : [19. 19. 18. 18. 18. 18. 18. 18.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:47: I'm 1 and I recieved outstanding request from 2.
+	 LN : [18. 18. 17. 17. 17. 17. 17. 17.]
+	 RN : [19. 19. 19. 18. 18. 18. 18. 18.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:50: I'm 1 and I recieved outstanding request from 3.
+	 LN : [18. 18. 17. 17. 17. 17. 17. 17.]
+	 RN : [19. 19. 19. 19. 18. 18. 18. 18.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:54: I'm 1 and I recieved outstanding request from 4.
+	 LN : [18. 18. 17. 17. 17. 17. 17. 17.]
+	 RN : [19. 19. 19. 19. 19. 18. 18. 18.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+49:58: I'm 1 and I recieved outstanding request from 5.
+	 LN : [18. 18. 17. 17. 17. 17. 17. 17.]
+	 RN : [19. 19. 19. 19. 19. 19. 18. 18.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+50:02: I'm 1 and I recieved outstanding request from 6.
+	 LN : [18. 18. 17. 17. 17. 17. 17. 17.]
+	 RN : [19. 19. 19. 19. 19. 19. 19. 18.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+50:06: I'm 1 and I got a token.
+	 LN : [18. 18. 17. 17. 17. 17. 17. 17.]
+	 RN : [19. 19. 19. 19. 19. 19. 19. 18.]
+	 Queue Understanding : deque([3, 4, 5, 6, 7])
+50:06: I am 1 and execute 19 CS.
+	 LN : [19. 18. 18. 18. 18. 18. 18. 18.]
+	 RN : [19. 19. 19. 19. 19. 19. 19. 18.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+50:10: I'm 1 and finished 19 CS.
+	 LN : [19. 18. 18. 18. 18. 18. 18. 18.]
+	 RN : [19. 19. 19. 19. 19. 19. 19. 18.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+50:10: I'm 1 and sending the token to 2.
+	 LN : [19. 19. 18. 18. 18. 18. 18. 18.]
+	 RN : [19. 19. 19. 19. 19. 19. 19. 18.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+50:10: I'm 1 and I recieved outstanding request from 0.
+	 LN : [19. 19. 18. 18. 18. 18. 18. 18.]
+	 RN : [20. 19. 19. 19. 19. 19. 19. 18.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+50:10: I'm 1 and I recieved outstanding request from 7.
+	 LN : [19. 19. 18. 18. 18. 18. 18. 18.]
+	 RN : [20. 19. 19. 19. 19. 19. 19. 19.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+50:11: I'm 1 and want a token for the 20 time.
+	 LN : [19. 19. 18. 18. 18. 18. 18. 18.]
+	 RN : [20. 20. 19. 19. 19. 19. 19. 19.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+50:17: I'm 1 and I recieved outstanding request from 2.
+	 LN : [19. 19. 18. 18. 18. 18. 18. 18.]
+	 RN : [20. 20. 20. 19. 19. 19. 19. 19.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+50:22: I'm 1 and I recieved outstanding request from 3.
+	 LN : [19. 19. 18. 18. 18. 18. 18. 18.]
+	 RN : [20. 20. 20. 20. 19. 19. 19. 19.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+50:26: I'm 1 and I recieved outstanding request from 4.
+	 LN : [19. 19. 18. 18. 18. 18. 18. 18.]
+	 RN : [20. 20. 20. 20. 20. 19. 19. 19.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+50:31: I'm 1 and I recieved outstanding request from 5.
+	 LN : [19. 19. 18. 18. 18. 18. 18. 18.]
+	 RN : [20. 20. 20. 20. 20. 20. 19. 19.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+50:35: I'm 1 and I recieved outstanding request from 6.
+	 LN : [19. 19. 18. 18. 18. 18. 18. 18.]
+	 RN : [20. 20. 20. 20. 20. 20. 20. 19.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+50:38: I'm 1 and I recieved outstanding request from 0.
+	 LN : [19. 19. 18. 18. 18. 18. 18. 18.]
+	 RN : [21. 20. 20. 20. 20. 20. 20. 19.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+50:40: I'm 1 and I got a token.
+	 LN : [19. 19. 18. 18. 18. 18. 18. 18.]
+	 RN : [21. 20. 20. 20. 20. 20. 20. 19.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+50:40: I am 1 and execute 20 CS.
+	 LN : [20. 19. 19. 19. 19. 19. 19. 19.]
+	 RN : [21. 20. 20. 20. 20. 20. 20. 19.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+50:44: I'm 1 and finished 20 CS.
+	 LN : [20. 19. 19. 19. 19. 19. 19. 19.]
+	 RN : [21. 20. 20. 20. 20. 20. 20. 19.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+50:44: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 0]).
+	 LN : [20. 20. 19. 19. 19. 19. 19. 19.]
+	 RN : [21. 20. 20. 20. 20. 20. 20. 19.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 0])
+50:44: I'm 1 and sending the token to 2.
+	 LN : [20. 20. 19. 19. 19. 19. 19. 19.]
+	 RN : [21. 20. 20. 20. 20. 20. 20. 19.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+50:44: I'm 1 and I recieved outstanding request from 7.
+	 LN : [20. 20. 19. 19. 19. 19. 19. 19.]
+	 RN : [21. 20. 20. 20. 20. 20. 20. 20.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+50:46: I'm 1 and want a token for the 21 time.
+	 LN : [20. 20. 19. 19. 19. 19. 19. 19.]
+	 RN : [21. 21. 20. 20. 20. 20. 20. 20.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+50:49: I'm 1 and I recieved outstanding request from 2.
+	 LN : [20. 20. 19. 19. 19. 19. 19. 19.]
+	 RN : [21. 21. 21. 20. 20. 20. 20. 20.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+50:53: I'm 1 and I recieved outstanding request from 3.
+	 LN : [20. 20. 19. 19. 19. 19. 19. 19.]
+	 RN : [21. 21. 21. 21. 20. 20. 20. 20.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+50:56: I'm 1 and I recieved outstanding request from 4.
+	 LN : [20. 20. 19. 19. 19. 19. 19. 19.]
+	 RN : [21. 21. 21. 21. 21. 20. 20. 20.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:01: I'm 1 and I recieved outstanding request from 5.
+	 LN : [20. 20. 19. 19. 19. 19. 19. 19.]
+	 RN : [21. 21. 21. 21. 21. 21. 20. 20.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:03: I'm 1 and I recieved outstanding request from 6.
+	 LN : [20. 20. 19. 19. 19. 19. 19. 19.]
+	 RN : [21. 21. 21. 21. 21. 21. 21. 20.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:08: I'm 1 and I recieved outstanding request from 0.
+	 LN : [20. 20. 19. 19. 19. 19. 19. 19.]
+	 RN : [22. 21. 21. 21. 21. 21. 21. 20.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:10: I'm 1 and I got a token.
+	 LN : [20. 20. 19. 19. 19. 19. 19. 19.]
+	 RN : [22. 21. 21. 21. 21. 21. 21. 20.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:10: I am 1 and execute 21 CS.
+	 LN : [21. 20. 20. 20. 20. 20. 20. 20.]
+	 RN : [22. 21. 21. 21. 21. 21. 21. 20.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+51:14: I'm 1 and finished 21 CS.
+	 LN : [21. 20. 20. 20. 20. 20. 20. 20.]
+	 RN : [22. 21. 21. 21. 21. 21. 21. 20.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+51:14: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 0]).
+	 LN : [21. 21. 20. 20. 20. 20. 20. 20.]
+	 RN : [22. 21. 21. 21. 21. 21. 21. 20.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 0])
+51:14: I'm 1 and sending the token to 2.
+	 LN : [21. 21. 20. 20. 20. 20. 20. 20.]
+	 RN : [22. 21. 21. 21. 21. 21. 21. 20.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:14: I'm 1 and I recieved outstanding request from 7.
+	 LN : [21. 21. 20. 20. 20. 20. 20. 20.]
+	 RN : [22. 21. 21. 21. 21. 21. 21. 21.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:17: I'm 1 and want a token for the 22 time.
+	 LN : [21. 21. 20. 20. 20. 20. 20. 20.]
+	 RN : [22. 22. 21. 21. 21. 21. 21. 21.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:18: I'm 1 and I recieved outstanding request from 2.
+	 LN : [21. 21. 20. 20. 20. 20. 20. 20.]
+	 RN : [22. 22. 22. 21. 21. 21. 21. 21.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:23: I'm 1 and I recieved outstanding request from 3.
+	 LN : [21. 21. 20. 20. 20. 20. 20. 20.]
+	 RN : [22. 22. 22. 22. 21. 21. 21. 21.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:27: I'm 1 and I recieved outstanding request from 4.
+	 LN : [21. 21. 20. 20. 20. 20. 20. 20.]
+	 RN : [22. 22. 22. 22. 22. 21. 21. 21.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:28: I'm 1 and I recieved outstanding request from 5.
+	 LN : [21. 21. 20. 20. 20. 20. 20. 20.]
+	 RN : [22. 22. 22. 22. 22. 22. 21. 21.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:32: I'm 1 and I recieved outstanding request from 6.
+	 LN : [21. 21. 20. 20. 20. 20. 20. 20.]
+	 RN : [22. 22. 22. 22. 22. 22. 22. 21.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:37: I'm 1 and I recieved outstanding request from 0.
+	 LN : [21. 21. 20. 20. 20. 20. 20. 20.]
+	 RN : [23. 22. 22. 22. 22. 22. 22. 21.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:37: I'm 1 and I got a token.
+	 LN : [21. 21. 20. 20. 20. 20. 20. 20.]
+	 RN : [23. 22. 22. 22. 22. 22. 22. 21.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:37: I am 1 and execute 22 CS.
+	 LN : [22. 21. 21. 21. 21. 21. 21. 21.]
+	 RN : [23. 22. 22. 22. 22. 22. 22. 21.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+51:41: I'm 1 and finished 22 CS.
+	 LN : [22. 21. 21. 21. 21. 21. 21. 21.]
+	 RN : [23. 22. 22. 22. 22. 22. 22. 21.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+51:41: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 0]).
+	 LN : [22. 22. 21. 21. 21. 21. 21. 21.]
+	 RN : [23. 22. 22. 22. 22. 22. 22. 21.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 0])
+51:41: I'm 1 and sending the token to 2.
+	 LN : [22. 22. 21. 21. 21. 21. 21. 21.]
+	 RN : [23. 22. 22. 22. 22. 22. 22. 21.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:41: I'm 1 and I recieved outstanding request from 7.
+	 LN : [22. 22. 21. 21. 21. 21. 21. 21.]
+	 RN : [23. 22. 22. 22. 22. 22. 22. 22.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:42: I'm 1 and want a token for the 23 time.
+	 LN : [22. 22. 21. 21. 21. 21. 21. 21.]
+	 RN : [23. 23. 22. 22. 22. 22. 22. 22.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:48: I'm 1 and I recieved outstanding request from 2.
+	 LN : [22. 22. 21. 21. 21. 21. 21. 21.]
+	 RN : [23. 23. 23. 22. 22. 22. 22. 22.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:50: I'm 1 and I recieved outstanding request from 3.
+	 LN : [22. 22. 21. 21. 21. 21. 21. 21.]
+	 RN : [23. 23. 23. 23. 22. 22. 22. 22.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:53: I'm 1 and I recieved outstanding request from 4.
+	 LN : [22. 22. 21. 21. 21. 21. 21. 21.]
+	 RN : [23. 23. 23. 23. 23. 22. 22. 22.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+51:58: I'm 1 and I recieved outstanding request from 5.
+	 LN : [22. 22. 21. 21. 21. 21. 21. 21.]
+	 RN : [23. 23. 23. 23. 23. 23. 22. 22.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+52:00: I'm 1 and I recieved outstanding request from 6.
+	 LN : [22. 22. 21. 21. 21. 21. 21. 21.]
+	 RN : [23. 23. 23. 23. 23. 23. 23. 22.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+52:04: I'm 1 and I got a token.
+	 LN : [22. 22. 21. 21. 21. 21. 21. 21.]
+	 RN : [23. 23. 23. 23. 23. 23. 23. 22.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+52:04: I am 1 and execute 23 CS.
+	 LN : [23. 22. 22. 22. 22. 22. 22. 22.]
+	 RN : [23. 23. 23. 23. 23. 23. 23. 22.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+52:07: I'm 1 and finished 23 CS.
+	 LN : [23. 22. 22. 22. 22. 22. 22. 22.]
+	 RN : [23. 23. 23. 23. 23. 23. 23. 22.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+52:07: I'm 1 and sending the token to 2.
+	 LN : [23. 23. 22. 22. 22. 22. 22. 22.]
+	 RN : [23. 23. 23. 23. 23. 23. 23. 22.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+52:07: I'm 1 and I recieved outstanding request from 0.
+	 LN : [23. 23. 22. 22. 22. 22. 22. 22.]
+	 RN : [24. 23. 23. 23. 23. 23. 23. 22.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+52:07: I'm 1 and I recieved outstanding request from 7.
+	 LN : [23. 23. 22. 22. 22. 22. 22. 22.]
+	 RN : [24. 23. 23. 23. 23. 23. 23. 23.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+52:09: I'm 1 and want a token for the 24 time.
+	 LN : [23. 23. 22. 22. 22. 22. 22. 22.]
+	 RN : [24. 24. 23. 23. 23. 23. 23. 23.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+52:13: I'm 1 and I recieved outstanding request from 2.
+	 LN : [23. 23. 22. 22. 22. 22. 22. 22.]
+	 RN : [24. 24. 24. 23. 23. 23. 23. 23.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+52:17: I'm 1 and I recieved outstanding request from 3.
+	 LN : [23. 23. 22. 22. 22. 22. 22. 22.]
+	 RN : [24. 24. 24. 24. 23. 23. 23. 23.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+52:22: I'm 1 and I recieved outstanding request from 4.
+	 LN : [23. 23. 22. 22. 22. 22. 22. 22.]
+	 RN : [24. 24. 24. 24. 24. 23. 23. 23.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+52:26: I'm 1 and I recieved outstanding request from 5.
+	 LN : [23. 23. 22. 22. 22. 22. 22. 22.]
+	 RN : [24. 24. 24. 24. 24. 24. 23. 23.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+52:28: I'm 1 and I recieved outstanding request from 6.
+	 LN : [23. 23. 22. 22. 22. 22. 22. 22.]
+	 RN : [24. 24. 24. 24. 24. 24. 24. 23.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+52:31: I'm 1 and I recieved outstanding request from 0.
+	 LN : [23. 23. 22. 22. 22. 22. 22. 22.]
+	 RN : [25. 24. 24. 24. 24. 24. 24. 23.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+52:33: I'm 1 and I got a token.
+	 LN : [23. 23. 22. 22. 22. 22. 22. 22.]
+	 RN : [25. 24. 24. 24. 24. 24. 24. 23.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+52:33: I am 1 and execute 24 CS.
+	 LN : [24. 23. 23. 23. 23. 23. 23. 23.]
+	 RN : [25. 24. 24. 24. 24. 24. 24. 23.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+52:37: I'm 1 and finished 24 CS.
+	 LN : [24. 23. 23. 23. 23. 23. 23. 23.]
+	 RN : [25. 24. 24. 24. 24. 24. 24. 23.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+52:37: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 0]).
+	 LN : [24. 24. 23. 23. 23. 23. 23. 23.]
+	 RN : [25. 24. 24. 24. 24. 24. 24. 23.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 0])
+52:37: I'm 1 and sending the token to 2.
+	 LN : [24. 24. 23. 23. 23. 23. 23. 23.]
+	 RN : [25. 24. 24. 24. 24. 24. 24. 23.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+52:37: I'm 1 and I recieved outstanding request from 7.
+	 LN : [24. 24. 23. 23. 23. 23. 23. 23.]
+	 RN : [25. 24. 24. 24. 24. 24. 24. 24.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+52:39: I'm 1 and want a token for the 25 time.
+	 LN : [24. 24. 23. 23. 23. 23. 23. 23.]
+	 RN : [25. 25. 24. 24. 24. 24. 24. 24.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+52:43: I'm 1 and I recieved outstanding request from 2.
+	 LN : [24. 24. 23. 23. 23. 23. 23. 23.]
+	 RN : [25. 25. 25. 24. 24. 24. 24. 24.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+52:46: I'm 1 and I recieved outstanding request from 3.
+	 LN : [24. 24. 23. 23. 23. 23. 23. 23.]
+	 RN : [25. 25. 25. 25. 24. 24. 24. 24.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+52:49: I'm 1 and I recieved outstanding request from 4.
+	 LN : [24. 24. 23. 23. 23. 23. 23. 23.]
+	 RN : [25. 25. 25. 25. 25. 24. 24. 24.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+52:51: I'm 1 and I recieved outstanding request from 5.
+	 LN : [24. 24. 23. 23. 23. 23. 23. 23.]
+	 RN : [25. 25. 25. 25. 25. 25. 24. 24.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+52:54: I'm 1 and I recieved outstanding request from 6.
+	 LN : [24. 24. 23. 23. 23. 23. 23. 23.]
+	 RN : [25. 25. 25. 25. 25. 25. 25. 24.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+52:57: I'm 1 and I recieved outstanding request from 0.
+	 LN : [24. 24. 23. 23. 23. 23. 23. 23.]
+	 RN : [26. 25. 25. 25. 25. 25. 25. 24.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+52:58: I'm 1 and I got a token.
+	 LN : [24. 24. 23. 23. 23. 23. 23. 23.]
+	 RN : [26. 25. 25. 25. 25. 25. 25. 24.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+52:58: I am 1 and execute 25 CS.
+	 LN : [25. 24. 24. 24. 24. 24. 24. 24.]
+	 RN : [26. 25. 25. 25. 25. 25. 25. 24.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+53:01: I'm 1 and finished 25 CS.
+	 LN : [25. 24. 24. 24. 24. 24. 24. 24.]
+	 RN : [26. 25. 25. 25. 25. 25. 25. 24.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+53:01: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 0]).
+	 LN : [25. 25. 24. 24. 24. 24. 24. 24.]
+	 RN : [26. 25. 25. 25. 25. 25. 25. 24.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 0])
+53:01: I'm 1 and sending the token to 2.
+	 LN : [25. 25. 24. 24. 24. 24. 24. 24.]
+	 RN : [26. 25. 25. 25. 25. 25. 25. 24.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:01: I'm 1 and I recieved outstanding request from 7.
+	 LN : [25. 25. 24. 24. 24. 24. 24. 24.]
+	 RN : [26. 25. 25. 25. 25. 25. 25. 25.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:03: I'm 1 and want a token for the 26 time.
+	 LN : [25. 25. 24. 24. 24. 24. 24. 24.]
+	 RN : [26. 26. 25. 25. 25. 25. 25. 25.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:07: I'm 1 and I recieved outstanding request from 2.
+	 LN : [25. 25. 24. 24. 24. 24. 24. 24.]
+	 RN : [26. 26. 26. 25. 25. 25. 25. 25.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:11: I'm 1 and I recieved outstanding request from 3.
+	 LN : [25. 25. 24. 24. 24. 24. 24. 24.]
+	 RN : [26. 26. 26. 26. 25. 25. 25. 25.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:14: I'm 1 and I recieved outstanding request from 4.
+	 LN : [25. 25. 24. 24. 24. 24. 24. 24.]
+	 RN : [26. 26. 26. 26. 26. 25. 25. 25.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:18: I'm 1 and I recieved outstanding request from 5.
+	 LN : [25. 25. 24. 24. 24. 24. 24. 24.]
+	 RN : [26. 26. 26. 26. 26. 26. 25. 25.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:23: I'm 1 and I recieved outstanding request from 6.
+	 LN : [25. 25. 24. 24. 24. 24. 24. 24.]
+	 RN : [26. 26. 26. 26. 26. 26. 26. 25.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:26: I'm 1 and I recieved outstanding request from 0.
+	 LN : [25. 25. 24. 24. 24. 24. 24. 24.]
+	 RN : [27. 26. 26. 26. 26. 26. 26. 25.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:28: I'm 1 and I got a token.
+	 LN : [25. 25. 24. 24. 24. 24. 24. 24.]
+	 RN : [27. 26. 26. 26. 26. 26. 26. 25.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:28: I am 1 and execute 26 CS.
+	 LN : [26. 25. 25. 25. 25. 25. 25. 25.]
+	 RN : [27. 26. 26. 26. 26. 26. 26. 25.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+53:32: I'm 1 and finished 26 CS.
+	 LN : [26. 25. 25. 25. 25. 25. 25. 25.]
+	 RN : [27. 26. 26. 26. 26. 26. 26. 25.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+53:32: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 0]).
+	 LN : [26. 26. 25. 25. 25. 25. 25. 25.]
+	 RN : [27. 26. 26. 26. 26. 26. 26. 25.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 0])
+53:32: I'm 1 and sending the token to 2.
+	 LN : [26. 26. 25. 25. 25. 25. 25. 25.]
+	 RN : [27. 26. 26. 26. 26. 26. 26. 25.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:32: I'm 1 and I recieved outstanding request from 7.
+	 LN : [26. 26. 25. 25. 25. 25. 25. 25.]
+	 RN : [27. 26. 26. 26. 26. 26. 26. 26.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:34: I'm 1 and want a token for the 27 time.
+	 LN : [26. 26. 25. 25. 25. 25. 25. 25.]
+	 RN : [27. 27. 26. 26. 26. 26. 26. 26.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:37: I'm 1 and I recieved outstanding request from 2.
+	 LN : [26. 26. 25. 25. 25. 25. 25. 25.]
+	 RN : [27. 27. 27. 26. 26. 26. 26. 26.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:39: I'm 1 and I recieved outstanding request from 3.
+	 LN : [26. 26. 25. 25. 25. 25. 25. 25.]
+	 RN : [27. 27. 27. 27. 26. 26. 26. 26.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:42: I'm 1 and I recieved outstanding request from 4.
+	 LN : [26. 26. 25. 25. 25. 25. 25. 25.]
+	 RN : [27. 27. 27. 27. 27. 26. 26. 26.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:44: I'm 1 and I recieved outstanding request from 5.
+	 LN : [26. 26. 25. 25. 25. 25. 25. 25.]
+	 RN : [27. 27. 27. 27. 27. 27. 26. 26.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:47: I'm 1 and I recieved outstanding request from 6.
+	 LN : [26. 26. 25. 25. 25. 25. 25. 25.]
+	 RN : [27. 27. 27. 27. 27. 27. 27. 26.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:52: I'm 1 and I recieved outstanding request from 0.
+	 LN : [26. 26. 25. 25. 25. 25. 25. 25.]
+	 RN : [28. 27. 27. 27. 27. 27. 27. 26.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:53: I'm 1 and I got a token.
+	 LN : [26. 26. 25. 25. 25. 25. 25. 25.]
+	 RN : [28. 27. 27. 27. 27. 27. 27. 26.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:53: I am 1 and execute 27 CS.
+	 LN : [27. 26. 26. 26. 26. 26. 26. 26.]
+	 RN : [28. 27. 27. 27. 27. 27. 27. 26.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+53:57: I'm 1 and finished 27 CS.
+	 LN : [27. 26. 26. 26. 26. 26. 26. 26.]
+	 RN : [28. 27. 27. 27. 27. 27. 27. 26.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+53:57: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 0]).
+	 LN : [27. 27. 26. 26. 26. 26. 26. 26.]
+	 RN : [28. 27. 27. 27. 27. 27. 27. 26.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 0])
+53:57: I'm 1 and sending the token to 2.
+	 LN : [27. 27. 26. 26. 26. 26. 26. 26.]
+	 RN : [28. 27. 27. 27. 27. 27. 27. 26.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:57: I'm 1 and I recieved outstanding request from 7.
+	 LN : [27. 27. 26. 26. 26. 26. 26. 26.]
+	 RN : [28. 27. 27. 27. 27. 27. 27. 27.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+53:58: I'm 1 and want a token for the 28 time.
+	 LN : [27. 27. 26. 26. 26. 26. 26. 26.]
+	 RN : [28. 28. 27. 27. 27. 27. 27. 27.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+54:04: I'm 1 and I recieved outstanding request from 2.
+	 LN : [27. 27. 26. 26. 26. 26. 26. 26.]
+	 RN : [28. 28. 28. 27. 27. 27. 27. 27.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+54:08: I'm 1 and I recieved outstanding request from 3.
+	 LN : [27. 27. 26. 26. 26. 26. 26. 26.]
+	 RN : [28. 28. 28. 28. 27. 27. 27. 27.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+54:14: I'm 1 and I recieved outstanding request from 4.
+	 LN : [27. 27. 26. 26. 26. 26. 26. 26.]
+	 RN : [28. 28. 28. 28. 28. 27. 27. 27.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+54:16: I'm 1 and I recieved outstanding request from 5.
+	 LN : [27. 27. 26. 26. 26. 26. 26. 26.]
+	 RN : [28. 28. 28. 28. 28. 28. 27. 27.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+54:18: I'm 1 and I recieved outstanding request from 6.
+	 LN : [27. 27. 26. 26. 26. 26. 26. 26.]
+	 RN : [28. 28. 28. 28. 28. 28. 28. 27.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+54:22: I'm 1 and I recieved outstanding request from 0.
+	 LN : [27. 27. 26. 26. 26. 26. 26. 26.]
+	 RN : [29. 28. 28. 28. 28. 28. 28. 27.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+54:24: I'm 1 and I got a token.
+	 LN : [27. 27. 26. 26. 26. 26. 26. 26.]
+	 RN : [29. 28. 28. 28. 28. 28. 28. 27.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+54:24: I am 1 and execute 28 CS.
+	 LN : [28. 27. 27. 27. 27. 27. 27. 27.]
+	 RN : [29. 28. 28. 28. 28. 28. 28. 27.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+54:27: I'm 1 and finished 28 CS.
+	 LN : [28. 27. 27. 27. 27. 27. 27. 27.]
+	 RN : [29. 28. 28. 28. 28. 28. 28. 27.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+54:27: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 0]).
+	 LN : [28. 28. 27. 27. 27. 27. 27. 27.]
+	 RN : [29. 28. 28. 28. 28. 28. 28. 27.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 0])
+54:27: I'm 1 and sending the token to 2.
+	 LN : [28. 28. 27. 27. 27. 27. 27. 27.]
+	 RN : [29. 28. 28. 28. 28. 28. 28. 27.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+54:27: I'm 1 and I recieved outstanding request from 7.
+	 LN : [28. 28. 27. 27. 27. 27. 27. 27.]
+	 RN : [29. 28. 28. 28. 28. 28. 28. 28.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+54:29: I'm 1 and want a token for the 29 time.
+	 LN : [28. 28. 27. 27. 27. 27. 27. 27.]
+	 RN : [29. 29. 28. 28. 28. 28. 28. 28.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+54:32: I'm 1 and I recieved outstanding request from 2.
+	 LN : [28. 28. 27. 27. 27. 27. 27. 27.]
+	 RN : [29. 29. 29. 28. 28. 28. 28. 28.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+54:36: I'm 1 and I recieved outstanding request from 3.
+	 LN : [28. 28. 27. 27. 27. 27. 27. 27.]
+	 RN : [29. 29. 29. 29. 28. 28. 28. 28.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+54:41: I'm 1 and I recieved outstanding request from 4.
+	 LN : [28. 28. 27. 27. 27. 27. 27. 27.]
+	 RN : [29. 29. 29. 29. 29. 28. 28. 28.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+54:43: I'm 1 and I recieved outstanding request from 5.
+	 LN : [28. 28. 27. 27. 27. 27. 27. 27.]
+	 RN : [29. 29. 29. 29. 29. 29. 28. 28.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+54:45: I'm 1 and I recieved outstanding request from 6.
+	 LN : [28. 28. 27. 27. 27. 27. 27. 27.]
+	 RN : [29. 29. 29. 29. 29. 29. 29. 28.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+54:48: I'm 1 and I got a token.
+	 LN : [28. 28. 27. 27. 27. 27. 27. 27.]
+	 RN : [29. 29. 29. 29. 29. 29. 29. 28.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+54:48: I am 1 and execute 29 CS.
+	 LN : [29. 28. 28. 28. 28. 28. 28. 28.]
+	 RN : [29. 29. 29. 29. 29. 29. 29. 28.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+54:51: I'm 1 and finished 29 CS.
+	 LN : [29. 28. 28. 28. 28. 28. 28. 28.]
+	 RN : [29. 29. 29. 29. 29. 29. 29. 28.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+54:51: I'm 1 and sending the token to 2.
+	 LN : [29. 29. 28. 28. 28. 28. 28. 28.]
+	 RN : [29. 29. 29. 29. 29. 29. 29. 28.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+54:51: I'm 1 and I recieved outstanding request from 0.
+	 LN : [29. 29. 28. 28. 28. 28. 28. 28.]
+	 RN : [30. 29. 29. 29. 29. 29. 29. 28.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+54:51: I'm 1 and I recieved outstanding request from 7.
+	 LN : [29. 29. 28. 28. 28. 28. 28. 28.]
+	 RN : [30. 29. 29. 29. 29. 29. 29. 29.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+54:52: I'm 1 and want a token for the 30 time.
+	 LN : [29. 29. 28. 28. 28. 28. 28. 28.]
+	 RN : [30. 30. 29. 29. 29. 29. 29. 29.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+54:57: I'm 1 and I recieved outstanding request from 2.
+	 LN : [29. 29. 28. 28. 28. 28. 28. 28.]
+	 RN : [30. 30. 30. 29. 29. 29. 29. 29.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+55:02: I'm 1 and I recieved outstanding request from 3.
+	 LN : [29. 29. 28. 28. 28. 28. 28. 28.]
+	 RN : [30. 30. 30. 30. 29. 29. 29. 29.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+55:05: I'm 1 and I recieved outstanding request from 4.
+	 LN : [29. 29. 28. 28. 28. 28. 28. 28.]
+	 RN : [30. 30. 30. 30. 30. 29. 29. 29.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+55:09: I'm 1 and I recieved outstanding request from 5.
+	 LN : [29. 29. 28. 28. 28. 28. 28. 28.]
+	 RN : [30. 30. 30. 30. 30. 30. 29. 29.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+55:11: I'm 1 and I recieved outstanding request from 6.
+	 LN : [29. 29. 28. 28. 28. 28. 28. 28.]
+	 RN : [30. 30. 30. 30. 30. 30. 30. 29.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+55:15: I'm 1 and I recieved outstanding request from 0.
+	 LN : [29. 29. 28. 28. 28. 28. 28. 28.]
+	 RN : [31. 30. 30. 30. 30. 30. 30. 29.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+55:17: I'm 1 and I got a token.
+	 LN : [29. 29. 28. 28. 28. 28. 28. 28.]
+	 RN : [31. 30. 30. 30. 30. 30. 30. 29.]
+	 Queue Understanding : deque([3, 4, 5, 6])
+55:17: I am 1 and execute 30 CS.
+	 LN : [30. 29. 29. 29. 29. 29. 29. 29.]
+	 RN : [31. 30. 30. 30. 30. 30. 30. 29.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+55:21: I'm 1 and finished 30 CS.
+	 LN : [30. 29. 29. 29. 29. 29. 29. 29.]
+	 RN : [31. 30. 30. 30. 30. 30. 30. 29.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+55:21: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 0]).
+	 LN : [30. 30. 29. 29. 29. 29. 29. 29.]
+	 RN : [31. 30. 30. 30. 30. 30. 30. 29.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 0])
+55:21: I'm 1 and sending the token to 2.
+	 LN : [30. 30. 29. 29. 29. 29. 29. 29.]
+	 RN : [31. 30. 30. 30. 30. 30. 30. 29.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+55:21: I'm 1 and I recieved outstanding request from 7.
+	 LN : [30. 30. 29. 29. 29. 29. 29. 29.]
+	 RN : [31. 30. 30. 30. 30. 30. 30. 30.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+55:23: I'm 1 and want a token for the 31 time.
+	 LN : [30. 30. 29. 29. 29. 29. 29. 29.]
+	 RN : [31. 31. 30. 30. 30. 30. 30. 30.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+55:27: I'm 1 and I recieved outstanding request from 2.
+	 LN : [30. 30. 29. 29. 29. 29. 29. 29.]
+	 RN : [31. 31. 31. 30. 30. 30. 30. 30.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+55:32: I'm 1 and I recieved outstanding request from 3.
+	 LN : [30. 30. 29. 29. 29. 29. 29. 29.]
+	 RN : [31. 31. 31. 31. 30. 30. 30. 30.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+55:37: I'm 1 and I recieved outstanding request from 4.
+	 LN : [30. 30. 29. 29. 29. 29. 29. 29.]
+	 RN : [31. 31. 31. 31. 31. 30. 30. 30.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+55:39: I'm 1 and I recieved outstanding request from 5.
+	 LN : [30. 30. 29. 29. 29. 29. 29. 29.]
+	 RN : [31. 31. 31. 31. 31. 31. 30. 30.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+55:43: I'm 1 and I recieved outstanding request from 6.
+	 LN : [30. 30. 29. 29. 29. 29. 29. 29.]
+	 RN : [31. 31. 31. 31. 31. 31. 31. 30.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+55:48: I'm 1 and I recieved outstanding request from 0.
+	 LN : [30. 30. 29. 29. 29. 29. 29. 29.]
+	 RN : [32. 31. 31. 31. 31. 31. 31. 30.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+55:49: I'm 1 and I got a token.
+	 LN : [30. 30. 29. 29. 29. 29. 29. 29.]
+	 RN : [32. 31. 31. 31. 31. 31. 31. 30.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+55:49: I am 1 and execute 31 CS.
+	 LN : [31. 30. 30. 30. 30. 30. 30. 30.]
+	 RN : [32. 31. 31. 31. 31. 31. 31. 30.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+55:53: I'm 1 and finished 31 CS.
+	 LN : [31. 30. 30. 30. 30. 30. 30. 30.]
+	 RN : [32. 31. 31. 31. 31. 31. 31. 30.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+55:53: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 0]).
+	 LN : [31. 31. 30. 30. 30. 30. 30. 30.]
+	 RN : [32. 31. 31. 31. 31. 31. 31. 30.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 0])
+55:53: I'm 1 and sending the token to 2.
+	 LN : [31. 31. 30. 30. 30. 30. 30. 30.]
+	 RN : [32. 31. 31. 31. 31. 31. 31. 30.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+55:53: I'm 1 and I recieved outstanding request from 7.
+	 LN : [31. 31. 30. 30. 30. 30. 30. 30.]
+	 RN : [32. 31. 31. 31. 31. 31. 31. 31.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+55:54: I'm 1 and want a token for the 32 time.
+	 LN : [31. 31. 30. 30. 30. 30. 30. 30.]
+	 RN : [32. 32. 31. 31. 31. 31. 31. 31.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+55:57: I'm 1 and I recieved outstanding request from 2.
+	 LN : [31. 31. 30. 30. 30. 30. 30. 30.]
+	 RN : [32. 32. 32. 31. 31. 31. 31. 31.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+55:59: I'm 1 and I recieved outstanding request from 3.
+	 LN : [31. 31. 30. 30. 30. 30. 30. 30.]
+	 RN : [32. 32. 32. 32. 31. 31. 31. 31.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:03: I'm 1 and I recieved outstanding request from 4.
+	 LN : [31. 31. 30. 30. 30. 30. 30. 30.]
+	 RN : [32. 32. 32. 32. 32. 31. 31. 31.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:05: I'm 1 and I recieved outstanding request from 5.
+	 LN : [31. 31. 30. 30. 30. 30. 30. 30.]
+	 RN : [32. 32. 32. 32. 32. 32. 31. 31.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:10: I'm 1 and I recieved outstanding request from 6.
+	 LN : [31. 31. 30. 30. 30. 30. 30. 30.]
+	 RN : [32. 32. 32. 32. 32. 32. 32. 31.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:15: I'm 1 and I recieved outstanding request from 0.
+	 LN : [31. 31. 30. 30. 30. 30. 30. 30.]
+	 RN : [33. 32. 32. 32. 32. 32. 32. 31.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:15: I'm 1 and I got a token.
+	 LN : [31. 31. 30. 30. 30. 30. 30. 30.]
+	 RN : [33. 32. 32. 32. 32. 32. 32. 31.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:15: I am 1 and execute 32 CS.
+	 LN : [32. 31. 31. 31. 31. 31. 31. 31.]
+	 RN : [33. 32. 32. 32. 32. 32. 32. 31.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+56:18: I'm 1 and finished 32 CS.
+	 LN : [32. 31. 31. 31. 31. 31. 31. 31.]
+	 RN : [33. 32. 32. 32. 32. 32. 32. 31.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+56:18: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 0]).
+	 LN : [32. 32. 31. 31. 31. 31. 31. 31.]
+	 RN : [33. 32. 32. 32. 32. 32. 32. 31.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 0])
+56:18: I'm 1 and sending the token to 2.
+	 LN : [32. 32. 31. 31. 31. 31. 31. 31.]
+	 RN : [33. 32. 32. 32. 32. 32. 32. 31.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:18: I'm 1 and I recieved outstanding request from 7.
+	 LN : [32. 32. 31. 31. 31. 31. 31. 31.]
+	 RN : [33. 32. 32. 32. 32. 32. 32. 32.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:21: I'm 1 and want a token for the 33 time.
+	 LN : [32. 32. 31. 31. 31. 31. 31. 31.]
+	 RN : [33. 33. 32. 32. 32. 32. 32. 32.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:24: I'm 1 and I recieved outstanding request from 2.
+	 LN : [32. 32. 31. 31. 31. 31. 31. 31.]
+	 RN : [33. 33. 33. 32. 32. 32. 32. 32.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:26: I'm 1 and I recieved outstanding request from 3.
+	 LN : [32. 32. 31. 31. 31. 31. 31. 31.]
+	 RN : [33. 33. 33. 33. 32. 32. 32. 32.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:28: I'm 1 and I recieved outstanding request from 4.
+	 LN : [32. 32. 31. 31. 31. 31. 31. 31.]
+	 RN : [33. 33. 33. 33. 33. 32. 32. 32.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:31: I'm 1 and I recieved outstanding request from 5.
+	 LN : [32. 32. 31. 31. 31. 31. 31. 31.]
+	 RN : [33. 33. 33. 33. 33. 33. 32. 32.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:32: I'm 1 and I recieved outstanding request from 6.
+	 LN : [32. 32. 31. 31. 31. 31. 31. 31.]
+	 RN : [33. 33. 33. 33. 33. 33. 33. 32.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:37: I'm 1 and I recieved outstanding request from 0.
+	 LN : [32. 32. 31. 31. 31. 31. 31. 31.]
+	 RN : [34. 33. 33. 33. 33. 33. 33. 32.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:38: I'm 1 and I got a token.
+	 LN : [32. 32. 31. 31. 31. 31. 31. 31.]
+	 RN : [34. 33. 33. 33. 33. 33. 33. 32.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:38: I am 1 and execute 33 CS.
+	 LN : [33. 32. 32. 32. 32. 32. 32. 32.]
+	 RN : [34. 33. 33. 33. 33. 33. 33. 32.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+56:42: I'm 1 and finished 33 CS.
+	 LN : [33. 32. 32. 32. 32. 32. 32. 32.]
+	 RN : [34. 33. 33. 33. 33. 33. 33. 32.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+56:42: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 0]).
+	 LN : [33. 33. 32. 32. 32. 32. 32. 32.]
+	 RN : [34. 33. 33. 33. 33. 33. 33. 32.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 0])
+56:42: I'm 1 and sending the token to 2.
+	 LN : [33. 33. 32. 32. 32. 32. 32. 32.]
+	 RN : [34. 33. 33. 33. 33. 33. 33. 32.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:42: I'm 1 and I recieved outstanding request from 7.
+	 LN : [33. 33. 32. 32. 32. 32. 32. 32.]
+	 RN : [34. 33. 33. 33. 33. 33. 33. 33.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:44: I'm 1 and want a token for the 34 time.
+	 LN : [33. 33. 32. 32. 32. 32. 32. 32.]
+	 RN : [34. 34. 33. 33. 33. 33. 33. 33.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:47: I'm 1 and I recieved outstanding request from 2.
+	 LN : [33. 33. 32. 32. 32. 32. 32. 32.]
+	 RN : [34. 34. 34. 33. 33. 33. 33. 33.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:51: I'm 1 and I recieved outstanding request from 3.
+	 LN : [33. 33. 32. 32. 32. 32. 32. 32.]
+	 RN : [34. 34. 34. 34. 33. 33. 33. 33.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:54: I'm 1 and I recieved outstanding request from 4.
+	 LN : [33. 33. 32. 32. 32. 32. 32. 32.]
+	 RN : [34. 34. 34. 34. 34. 33. 33. 33.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+56:57: I'm 1 and I recieved outstanding request from 5.
+	 LN : [33. 33. 32. 32. 32. 32. 32. 32.]
+	 RN : [34. 34. 34. 34. 34. 34. 33. 33.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:01: I'm 1 and I recieved outstanding request from 6.
+	 LN : [33. 33. 32. 32. 32. 32. 32. 32.]
+	 RN : [34. 34. 34. 34. 34. 34. 34. 33.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:05: I'm 1 and I recieved outstanding request from 0.
+	 LN : [33. 33. 32. 32. 32. 32. 32. 32.]
+	 RN : [35. 34. 34. 34. 34. 34. 34. 33.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:07: I'm 1 and I got a token.
+	 LN : [33. 33. 32. 32. 32. 32. 32. 32.]
+	 RN : [35. 34. 34. 34. 34. 34. 34. 33.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:07: I am 1 and execute 34 CS.
+	 LN : [34. 33. 33. 33. 33. 33. 33. 33.]
+	 RN : [35. 34. 34. 34. 34. 34. 34. 33.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+57:10: I'm 1 and finished 34 CS.
+	 LN : [34. 33. 33. 33. 33. 33. 33. 33.]
+	 RN : [35. 34. 34. 34. 34. 34. 34. 33.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+57:10: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 0]).
+	 LN : [34. 34. 33. 33. 33. 33. 33. 33.]
+	 RN : [35. 34. 34. 34. 34. 34. 34. 33.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 0])
+57:10: I'm 1 and sending the token to 2.
+	 LN : [34. 34. 33. 33. 33. 33. 33. 33.]
+	 RN : [35. 34. 34. 34. 34. 34. 34. 33.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:10: I'm 1 and I recieved outstanding request from 7.
+	 LN : [34. 34. 33. 33. 33. 33. 33. 33.]
+	 RN : [35. 34. 34. 34. 34. 34. 34. 34.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:12: I'm 1 and want a token for the 35 time.
+	 LN : [34. 34. 33. 33. 33. 33. 33. 33.]
+	 RN : [35. 35. 34. 34. 34. 34. 34. 34.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:17: I'm 1 and I recieved outstanding request from 2.
+	 LN : [34. 34. 33. 33. 33. 33. 33. 33.]
+	 RN : [35. 35. 35. 34. 34. 34. 34. 34.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:20: I'm 1 and I recieved outstanding request from 3.
+	 LN : [34. 34. 33. 33. 33. 33. 33. 33.]
+	 RN : [35. 35. 35. 35. 34. 34. 34. 34.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:24: I'm 1 and I recieved outstanding request from 4.
+	 LN : [34. 34. 33. 33. 33. 33. 33. 33.]
+	 RN : [35. 35. 35. 35. 35. 34. 34. 34.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:27: I'm 1 and I recieved outstanding request from 5.
+	 LN : [34. 34. 33. 33. 33. 33. 33. 33.]
+	 RN : [35. 35. 35. 35. 35. 35. 34. 34.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:30: I'm 1 and I recieved outstanding request from 6.
+	 LN : [34. 34. 33. 33. 33. 33. 33. 33.]
+	 RN : [35. 35. 35. 35. 35. 35. 35. 34.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:31: I'm 1 and I recieved outstanding request from 0.
+	 LN : [34. 34. 33. 33. 33. 33. 33. 33.]
+	 RN : [36. 35. 35. 35. 35. 35. 35. 34.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:32: I'm 1 and I got a token.
+	 LN : [34. 34. 33. 33. 33. 33. 33. 33.]
+	 RN : [36. 35. 35. 35. 35. 35. 35. 34.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:32: I am 1 and execute 35 CS.
+	 LN : [35. 34. 34. 34. 34. 34. 34. 34.]
+	 RN : [36. 35. 35. 35. 35. 35. 35. 34.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+57:36: I'm 1 and finished 35 CS.
+	 LN : [35. 34. 34. 34. 34. 34. 34. 34.]
+	 RN : [36. 35. 35. 35. 35. 35. 35. 34.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+57:36: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 0]).
+	 LN : [35. 35. 34. 34. 34. 34. 34. 34.]
+	 RN : [36. 35. 35. 35. 35. 35. 35. 34.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 0])
+57:36: I'm 1 and sending the token to 2.
+	 LN : [35. 35. 34. 34. 34. 34. 34. 34.]
+	 RN : [36. 35. 35. 35. 35. 35. 35. 34.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:36: I'm 1 and I recieved outstanding request from 7.
+	 LN : [35. 35. 34. 34. 34. 34. 34. 34.]
+	 RN : [36. 35. 35. 35. 35. 35. 35. 35.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:37: I'm 1 and want a token for the 36 time.
+	 LN : [35. 35. 34. 34. 34. 34. 34. 34.]
+	 RN : [36. 36. 35. 35. 35. 35. 35. 35.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:40: I'm 1 and I recieved outstanding request from 2.
+	 LN : [35. 35. 34. 34. 34. 34. 34. 34.]
+	 RN : [36. 36. 36. 35. 35. 35. 35. 35.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:46: I'm 1 and I recieved outstanding request from 3.
+	 LN : [35. 35. 34. 34. 34. 34. 34. 34.]
+	 RN : [36. 36. 36. 36. 35. 35. 35. 35.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:50: I'm 1 and I recieved outstanding request from 4.
+	 LN : [35. 35. 34. 34. 34. 34. 34. 34.]
+	 RN : [36. 36. 36. 36. 36. 35. 35. 35.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:55: I'm 1 and I recieved outstanding request from 5.
+	 LN : [35. 35. 34. 34. 34. 34. 34. 34.]
+	 RN : [36. 36. 36. 36. 36. 36. 35. 35.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+57:58: I'm 1 and I recieved outstanding request from 6.
+	 LN : [35. 35. 34. 34. 34. 34. 34. 34.]
+	 RN : [36. 36. 36. 36. 36. 36. 36. 35.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:01: I'm 1 and I recieved outstanding request from 0.
+	 LN : [35. 35. 34. 34. 34. 34. 34. 34.]
+	 RN : [37. 36. 36. 36. 36. 36. 36. 35.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:03: I'm 1 and I got a token.
+	 LN : [35. 35. 34. 34. 34. 34. 34. 34.]
+	 RN : [37. 36. 36. 36. 36. 36. 36. 35.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:03: I am 1 and execute 36 CS.
+	 LN : [36. 35. 35. 35. 35. 35. 35. 35.]
+	 RN : [37. 36. 36. 36. 36. 36. 36. 35.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+58:07: I'm 1 and finished 36 CS.
+	 LN : [36. 35. 35. 35. 35. 35. 35. 35.]
+	 RN : [37. 36. 36. 36. 36. 36. 36. 35.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+58:07: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 0]).
+	 LN : [36. 36. 35. 35. 35. 35. 35. 35.]
+	 RN : [37. 36. 36. 36. 36. 36. 36. 35.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 0])
+58:07: I'm 1 and sending the token to 2.
+	 LN : [36. 36. 35. 35. 35. 35. 35. 35.]
+	 RN : [37. 36. 36. 36. 36. 36. 36. 35.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:07: I'm 1 and I recieved outstanding request from 7.
+	 LN : [36. 36. 35. 35. 35. 35. 35. 35.]
+	 RN : [37. 36. 36. 36. 36. 36. 36. 36.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:08: I'm 1 and want a token for the 37 time.
+	 LN : [36. 36. 35. 35. 35. 35. 35. 35.]
+	 RN : [37. 37. 36. 36. 36. 36. 36. 36.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:12: I'm 1 and I recieved outstanding request from 2.
+	 LN : [36. 36. 35. 35. 35. 35. 35. 35.]
+	 RN : [37. 37. 37. 36. 36. 36. 36. 36.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:17: I'm 1 and I recieved outstanding request from 3.
+	 LN : [36. 36. 35. 35. 35. 35. 35. 35.]
+	 RN : [37. 37. 37. 37. 36. 36. 36. 36.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:21: I'm 1 and I recieved outstanding request from 4.
+	 LN : [36. 36. 35. 35. 35. 35. 35. 35.]
+	 RN : [37. 37. 37. 37. 37. 36. 36. 36.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:24: I'm 1 and I recieved outstanding request from 5.
+	 LN : [36. 36. 35. 35. 35. 35. 35. 35.]
+	 RN : [37. 37. 37. 37. 37. 37. 36. 36.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:28: I'm 1 and I recieved outstanding request from 6.
+	 LN : [36. 36. 35. 35. 35. 35. 35. 35.]
+	 RN : [37. 37. 37. 37. 37. 37. 37. 36.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:30: I'm 1 and I recieved outstanding request from 0.
+	 LN : [36. 36. 35. 35. 35. 35. 35. 35.]
+	 RN : [38. 37. 37. 37. 37. 37. 37. 36.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:32: I'm 1 and I got a token.
+	 LN : [36. 36. 35. 35. 35. 35. 35. 35.]
+	 RN : [38. 37. 37. 37. 37. 37. 37. 36.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:32: I am 1 and execute 37 CS.
+	 LN : [37. 36. 36. 36. 36. 36. 36. 36.]
+	 RN : [38. 37. 37. 37. 37. 37. 37. 36.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+58:35: I'm 1 and finished 37 CS.
+	 LN : [37. 36. 36. 36. 36. 36. 36. 36.]
+	 RN : [38. 37. 37. 37. 37. 37. 37. 36.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6])
+58:35: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 6, 0]).
+	 LN : [37. 37. 36. 36. 36. 36. 36. 36.]
+	 RN : [38. 37. 37. 37. 37. 37. 37. 36.]
+	 Queue Understanding : deque([2, 3, 4, 5, 6, 0])
+58:35: I'm 1 and sending the token to 2.
+	 LN : [37. 37. 36. 36. 36. 36. 36. 36.]
+	 RN : [38. 37. 37. 37. 37. 37. 37. 36.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:35: I'm 1 and I recieved outstanding request from 7.
+	 LN : [37. 37. 36. 36. 36. 36. 36. 36.]
+	 RN : [38. 37. 37. 37. 37. 37. 37. 37.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:37: I'm 1 and want a token for the 38 time.
+	 LN : [37. 37. 36. 36. 36. 36. 36. 36.]
+	 RN : [38. 38. 37. 37. 37. 37. 37. 37.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:40: I'm 1 and I recieved outstanding request from 2.
+	 LN : [37. 37. 36. 36. 36. 36. 36. 36.]
+	 RN : [38. 38. 38. 37. 37. 37. 37. 37.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:42: I'm 1 and I recieved outstanding request from 3.
+	 LN : [37. 37. 36. 36. 36. 36. 36. 36.]
+	 RN : [38. 38. 38. 38. 37. 37. 37. 37.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:47: I'm 1 and I recieved outstanding request from 4.
+	 LN : [37. 37. 36. 36. 36. 36. 36. 36.]
+	 RN : [38. 38. 38. 38. 38. 37. 37. 37.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:50: I'm 1 and I recieved outstanding request from 5.
+	 LN : [37. 37. 36. 36. 36. 36. 36. 36.]
+	 RN : [38. 38. 38. 38. 38. 38. 37. 37.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:55: I'm 1 and I recieved outstanding request from 6.
+	 LN : [37. 37. 36. 36. 36. 36. 36. 36.]
+	 RN : [38. 38. 38. 38. 38. 38. 38. 37.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:56: I'm 1 and I recieved outstanding request from 0.
+	 LN : [37. 37. 36. 36. 36. 36. 36. 36.]
+	 RN : [39. 38. 38. 38. 38. 38. 38. 37.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:59: I'm 1 and I got a token.
+	 LN : [37. 37. 36. 36. 36. 36. 36. 36.]
+	 RN : [39. 38. 38. 38. 38. 38. 38. 37.]
+	 Queue Understanding : deque([3, 4, 5, 6, 0])
+58:59: I am 1 and execute 38 CS.
+	 LN : [38. 37. 37. 37. 37. 37. 37. 37.]
+	 RN : [39. 38. 38. 38. 38. 38. 38. 37.]
+	 Queue Understanding : deque([2, 3, 4, 5])
+59:03: I'm 1 and finished 38 CS.
+	 LN : [38. 37. 37. 37. 37. 37. 37. 37.]
+	 RN : [39. 38. 38. 38. 38. 38. 38. 37.]
+	 Queue Understanding : deque([2, 3, 4, 5])
+59:03: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 0]).
+	 LN : [38. 38. 37. 37. 37. 37. 37. 37.]
+	 RN : [39. 38. 38. 38. 38. 38. 38. 37.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+59:03: I'm 1 and it adds 6 to the queue. Queue after adding: deque([2, 3, 4, 5, 0, 6]).
+	 LN : [38. 38. 37. 37. 37. 37. 37. 37.]
+	 RN : [39. 38. 38. 38. 38. 38. 38. 37.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0, 6])
+59:03: I'm 1 and sending the token to 2.
+	 LN : [38. 38. 37. 37. 37. 37. 37. 37.]
+	 RN : [39. 38. 38. 38. 38. 38. 38. 37.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:03: I'm 1 and I recieved outstanding request from 7.
+	 LN : [38. 38. 37. 37. 37. 37. 37. 37.]
+	 RN : [39. 38. 38. 38. 38. 38. 38. 38.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:06: I'm 1 and want a token for the 39 time.
+	 LN : [38. 38. 37. 37. 37. 37. 37. 37.]
+	 RN : [39. 39. 38. 38. 38. 38. 38. 38.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:09: I'm 1 and I recieved outstanding request from 2.
+	 LN : [38. 38. 37. 37. 37. 37. 37. 37.]
+	 RN : [39. 39. 39. 38. 38. 38. 38. 38.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:14: I'm 1 and I recieved outstanding request from 3.
+	 LN : [38. 38. 37. 37. 37. 37. 37. 37.]
+	 RN : [39. 39. 39. 39. 38. 38. 38. 38.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:17: I'm 1 and I recieved outstanding request from 4.
+	 LN : [38. 38. 37. 37. 37. 37. 37. 37.]
+	 RN : [39. 39. 39. 39. 39. 38. 38. 38.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:21: I'm 1 and I recieved outstanding request from 5.
+	 LN : [38. 38. 37. 37. 37. 37. 37. 37.]
+	 RN : [39. 39. 39. 39. 39. 39. 38. 38.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:26: I'm 1 and I recieved outstanding request from 0.
+	 LN : [38. 38. 37. 37. 37. 37. 37. 37.]
+	 RN : [40. 39. 39. 39. 39. 39. 38. 38.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:31: I'm 1 and I recieved outstanding request from 6.
+	 LN : [38. 38. 37. 37. 37. 37. 37. 37.]
+	 RN : [40. 39. 39. 39. 39. 39. 39. 38.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:32: I'm 1 and I got a token.
+	 LN : [38. 38. 37. 37. 37. 37. 37. 37.]
+	 RN : [40. 39. 39. 39. 39. 39. 39. 38.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:32: I am 1 and execute 39 CS.
+	 LN : [39. 38. 38. 38. 38. 38. 38. 38.]
+	 RN : [40. 39. 39. 39. 39. 39. 39. 38.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+59:36: I'm 1 and finished 39 CS.
+	 LN : [39. 38. 38. 38. 38. 38. 38. 38.]
+	 RN : [40. 39. 39. 39. 39. 39. 39. 38.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+59:36: I'm 1 and it adds 6 to the queue. Queue after adding: deque([2, 3, 4, 5, 0, 6]).
+	 LN : [39. 39. 38. 38. 38. 38. 38. 38.]
+	 RN : [40. 39. 39. 39. 39. 39. 39. 38.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0, 6])
+59:36: I'm 1 and sending the token to 2.
+	 LN : [39. 39. 38. 38. 38. 38. 38. 38.]
+	 RN : [40. 39. 39. 39. 39. 39. 39. 38.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:36: I'm 1 and I recieved outstanding request from 7.
+	 LN : [39. 39. 38. 38. 38. 38. 38. 38.]
+	 RN : [40. 39. 39. 39. 39. 39. 39. 39.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:38: I'm 1 and want a token for the 40 time.
+	 LN : [39. 39. 38. 38. 38. 38. 38. 38.]
+	 RN : [40. 40. 39. 39. 39. 39. 39. 39.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:40: I'm 1 and I recieved outstanding request from 2.
+	 LN : [39. 39. 38. 38. 38. 38. 38. 38.]
+	 RN : [40. 40. 40. 39. 39. 39. 39. 39.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:42: I'm 1 and I recieved outstanding request from 3.
+	 LN : [39. 39. 38. 38. 38. 38. 38. 38.]
+	 RN : [40. 40. 40. 40. 39. 39. 39. 39.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:45: I'm 1 and I recieved outstanding request from 4.
+	 LN : [39. 39. 38. 38. 38. 38. 38. 38.]
+	 RN : [40. 40. 40. 40. 40. 39. 39. 39.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:49: I'm 1 and I recieved outstanding request from 5.
+	 LN : [39. 39. 38. 38. 38. 38. 38. 38.]
+	 RN : [40. 40. 40. 40. 40. 40. 39. 39.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:54: I'm 1 and I recieved outstanding request from 0.
+	 LN : [39. 39. 38. 38. 38. 38. 38. 38.]
+	 RN : [41. 40. 40. 40. 40. 40. 39. 39.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:56: I'm 1 and I recieved outstanding request from 6.
+	 LN : [39. 39. 38. 38. 38. 38. 38. 38.]
+	 RN : [41. 40. 40. 40. 40. 40. 40. 39.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:59: I'm 1 and I got a token.
+	 LN : [39. 39. 38. 38. 38. 38. 38. 38.]
+	 RN : [41. 40. 40. 40. 40. 40. 40. 39.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+59:59: I am 1 and execute 40 CS.
+	 LN : [40. 39. 39. 39. 39. 39. 39. 39.]
+	 RN : [41. 40. 40. 40. 40. 40. 40. 39.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+00:02: I'm 1 and finished 40 CS.
+	 LN : [40. 39. 39. 39. 39. 39. 39. 39.]
+	 RN : [41. 40. 40. 40. 40. 40. 40. 39.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+00:02: I'm 1 and it adds 6 to the queue. Queue after adding: deque([2, 3, 4, 5, 0, 6]).
+	 LN : [40. 40. 39. 39. 39. 39. 39. 39.]
+	 RN : [41. 40. 40. 40. 40. 40. 40. 39.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0, 6])
+00:02: I'm 1 and sending the token to 2.
+	 LN : [40. 40. 39. 39. 39. 39. 39. 39.]
+	 RN : [41. 40. 40. 40. 40. 40. 40. 39.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:02: I'm 1 and I recieved outstanding request from 7.
+	 LN : [40. 40. 39. 39. 39. 39. 39. 39.]
+	 RN : [41. 40. 40. 40. 40. 40. 40. 40.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:04: I'm 1 and want a token for the 41 time.
+	 LN : [40. 40. 39. 39. 39. 39. 39. 39.]
+	 RN : [41. 41. 40. 40. 40. 40. 40. 40.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:10: I'm 1 and I recieved outstanding request from 2.
+	 LN : [40. 40. 39. 39. 39. 39. 39. 39.]
+	 RN : [41. 41. 41. 40. 40. 40. 40. 40.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:12: I'm 1 and I recieved outstanding request from 3.
+	 LN : [40. 40. 39. 39. 39. 39. 39. 39.]
+	 RN : [41. 41. 41. 41. 40. 40. 40. 40.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:14: I'm 1 and I recieved outstanding request from 4.
+	 LN : [40. 40. 39. 39. 39. 39. 39. 39.]
+	 RN : [41. 41. 41. 41. 41. 40. 40. 40.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:18: I'm 1 and I recieved outstanding request from 5.
+	 LN : [40. 40. 39. 39. 39. 39. 39. 39.]
+	 RN : [41. 41. 41. 41. 41. 41. 40. 40.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:20: I'm 1 and I recieved outstanding request from 0.
+	 LN : [40. 40. 39. 39. 39. 39. 39. 39.]
+	 RN : [42. 41. 41. 41. 41. 41. 40. 40.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:23: I'm 1 and I recieved outstanding request from 6.
+	 LN : [40. 40. 39. 39. 39. 39. 39. 39.]
+	 RN : [42. 41. 41. 41. 41. 41. 41. 40.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:25: I'm 1 and I got a token.
+	 LN : [40. 40. 39. 39. 39. 39. 39. 39.]
+	 RN : [42. 41. 41. 41. 41. 41. 41. 40.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:25: I am 1 and execute 41 CS.
+	 LN : [41. 40. 40. 40. 40. 40. 40. 40.]
+	 RN : [42. 41. 41. 41. 41. 41. 41. 40.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+00:30: I'm 1 and finished 41 CS.
+	 LN : [41. 40. 40. 40. 40. 40. 40. 40.]
+	 RN : [42. 41. 41. 41. 41. 41. 41. 40.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+00:30: I'm 1 and it adds 6 to the queue. Queue after adding: deque([2, 3, 4, 5, 0, 6]).
+	 LN : [41. 41. 40. 40. 40. 40. 40. 40.]
+	 RN : [42. 41. 41. 41. 41. 41. 41. 40.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0, 6])
+00:30: I'm 1 and sending the token to 2.
+	 LN : [41. 41. 40. 40. 40. 40. 40. 40.]
+	 RN : [42. 41. 41. 41. 41. 41. 41. 40.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:30: I'm 1 and I recieved outstanding request from 7.
+	 LN : [41. 41. 40. 40. 40. 40. 40. 40.]
+	 RN : [42. 41. 41. 41. 41. 41. 41. 41.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:31: I'm 1 and want a token for the 42 time.
+	 LN : [41. 41. 40. 40. 40. 40. 40. 40.]
+	 RN : [42. 42. 41. 41. 41. 41. 41. 41.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:35: I'm 1 and I recieved outstanding request from 2.
+	 LN : [41. 41. 40. 40. 40. 40. 40. 40.]
+	 RN : [42. 42. 42. 41. 41. 41. 41. 41.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:37: I'm 1 and I recieved outstanding request from 3.
+	 LN : [41. 41. 40. 40. 40. 40. 40. 40.]
+	 RN : [42. 42. 42. 42. 41. 41. 41. 41.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:40: I'm 1 and I recieved outstanding request from 4.
+	 LN : [41. 41. 40. 40. 40. 40. 40. 40.]
+	 RN : [42. 42. 42. 42. 42. 41. 41. 41.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:45: I'm 1 and I recieved outstanding request from 5.
+	 LN : [41. 41. 40. 40. 40. 40. 40. 40.]
+	 RN : [42. 42. 42. 42. 42. 42. 41. 41.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:47: I'm 1 and I recieved outstanding request from 0.
+	 LN : [41. 41. 40. 40. 40. 40. 40. 40.]
+	 RN : [43. 42. 42. 42. 42. 42. 41. 41.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:50: I'm 1 and I recieved outstanding request from 6.
+	 LN : [41. 41. 40. 40. 40. 40. 40. 40.]
+	 RN : [43. 42. 42. 42. 42. 42. 42. 41.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:52: I'm 1 and I got a token.
+	 LN : [41. 41. 40. 40. 40. 40. 40. 40.]
+	 RN : [43. 42. 42. 42. 42. 42. 42. 41.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:52: I am 1 and execute 42 CS.
+	 LN : [42. 41. 41. 41. 41. 41. 41. 41.]
+	 RN : [43. 42. 42. 42. 42. 42. 42. 41.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+00:57: I'm 1 and finished 42 CS.
+	 LN : [42. 41. 41. 41. 41. 41. 41. 41.]
+	 RN : [43. 42. 42. 42. 42. 42. 42. 41.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+00:57: I'm 1 and it adds 6 to the queue. Queue after adding: deque([2, 3, 4, 5, 0, 6]).
+	 LN : [42. 42. 41. 41. 41. 41. 41. 41.]
+	 RN : [43. 42. 42. 42. 42. 42. 42. 41.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0, 6])
+00:57: I'm 1 and sending the token to 2.
+	 LN : [42. 42. 41. 41. 41. 41. 41. 41.]
+	 RN : [43. 42. 42. 42. 42. 42. 42. 41.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:57: I'm 1 and I recieved outstanding request from 7.
+	 LN : [42. 42. 41. 41. 41. 41. 41. 41.]
+	 RN : [43. 42. 42. 42. 42. 42. 42. 42.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+00:58: I'm 1 and want a token for the 43 time.
+	 LN : [42. 42. 41. 41. 41. 41. 41. 41.]
+	 RN : [43. 43. 42. 42. 42. 42. 42. 42.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+01:02: I'm 1 and I recieved outstanding request from 2.
+	 LN : [42. 42. 41. 41. 41. 41. 41. 41.]
+	 RN : [43. 43. 43. 42. 42. 42. 42. 42.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+01:06: I'm 1 and I recieved outstanding request from 3.
+	 LN : [42. 42. 41. 41. 41. 41. 41. 41.]
+	 RN : [43. 43. 43. 43. 42. 42. 42. 42.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+01:10: I'm 1 and I recieved outstanding request from 4.
+	 LN : [42. 42. 41. 41. 41. 41. 41. 41.]
+	 RN : [43. 43. 43. 43. 43. 42. 42. 42.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+01:16: I'm 1 and I recieved outstanding request from 5.
+	 LN : [42. 42. 41. 41. 41. 41. 41. 41.]
+	 RN : [43. 43. 43. 43. 43. 43. 42. 42.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+01:20: I'm 1 and I recieved outstanding request from 0.
+	 LN : [42. 42. 41. 41. 41. 41. 41. 41.]
+	 RN : [44. 43. 43. 43. 43. 43. 42. 42.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+01:24: I'm 1 and I recieved outstanding request from 6.
+	 LN : [42. 42. 41. 41. 41. 41. 41. 41.]
+	 RN : [44. 43. 43. 43. 43. 43. 43. 42.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+01:28: I'm 1 and I got a token.
+	 LN : [42. 42. 41. 41. 41. 41. 41. 41.]
+	 RN : [44. 43. 43. 43. 43. 43. 43. 42.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+01:28: I am 1 and execute 43 CS.
+	 LN : [43. 42. 42. 42. 42. 42. 42. 42.]
+	 RN : [44. 43. 43. 43. 43. 43. 43. 42.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+01:31: I'm 1 and finished 43 CS.
+	 LN : [43. 42. 42. 42. 42. 42. 42. 42.]
+	 RN : [44. 43. 43. 43. 43. 43. 43. 42.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+01:31: I'm 1 and it adds 6 to the queue. Queue after adding: deque([2, 3, 4, 5, 0, 6]).
+	 LN : [43. 43. 42. 42. 42. 42. 42. 42.]
+	 RN : [44. 43. 43. 43. 43. 43. 43. 42.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0, 6])
+01:31: I'm 1 and sending the token to 2.
+	 LN : [43. 43. 42. 42. 42. 42. 42. 42.]
+	 RN : [44. 43. 43. 43. 43. 43. 43. 42.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+01:31: I'm 1 and I recieved outstanding request from 7.
+	 LN : [43. 43. 42. 42. 42. 42. 42. 42.]
+	 RN : [44. 43. 43. 43. 43. 43. 43. 43.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+01:33: I'm 1 and want a token for the 44 time.
+	 LN : [43. 43. 42. 42. 42. 42. 42. 42.]
+	 RN : [44. 44. 43. 43. 43. 43. 43. 43.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+01:37: I'm 1 and I recieved outstanding request from 2.
+	 LN : [43. 43. 42. 42. 42. 42. 42. 42.]
+	 RN : [44. 44. 44. 43. 43. 43. 43. 43.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+01:42: I'm 1 and I recieved outstanding request from 3.
+	 LN : [43. 43. 42. 42. 42. 42. 42. 42.]
+	 RN : [44. 44. 44. 44. 43. 43. 43. 43.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+01:45: I'm 1 and I recieved outstanding request from 4.
+	 LN : [43. 43. 42. 42. 42. 42. 42. 42.]
+	 RN : [44. 44. 44. 44. 44. 43. 43. 43.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+01:49: I'm 1 and I recieved outstanding request from 5.
+	 LN : [43. 43. 42. 42. 42. 42. 42. 42.]
+	 RN : [44. 44. 44. 44. 44. 44. 43. 43.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+01:54: I'm 1 and I recieved outstanding request from 0.
+	 LN : [43. 43. 42. 42. 42. 42. 42. 42.]
+	 RN : [45. 44. 44. 44. 44. 44. 43. 43.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+01:56: I'm 1 and I got a token.
+	 LN : [43. 43. 42. 42. 42. 42. 42. 42.]
+	 RN : [45. 44. 44. 44. 44. 44. 43. 43.]
+	 Queue Understanding : deque([3, 4, 5, 0, 6])
+01:56: I am 1 and execute 44 CS.
+	 LN : [44. 43. 43. 43. 43. 43. 43. 43.]
+	 RN : [45. 44. 44. 44. 44. 44. 43. 43.]
+	 Queue Understanding : deque([2, 3, 4, 5])
+01:59: I'm 1 and finished 44 CS.
+	 LN : [44. 43. 43. 43. 43. 43. 43. 43.]
+	 RN : [45. 44. 44. 44. 44. 44. 43. 43.]
+	 Queue Understanding : deque([2, 3, 4, 5])
+01:59: I'm 1 and it adds 0 to the queue. Queue after adding: deque([2, 3, 4, 5, 0]).
+	 LN : [44. 44. 43. 43. 43. 43. 43. 43.]
+	 RN : [45. 44. 44. 44. 44. 44. 43. 43.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+01:59: I'm 1 and sending the token to 2.
+	 LN : [44. 44. 43. 43. 43. 43. 43. 43.]
+	 RN : [45. 44. 44. 44. 44. 44. 43. 43.]
+	 Queue Understanding : deque([3, 4, 5, 0])
+01:59: I'm 1 and I recieved outstanding request from 6.
+	 LN : [44. 44. 43. 43. 43. 43. 43. 43.]
+	 RN : [45. 44. 44. 44. 44. 44. 44. 43.]
+	 Queue Understanding : deque([3, 4, 5, 0])
+01:59: I'm 1 and I recieved outstanding request from 7.
+	 LN : [44. 44. 43. 43. 43. 43. 43. 43.]
+	 RN : [45. 44. 44. 44. 44. 44. 44. 44.]
+	 Queue Understanding : deque([3, 4, 5, 0])
+02:01: I'm 1 and want a token for the 45 time.
+	 LN : [44. 44. 43. 43. 43. 43. 43. 43.]
+	 RN : [45. 45. 44. 44. 44. 44. 44. 44.]
+	 Queue Understanding : deque([3, 4, 5, 0])
+02:05: I'm 1 and I recieved outstanding request from 2.
+	 LN : [44. 44. 43. 43. 43. 43. 43. 43.]
+	 RN : [45. 45. 45. 44. 44. 44. 44. 44.]
+	 Queue Understanding : deque([3, 4, 5, 0])
+02:09: I'm 1 and I recieved outstanding request from 3.
+	 LN : [44. 44. 43. 43. 43. 43. 43. 43.]
+	 RN : [45. 45. 45. 45. 44. 44. 44. 44.]
+	 Queue Understanding : deque([3, 4, 5, 0])
+02:12: I'm 1 and I recieved outstanding request from 4.
+	 LN : [44. 44. 43. 43. 43. 43. 43. 43.]
+	 RN : [45. 45. 45. 45. 45. 44. 44. 44.]
+	 Queue Understanding : deque([3, 4, 5, 0])
+02:16: I'm 1 and I recieved outstanding request from 5.
+	 LN : [44. 44. 43. 43. 43. 43. 43. 43.]
+	 RN : [45. 45. 45. 45. 45. 45. 44. 44.]
+	 Queue Understanding : deque([3, 4, 5, 0])
+02:20: I'm 1 and I recieved outstanding request from 0.
+	 LN : [44. 44. 43. 43. 43. 43. 43. 43.]
+	 RN : [46. 45. 45. 45. 45. 45. 44. 44.]
+	 Queue Understanding : deque([3, 4, 5, 0])
+02:23: I'm 1 and I got a token.
+	 LN : [44. 44. 43. 43. 43. 43. 43. 43.]
+	 RN : [46. 45. 45. 45. 45. 45. 44. 44.]
+	 Queue Understanding : deque([3, 4, 5, 0])
+02:23: I am 1 and execute 45 CS.
+	 LN : [45. 44. 44. 44. 44. 44. 44. 43.]
+	 RN : [46. 45. 45. 45. 45. 45. 44. 44.]
+	 Queue Understanding : deque([7, 2, 3, 4, 5])
+02:25: I'm 1 and finished 45 CS.
+	 LN : [45. 44. 44. 44. 44. 44. 44. 43.]
+	 RN : [46. 45. 45. 45. 45. 45. 44. 44.]
+	 Queue Understanding : deque([7, 2, 3, 4, 5])
+02:25: I'm 1 and it adds 0 to the queue. Queue after adding: deque([7, 2, 3, 4, 5, 0]).
+	 LN : [45. 45. 44. 44. 44. 44. 44. 43.]
+	 RN : [46. 45. 45. 45. 45. 45. 44. 44.]
+	 Queue Understanding : deque([7, 2, 3, 4, 5, 0])
+02:25: I'm 1 and sending the token to 7.
+	 LN : [45. 45. 44. 44. 44. 44. 44. 43.]
+	 RN : [46. 45. 45. 45. 45. 45. 44. 44.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+02:25: I'm 1 and I recieved outstanding request from 6.
+	 LN : [45. 45. 44. 44. 44. 44. 44. 43.]
+	 RN : [46. 45. 45. 45. 45. 45. 45. 44.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+02:28: I'm 1 and want a token for the 46 time.
+	 LN : [45. 45. 44. 44. 44. 44. 44. 43.]
+	 RN : [46. 46. 45. 45. 45. 45. 45. 44.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+02:31: I'm 1 and I recieved outstanding request from 7.
+	 LN : [45. 45. 44. 44. 44. 44. 44. 43.]
+	 RN : [46. 46. 45. 45. 45. 45. 45. 45.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+02:33: I'm 1 and I recieved outstanding request from 2.
+	 LN : [45. 45. 44. 44. 44. 44. 44. 43.]
+	 RN : [46. 46. 46. 45. 45. 45. 45. 45.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+02:38: I'm 1 and I recieved outstanding request from 3.
+	 LN : [45. 45. 44. 44. 44. 44. 44. 43.]
+	 RN : [46. 46. 46. 46. 45. 45. 45. 45.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+02:39: I'm 1 and I recieved outstanding request from 4.
+	 LN : [45. 45. 44. 44. 44. 44. 44. 43.]
+	 RN : [46. 46. 46. 46. 46. 45. 45. 45.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+02:42: I'm 1 and I recieved outstanding request from 5.
+	 LN : [45. 45. 44. 44. 44. 44. 44. 43.]
+	 RN : [46. 46. 46. 46. 46. 46. 45. 45.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+02:45: I'm 1 and I got a token.
+	 LN : [45. 45. 44. 44. 44. 44. 44. 43.]
+	 RN : [46. 46. 46. 46. 46. 46. 45. 45.]
+	 Queue Understanding : deque([2, 3, 4, 5, 0])
+02:45: I am 1 and execute 46 CS.
+	 LN : [46. 45. 45. 45. 45. 45. 44. 44.]
+	 RN : [46. 46. 46. 46. 46. 46. 45. 45.]
+	 Queue Understanding : deque([6, 2, 7, 3, 4])
+02:48: I'm 1 and finished 46 CS.
+	 LN : [46. 45. 45. 45. 45. 45. 44. 44.]
+	 RN : [46. 46. 46. 46. 46. 46. 45. 45.]
+	 Queue Understanding : deque([6, 2, 7, 3, 4])
+02:48: I'm 1 and it adds 5 to the queue. Queue after adding: deque([6, 2, 7, 3, 4, 5]).
+	 LN : [46. 46. 45. 45. 45. 45. 44. 44.]
+	 RN : [46. 46. 46. 46. 46. 46. 45. 45.]
+	 Queue Understanding : deque([6, 2, 7, 3, 4, 5])
+02:48: I'm 1 and sending the token to 6.
+	 LN : [46. 46. 45. 45. 45. 45. 44. 44.]
+	 RN : [46. 46. 46. 46. 46. 46. 45. 45.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+02:48: I'm 1 and I recieved outstanding request from 0.
+	 LN : [46. 46. 45. 45. 45. 45. 44. 44.]
+	 RN : [47. 46. 46. 46. 46. 46. 45. 45.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+02:49: I'm 1 and want a token for the 47 time.
+	 LN : [46. 46. 45. 45. 45. 45. 44. 44.]
+	 RN : [47. 47. 46. 46. 46. 46. 45. 45.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+02:54: I'm 1 and I recieved outstanding request from 6.
+	 LN : [46. 46. 45. 45. 45. 45. 44. 44.]
+	 RN : [47. 47. 46. 46. 46. 46. 46. 45.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+02:57: I'm 1 and I recieved outstanding request from 2.
+	 LN : [46. 46. 45. 45. 45. 45. 44. 44.]
+	 RN : [47. 47. 47. 46. 46. 46. 46. 45.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+03:01: I'm 1 and I recieved outstanding request from 7.
+	 LN : [46. 46. 45. 45. 45. 45. 44. 44.]
+	 RN : [47. 47. 47. 46. 46. 46. 46. 46.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+03:05: I'm 1 and I recieved outstanding request from 3.
+	 LN : [46. 46. 45. 45. 45. 45. 44. 44.]
+	 RN : [47. 47. 47. 47. 46. 46. 46. 46.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+03:09: I'm 1 and I recieved outstanding request from 4.
+	 LN : [46. 46. 45. 45. 45. 45. 44. 44.]
+	 RN : [47. 47. 47. 47. 47. 46. 46. 46.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+03:12: I'm 1 and I recieved outstanding request from 5.
+	 LN : [46. 46. 45. 45. 45. 45. 44. 44.]
+	 RN : [47. 47. 47. 47. 47. 47. 46. 46.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+03:13: I'm 1 and I got a token.
+	 LN : [46. 46. 45. 45. 45. 45. 44. 44.]
+	 RN : [47. 47. 47. 47. 47. 47. 46. 46.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+03:13: I am 1 and execute 47 CS.
+	 LN : [47. 46. 46. 46. 46. 46. 45. 45.]
+	 RN : [47. 47. 47. 47. 47. 47. 46. 46.]
+	 Queue Understanding : deque([6, 2, 7, 3, 4])
+03:16: I'm 1 and finished 47 CS.
+	 LN : [47. 46. 46. 46. 46. 46. 45. 45.]
+	 RN : [47. 47. 47. 47. 47. 47. 46. 46.]
+	 Queue Understanding : deque([6, 2, 7, 3, 4])
+03:16: I'm 1 and it adds 5 to the queue. Queue after adding: deque([6, 2, 7, 3, 4, 5]).
+	 LN : [47. 47. 46. 46. 46. 46. 45. 45.]
+	 RN : [47. 47. 47. 47. 47. 47. 46. 46.]
+	 Queue Understanding : deque([6, 2, 7, 3, 4, 5])
+03:16: I'm 1 and sending the token to 6.
+	 LN : [47. 47. 46. 46. 46. 46. 45. 45.]
+	 RN : [47. 47. 47. 47. 47. 47. 46. 46.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+03:16: I'm 1 and I recieved outstanding request from 0.
+	 LN : [47. 47. 46. 46. 46. 46. 45. 45.]
+	 RN : [48. 47. 47. 47. 47. 47. 46. 46.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+03:18: I'm 1 and want a token for the 48 time.
+	 LN : [47. 47. 46. 46. 46. 46. 45. 45.]
+	 RN : [48. 48. 47. 47. 47. 47. 46. 46.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+03:23: I'm 1 and I recieved outstanding request from 6.
+	 LN : [47. 47. 46. 46. 46. 46. 45. 45.]
+	 RN : [48. 48. 47. 47. 47. 47. 47. 46.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+03:24: I'm 1 and I recieved outstanding request from 2.
+	 LN : [47. 47. 46. 46. 46. 46. 45. 45.]
+	 RN : [48. 48. 48. 47. 47. 47. 47. 46.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+03:30: I'm 1 and I recieved outstanding request from 7.
+	 LN : [47. 47. 46. 46. 46. 46. 45. 45.]
+	 RN : [48. 48. 48. 47. 47. 47. 47. 47.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+03:32: I'm 1 and I recieved outstanding request from 3.
+	 LN : [47. 47. 46. 46. 46. 46. 45. 45.]
+	 RN : [48. 48. 48. 48. 47. 47. 47. 47.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+03:36: I'm 1 and I recieved outstanding request from 4.
+	 LN : [47. 47. 46. 46. 46. 46. 45. 45.]
+	 RN : [48. 48. 48. 48. 48. 47. 47. 47.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+03:40: I'm 1 and I recieved outstanding request from 5.
+	 LN : [47. 47. 46. 46. 46. 46. 45. 45.]
+	 RN : [48. 48. 48. 48. 48. 48. 47. 47.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+03:40: I'm 1 and I got a token.
+	 LN : [47. 47. 46. 46. 46. 46. 45. 45.]
+	 RN : [48. 48. 48. 48. 48. 48. 47. 47.]
+	 Queue Understanding : deque([2, 7, 3, 4, 5])
+03:40: I am 1 and execute 48 CS.
+	 LN : [48. 47. 47. 47. 47. 47. 46. 46.]
+	 RN : [48. 48. 48. 48. 48. 48. 47. 47.]
+	 Queue Understanding : deque([6, 2, 3, 7, 4])
+03:42: I'm 1 and finished 48 CS.
+	 LN : [48. 47. 47. 47. 47. 47. 46. 46.]
+	 RN : [48. 48. 48. 48. 48. 48. 47. 47.]
+	 Queue Understanding : deque([6, 2, 3, 7, 4])
+03:42: I'm 1 and it adds 5 to the queue. Queue after adding: deque([6, 2, 3, 7, 4, 5]).
+	 LN : [48. 48. 47. 47. 47. 47. 46. 46.]
+	 RN : [48. 48. 48. 48. 48. 48. 47. 47.]
+	 Queue Understanding : deque([6, 2, 3, 7, 4, 5])
+03:42: I'm 1 and sending the token to 6.
+	 LN : [48. 48. 47. 47. 47. 47. 46. 46.]
+	 RN : [48. 48. 48. 48. 48. 48. 47. 47.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+03:43: I'm 1 and I recieved outstanding request from 0.
+	 LN : [48. 48. 47. 47. 47. 47. 46. 46.]
+	 RN : [49. 48. 48. 48. 48. 48. 47. 47.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+03:44: I'm 1 and want a token for the 49 time.
+	 LN : [48. 48. 47. 47. 47. 47. 46. 46.]
+	 RN : [49. 49. 48. 48. 48. 48. 47. 47.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+03:45: I'm 1 and I recieved outstanding request from 6.
+	 LN : [48. 48. 47. 47. 47. 47. 46. 46.]
+	 RN : [49. 49. 48. 48. 48. 48. 48. 47.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+03:50: I'm 1 and I recieved outstanding request from 2.
+	 LN : [48. 48. 47. 47. 47. 47. 46. 46.]
+	 RN : [49. 49. 49. 48. 48. 48. 48. 47.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+03:53: I'm 1 and I recieved outstanding request from 3.
+	 LN : [48. 48. 47. 47. 47. 47. 46. 46.]
+	 RN : [49. 49. 49. 49. 48. 48. 48. 47.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+03:57: I'm 1 and I recieved outstanding request from 7.
+	 LN : [48. 48. 47. 47. 47. 47. 46. 46.]
+	 RN : [49. 49. 49. 49. 48. 48. 48. 48.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+04:01: I'm 1 and I recieved outstanding request from 4.
+	 LN : [48. 48. 47. 47. 47. 47. 46. 46.]
+	 RN : [49. 49. 49. 49. 49. 48. 48. 48.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+04:05: I'm 1 and I recieved outstanding request from 5.
+	 LN : [48. 48. 47. 47. 47. 47. 46. 46.]
+	 RN : [49. 49. 49. 49. 49. 49. 48. 48.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+04:08: I'm 1 and I got a token.
+	 LN : [48. 48. 47. 47. 47. 47. 46. 46.]
+	 RN : [49. 49. 49. 49. 49. 49. 48. 48.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+04:08: I am 1 and execute 49 CS.
+	 LN : [49. 48. 48. 48. 48. 48. 47. 47.]
+	 RN : [49. 49. 49. 49. 49. 49. 48. 48.]
+	 Queue Understanding : deque([6, 2, 3, 7, 4])
+04:10: I'm 1 and finished 49 CS.
+	 LN : [49. 48. 48. 48. 48. 48. 47. 47.]
+	 RN : [49. 49. 49. 49. 49. 49. 48. 48.]
+	 Queue Understanding : deque([6, 2, 3, 7, 4])
+04:10: I'm 1 and it adds 5 to the queue. Queue after adding: deque([6, 2, 3, 7, 4, 5]).
+	 LN : [49. 49. 48. 48. 48. 48. 47. 47.]
+	 RN : [49. 49. 49. 49. 49. 49. 48. 48.]
+	 Queue Understanding : deque([6, 2, 3, 7, 4, 5])
+04:10: I'm 1 and sending the token to 6.
+	 LN : [49. 49. 48. 48. 48. 48. 47. 47.]
+	 RN : [49. 49. 49. 49. 49. 49. 48. 48.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+04:11: I'm 1 and I recieved outstanding request from 0.
+	 LN : [49. 49. 48. 48. 48. 48. 47. 47.]
+	 RN : [50. 49. 49. 49. 49. 49. 48. 48.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+04:13: I'm 1 and want a token for the 50 time.
+	 LN : [49. 49. 48. 48. 48. 48. 47. 47.]
+	 RN : [50. 50. 49. 49. 49. 49. 48. 48.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+04:17: I'm 1 and I recieved outstanding request from 6.
+	 LN : [49. 49. 48. 48. 48. 48. 47. 47.]
+	 RN : [50. 50. 49. 49. 49. 49. 49. 48.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+04:20: I'm 1 and I recieved outstanding request from 2.
+	 LN : [49. 49. 48. 48. 48. 48. 47. 47.]
+	 RN : [50. 50. 50. 49. 49. 49. 49. 48.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+04:25: I'm 1 and I recieved outstanding request from 3.
+	 LN : [49. 49. 48. 48. 48. 48. 47. 47.]
+	 RN : [50. 50. 50. 50. 49. 49. 49. 48.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+04:30: I'm 1 and I recieved outstanding request from 7.
+	 LN : [49. 49. 48. 48. 48. 48. 47. 47.]
+	 RN : [50. 50. 50. 50. 49. 49. 49. 49.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+04:32: I'm 1 and I recieved outstanding request from 4.
+	 LN : [49. 49. 48. 48. 48. 48. 47. 47.]
+	 RN : [50. 50. 50. 50. 50. 49. 49. 49.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+04:34: I'm 1 and I recieved outstanding request from 5.
+	 LN : [49. 49. 48. 48. 48. 48. 47. 47.]
+	 RN : [50. 50. 50. 50. 50. 50. 49. 49.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+04:37: I'm 1 and I got a token.
+	 LN : [49. 49. 48. 48. 48. 48. 47. 47.]
+	 RN : [50. 50. 50. 50. 50. 50. 49. 49.]
+	 Queue Understanding : deque([2, 3, 7, 4, 5])
+04:37: I am 1 and execute 50 CS.
+	 LN : [50. 49. 49. 49. 49. 49. 48. 48.]
+	 RN : [50. 50. 50. 50. 50. 50. 49. 49.]
+	 Queue Understanding : deque([6, 2, 3, 4, 7])
+04:40: I'm 1 and finished 50 CS.
+	 LN : [50. 49. 49. 49. 49. 49. 48. 48.]
+	 RN : [50. 50. 50. 50. 50. 50. 49. 49.]
+	 Queue Understanding : deque([6, 2, 3, 4, 7])
+04:40: I'm 1 and it adds 5 to the queue. Queue after adding: deque([6, 2, 3, 4, 7, 5]).
+	 LN : [50. 50. 49. 49. 49. 49. 48. 48.]
+	 RN : [50. 50. 50. 50. 50. 50. 49. 49.]
+	 Queue Understanding : deque([6, 2, 3, 4, 7, 5])
+04:40: I'm 1 and sending the token to 6.
+	 LN : [50. 50. 49. 49. 49. 49. 48. 48.]
+	 RN : [50. 50. 50. 50. 50. 50. 49. 49.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+04:40: I'm 1 and I recieved outstanding request from 0.
+	 LN : [50. 50. 49. 49. 49. 49. 48. 48.]
+	 RN : [51. 50. 50. 50. 50. 50. 49. 49.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+04:43: I'm 1 and want a token for the 51 time.
+	 LN : [50. 50. 49. 49. 49. 49. 48. 48.]
+	 RN : [51. 51. 50. 50. 50. 50. 49. 49.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+04:46: I'm 1 and I recieved outstanding request from 6.
+	 LN : [50. 50. 49. 49. 49. 49. 48. 48.]
+	 RN : [51. 51. 50. 50. 50. 50. 50. 49.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+04:50: I'm 1 and I recieved outstanding request from 2.
+	 LN : [50. 50. 49. 49. 49. 49. 48. 48.]
+	 RN : [51. 51. 51. 50. 50. 50. 50. 49.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+04:56: I'm 1 and I recieved outstanding request from 3.
+	 LN : [50. 50. 49. 49. 49. 49. 48. 48.]
+	 RN : [51. 51. 51. 51. 50. 50. 50. 49.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+04:59: I'm 1 and I recieved outstanding request from 4.
+	 LN : [50. 50. 49. 49. 49. 49. 48. 48.]
+	 RN : [51. 51. 51. 51. 51. 50. 50. 49.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:03: I'm 1 and I recieved outstanding request from 7.
+	 LN : [50. 50. 49. 49. 49. 49. 48. 48.]
+	 RN : [51. 51. 51. 51. 51. 50. 50. 50.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:07: I'm 1 and I recieved outstanding request from 5.
+	 LN : [50. 50. 49. 49. 49. 49. 48. 48.]
+	 RN : [51. 51. 51. 51. 51. 51. 50. 50.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:10: I'm 1 and I got a token.
+	 LN : [50. 50. 49. 49. 49. 49. 48. 48.]
+	 RN : [51. 51. 51. 51. 51. 51. 50. 50.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:10: I am 1 and execute 51 CS.
+	 LN : [51. 50. 50. 50. 50. 50. 49. 49.]
+	 RN : [51. 51. 51. 51. 51. 51. 50. 50.]
+	 Queue Understanding : deque([6, 2, 3, 4, 7])
+05:14: I'm 1 and finished 51 CS.
+	 LN : [51. 50. 50. 50. 50. 50. 49. 49.]
+	 RN : [51. 51. 51. 51. 51. 51. 50. 50.]
+	 Queue Understanding : deque([6, 2, 3, 4, 7])
+05:14: I'm 1 and it adds 5 to the queue. Queue after adding: deque([6, 2, 3, 4, 7, 5]).
+	 LN : [51. 51. 50. 50. 50. 50. 49. 49.]
+	 RN : [51. 51. 51. 51. 51. 51. 50. 50.]
+	 Queue Understanding : deque([6, 2, 3, 4, 7, 5])
+05:14: I'm 1 and sending the token to 6.
+	 LN : [51. 51. 50. 50. 50. 50. 49. 49.]
+	 RN : [51. 51. 51. 51. 51. 51. 50. 50.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:14: I'm 1 and I recieved outstanding request from 0.
+	 LN : [51. 51. 50. 50. 50. 50. 49. 49.]
+	 RN : [52. 51. 51. 51. 51. 51. 50. 50.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:16: I'm 1 and want a token for the 52 time.
+	 LN : [51. 51. 50. 50. 50. 50. 49. 49.]
+	 RN : [52. 52. 51. 51. 51. 51. 50. 50.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:20: I'm 1 and I recieved outstanding request from 6.
+	 LN : [51. 51. 50. 50. 50. 50. 49. 49.]
+	 RN : [52. 52. 51. 51. 51. 51. 51. 50.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:24: I'm 1 and I recieved outstanding request from 2.
+	 LN : [51. 51. 50. 50. 50. 50. 49. 49.]
+	 RN : [52. 52. 52. 51. 51. 51. 51. 50.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:27: I'm 1 and I recieved outstanding request from 3.
+	 LN : [51. 51. 50. 50. 50. 50. 49. 49.]
+	 RN : [52. 52. 52. 52. 51. 51. 51. 50.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:30: I'm 1 and I recieved outstanding request from 4.
+	 LN : [51. 51. 50. 50. 50. 50. 49. 49.]
+	 RN : [52. 52. 52. 52. 52. 51. 51. 50.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:34: I'm 1 and I recieved outstanding request from 7.
+	 LN : [51. 51. 50. 50. 50. 50. 49. 49.]
+	 RN : [52. 52. 52. 52. 52. 51. 51. 51.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:37: I'm 1 and I recieved outstanding request from 5.
+	 LN : [51. 51. 50. 50. 50. 50. 49. 49.]
+	 RN : [52. 52. 52. 52. 52. 52. 51. 51.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:38: I'm 1 and I got a token.
+	 LN : [51. 51. 50. 50. 50. 50. 49. 49.]
+	 RN : [52. 52. 52. 52. 52. 52. 51. 51.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:38: I am 1 and execute 52 CS.
+	 LN : [52. 51. 51. 51. 51. 51. 50. 50.]
+	 RN : [52. 52. 52. 52. 52. 52. 51. 51.]
+	 Queue Understanding : deque([6, 2, 3, 4, 7])
+05:42: I'm 1 and finished 52 CS.
+	 LN : [52. 51. 51. 51. 51. 51. 50. 50.]
+	 RN : [52. 52. 52. 52. 52. 52. 51. 51.]
+	 Queue Understanding : deque([6, 2, 3, 4, 7])
+05:42: I'm 1 and it adds 5 to the queue. Queue after adding: deque([6, 2, 3, 4, 7, 5]).
+	 LN : [52. 52. 51. 51. 51. 51. 50. 50.]
+	 RN : [52. 52. 52. 52. 52. 52. 51. 51.]
+	 Queue Understanding : deque([6, 2, 3, 4, 7, 5])
+05:42: I'm 1 and sending the token to 6.
+	 LN : [52. 52. 51. 51. 51. 51. 50. 50.]
+	 RN : [52. 52. 52. 52. 52. 52. 51. 51.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:42: I'm 1 and I recieved outstanding request from 0.
+	 LN : [52. 52. 51. 51. 51. 51. 50. 50.]
+	 RN : [53. 52. 52. 52. 52. 52. 51. 51.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:44: I'm 1 and want a token for the 53 time.
+	 LN : [52. 52. 51. 51. 51. 51. 50. 50.]
+	 RN : [53. 53. 52. 52. 52. 52. 51. 51.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:47: I'm 1 and I recieved outstanding request from 6.
+	 LN : [52. 52. 51. 51. 51. 51. 50. 50.]
+	 RN : [53. 53. 52. 52. 52. 52. 52. 51.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:53: I'm 1 and I recieved outstanding request from 2.
+	 LN : [52. 52. 51. 51. 51. 51. 50. 50.]
+	 RN : [53. 53. 53. 52. 52. 52. 52. 51.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:57: I'm 1 and I recieved outstanding request from 3.
+	 LN : [52. 52. 51. 51. 51. 51. 50. 50.]
+	 RN : [53. 53. 53. 53. 52. 52. 52. 51.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+05:59: I'm 1 and I recieved outstanding request from 4.
+	 LN : [52. 52. 51. 51. 51. 51. 50. 50.]
+	 RN : [53. 53. 53. 53. 53. 52. 52. 51.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:02: I'm 1 and I recieved outstanding request from 7.
+	 LN : [52. 52. 51. 51. 51. 51. 50. 50.]
+	 RN : [53. 53. 53. 53. 53. 52. 52. 52.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:06: I'm 1 and I recieved outstanding request from 5.
+	 LN : [52. 52. 51. 51. 51. 51. 50. 50.]
+	 RN : [53. 53. 53. 53. 53. 53. 52. 52.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:10: I'm 1 and I got a token.
+	 LN : [52. 52. 51. 51. 51. 51. 50. 50.]
+	 RN : [53. 53. 53. 53. 53. 53. 52. 52.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:10: I am 1 and execute 53 CS.
+	 LN : [53. 52. 52. 52. 52. 52. 51. 51.]
+	 RN : [53. 53. 53. 53. 53. 53. 52. 52.]
+	 Queue Understanding : deque([6, 2, 3, 4, 7])
+06:15: I'm 1 and finished 53 CS.
+	 LN : [53. 52. 52. 52. 52. 52. 51. 51.]
+	 RN : [53. 53. 53. 53. 53. 53. 52. 52.]
+	 Queue Understanding : deque([6, 2, 3, 4, 7])
+06:15: I'm 1 and it adds 5 to the queue. Queue after adding: deque([6, 2, 3, 4, 7, 5]).
+	 LN : [53. 53. 52. 52. 52. 52. 51. 51.]
+	 RN : [53. 53. 53. 53. 53. 53. 52. 52.]
+	 Queue Understanding : deque([6, 2, 3, 4, 7, 5])
+06:15: I'm 1 and sending the token to 6.
+	 LN : [53. 53. 52. 52. 52. 52. 51. 51.]
+	 RN : [53. 53. 53. 53. 53. 53. 52. 52.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:15: I'm 1 and I recieved outstanding request from 0.
+	 LN : [53. 53. 52. 52. 52. 52. 51. 51.]
+	 RN : [54. 53. 53. 53. 53. 53. 52. 52.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:16: I'm 1 and want a token for the 54 time.
+	 LN : [53. 53. 52. 52. 52. 52. 51. 51.]
+	 RN : [54. 54. 53. 53. 53. 53. 52. 52.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:18: I'm 1 and I recieved outstanding request from 6.
+	 LN : [53. 53. 52. 52. 52. 52. 51. 51.]
+	 RN : [54. 54. 53. 53. 53. 53. 53. 52.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:23: I'm 1 and I recieved outstanding request from 2.
+	 LN : [53. 53. 52. 52. 52. 52. 51. 51.]
+	 RN : [54. 54. 54. 53. 53. 53. 53. 52.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:26: I'm 1 and I recieved outstanding request from 3.
+	 LN : [53. 53. 52. 52. 52. 52. 51. 51.]
+	 RN : [54. 54. 54. 54. 53. 53. 53. 52.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:29: I'm 1 and I recieved outstanding request from 4.
+	 LN : [53. 53. 52. 52. 52. 52. 51. 51.]
+	 RN : [54. 54. 54. 54. 54. 53. 53. 52.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:33: I'm 1 and I recieved outstanding request from 7.
+	 LN : [53. 53. 52. 52. 52. 52. 51. 51.]
+	 RN : [54. 54. 54. 54. 54. 53. 53. 53.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:36: I'm 1 and I recieved outstanding request from 5.
+	 LN : [53. 53. 52. 52. 52. 52. 51. 51.]
+	 RN : [54. 54. 54. 54. 54. 54. 53. 53.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:39: I'm 1 and I got a token.
+	 LN : [53. 53. 52. 52. 52. 52. 51. 51.]
+	 RN : [54. 54. 54. 54. 54. 54. 53. 53.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:39: I am 1 and execute 54 CS.
+	 LN : [54. 53. 53. 53. 53. 53. 52. 52.]
+	 RN : [54. 54. 54. 54. 54. 54. 53. 53.]
+	 Queue Understanding : deque([6, 2, 3, 4, 7])
+06:43: I'm 1 and finished 54 CS.
+	 LN : [54. 53. 53. 53. 53. 53. 52. 52.]
+	 RN : [54. 54. 54. 54. 54. 54. 53. 53.]
+	 Queue Understanding : deque([6, 2, 3, 4, 7])
+06:43: I'm 1 and it adds 5 to the queue. Queue after adding: deque([6, 2, 3, 4, 7, 5]).
+	 LN : [54. 54. 53. 53. 53. 53. 52. 52.]
+	 RN : [54. 54. 54. 54. 54. 54. 53. 53.]
+	 Queue Understanding : deque([6, 2, 3, 4, 7, 5])
+06:43: I'm 1 and sending the token to 6.
+	 LN : [54. 54. 53. 53. 53. 53. 52. 52.]
+	 RN : [54. 54. 54. 54. 54. 54. 53. 53.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:43: I'm 1 and I recieved outstanding request from 0.
+	 LN : [54. 54. 53. 53. 53. 53. 52. 52.]
+	 RN : [55. 54. 54. 54. 54. 54. 53. 53.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:45: I'm 1 and want a token for the 55 time.
+	 LN : [54. 54. 53. 53. 53. 53. 52. 52.]
+	 RN : [55. 55. 54. 54. 54. 54. 53. 53.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:50: I'm 1 and I recieved outstanding request from 6.
+	 LN : [54. 54. 53. 53. 53. 53. 52. 52.]
+	 RN : [55. 55. 54. 54. 54. 54. 54. 53.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:53: I'm 1 and I recieved outstanding request from 2.
+	 LN : [54. 54. 53. 53. 53. 53. 52. 52.]
+	 RN : [55. 55. 55. 54. 54. 54. 54. 53.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+06:56: I'm 1 and I recieved outstanding request from 3.
+	 LN : [54. 54. 53. 53. 53. 53. 52. 52.]
+	 RN : [55. 55. 55. 55. 54. 54. 54. 53.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+07:00: I'm 1 and I recieved outstanding request from 4.
+	 LN : [54. 54. 53. 53. 53. 53. 52. 52.]
+	 RN : [55. 55. 55. 55. 55. 54. 54. 53.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+07:05: I'm 1 and I recieved outstanding request from 7.
+	 LN : [54. 54. 53. 53. 53. 53. 52. 52.]
+	 RN : [55. 55. 55. 55. 55. 54. 54. 54.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+07:06: I'm 1 and I recieved outstanding request from 5.
+	 LN : [54. 54. 53. 53. 53. 53. 52. 52.]
+	 RN : [55. 55. 55. 55. 55. 55. 54. 54.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+07:07: I'm 1 and I got a token.
+	 LN : [54. 54. 53. 53. 53. 53. 52. 52.]
+	 RN : [55. 55. 55. 55. 55. 55. 54. 54.]
+	 Queue Understanding : deque([2, 3, 4, 7, 5])
+07:07: I am 1 and execute 55 CS.
+	 LN : [55. 54. 54. 54. 54. 54. 53. 53.]
+	 RN : [55. 55. 55. 55. 55. 55. 54. 54.]
+	 Queue Understanding : deque([6, 2, 3, 4])
+07:11: I'm 1 and finished 55 CS.
+	 LN : [55. 54. 54. 54. 54. 54. 53. 53.]
+	 RN : [55. 55. 55. 55. 55. 55. 54. 54.]
+	 Queue Understanding : deque([6, 2, 3, 4])
+07:11: I'm 1 and it adds 5 to the queue. Queue after adding: deque([6, 2, 3, 4, 5]).
+	 LN : [55. 55. 54. 54. 54. 54. 53. 53.]
+	 RN : [55. 55. 55. 55. 55. 55. 54. 54.]
+	 Queue Understanding : deque([6, 2, 3, 4, 5])
+07:11: I'm 1 and it adds 7 to the queue. Queue after adding: deque([6, 2, 3, 4, 5, 7]).
+	 LN : [55. 55. 54. 54. 54. 54. 53. 53.]
+	 RN : [55. 55. 55. 55. 55. 55. 54. 54.]
+	 Queue Understanding : deque([6, 2, 3, 4, 5, 7])
+07:11: I'm 1 and sending the token to 6.
+	 LN : [55. 55. 54. 54. 54. 54. 53. 53.]
+	 RN : [55. 55. 55. 55. 55. 55. 54. 54.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+07:11: I'm 1 and I recieved outstanding request from 0.
+	 LN : [55. 55. 54. 54. 54. 54. 53. 53.]
+	 RN : [56. 55. 55. 55. 55. 55. 54. 54.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+07:13: I'm 1 and want a token for the 56 time.
+	 LN : [55. 55. 54. 54. 54. 54. 53. 53.]
+	 RN : [56. 56. 55. 55. 55. 55. 54. 54.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+07:17: I'm 1 and I recieved outstanding request from 6.
+	 LN : [55. 55. 54. 54. 54. 54. 53. 53.]
+	 RN : [56. 56. 55. 55. 55. 55. 55. 54.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+07:21: I'm 1 and I recieved outstanding request from 2.
+	 LN : [55. 55. 54. 54. 54. 54. 53. 53.]
+	 RN : [56. 56. 56. 55. 55. 55. 55. 54.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+07:24: I'm 1 and I recieved outstanding request from 3.
+	 LN : [55. 55. 54. 54. 54. 54. 53. 53.]
+	 RN : [56. 56. 56. 56. 55. 55. 55. 54.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+07:27: I'm 1 and I recieved outstanding request from 4.
+	 LN : [55. 55. 54. 54. 54. 54. 53. 53.]
+	 RN : [56. 56. 56. 56. 56. 55. 55. 54.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+07:31: I'm 1 and I recieved outstanding request from 5.
+	 LN : [55. 55. 54. 54. 54. 54. 53. 53.]
+	 RN : [56. 56. 56. 56. 56. 56. 55. 54.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+07:36: I'm 1 and I recieved outstanding request from 7.
+	 LN : [55. 55. 54. 54. 54. 54. 53. 53.]
+	 RN : [56. 56. 56. 56. 56. 56. 55. 55.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+07:39: I'm 1 and I got a token.
+	 LN : [55. 55. 54. 54. 54. 54. 53. 53.]
+	 RN : [56. 56. 56. 56. 56. 56. 55. 55.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+07:39: I am 1 and execute 56 CS.
+	 LN : [56. 55. 55. 55. 55. 55. 54. 54.]
+	 RN : [56. 56. 56. 56. 56. 56. 55. 55.]
+	 Queue Understanding : deque([6, 2, 3, 4, 5])
+07:43: I'm 1 and finished 56 CS.
+	 LN : [56. 55. 55. 55. 55. 55. 54. 54.]
+	 RN : [56. 56. 56. 56. 56. 56. 55. 55.]
+	 Queue Understanding : deque([6, 2, 3, 4, 5])
+07:43: I'm 1 and it adds 7 to the queue. Queue after adding: deque([6, 2, 3, 4, 5, 7]).
+	 LN : [56. 56. 55. 55. 55. 55. 54. 54.]
+	 RN : [56. 56. 56. 56. 56. 56. 55. 55.]
+	 Queue Understanding : deque([6, 2, 3, 4, 5, 7])
+07:43: I'm 1 and sending the token to 6.
+	 LN : [56. 56. 55. 55. 55. 55. 54. 54.]
+	 RN : [56. 56. 56. 56. 56. 56. 55. 55.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+07:43: I'm 1 and I recieved outstanding request from 0.
+	 LN : [56. 56. 55. 55. 55. 55. 54. 54.]
+	 RN : [57. 56. 56. 56. 56. 56. 55. 55.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+07:44: I'm 1 and want a token for the 57 time.
+	 LN : [56. 56. 55. 55. 55. 55. 54. 54.]
+	 RN : [57. 57. 56. 56. 56. 56. 55. 55.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+07:47: I'm 1 and I recieved outstanding request from 6.
+	 LN : [56. 56. 55. 55. 55. 55. 54. 54.]
+	 RN : [57. 57. 56. 56. 56. 56. 56. 55.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+07:49: I'm 1 and I recieved outstanding request from 2.
+	 LN : [56. 56. 55. 55. 55. 55. 54. 54.]
+	 RN : [57. 57. 57. 56. 56. 56. 56. 55.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+07:51: I'm 1 and I recieved outstanding request from 3.
+	 LN : [56. 56. 55. 55. 55. 55. 54. 54.]
+	 RN : [57. 57. 57. 57. 56. 56. 56. 55.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+07:55: I'm 1 and I recieved outstanding request from 4.
+	 LN : [56. 56. 55. 55. 55. 55. 54. 54.]
+	 RN : [57. 57. 57. 57. 57. 56. 56. 55.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+07:58: I'm 1 and I recieved outstanding request from 5.
+	 LN : [56. 56. 55. 55. 55. 55. 54. 54.]
+	 RN : [57. 57. 57. 57. 57. 57. 56. 55.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:03: I'm 1 and I recieved outstanding request from 7.
+	 LN : [56. 56. 55. 55. 55. 55. 54. 54.]
+	 RN : [57. 57. 57. 57. 57. 57. 56. 56.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:04: I'm 1 and I got a token.
+	 LN : [56. 56. 55. 55. 55. 55. 54. 54.]
+	 RN : [57. 57. 57. 57. 57. 57. 56. 56.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:04: I am 1 and execute 57 CS.
+	 LN : [57. 56. 56. 56. 56. 56. 55. 55.]
+	 RN : [57. 57. 57. 57. 57. 57. 56. 56.]
+	 Queue Understanding : deque([6, 2, 3, 4, 5])
+08:09: I'm 1 and finished 57 CS.
+	 LN : [57. 56. 56. 56. 56. 56. 55. 55.]
+	 RN : [57. 57. 57. 57. 57. 57. 56. 56.]
+	 Queue Understanding : deque([6, 2, 3, 4, 5])
+08:09: I'm 1 and it adds 7 to the queue. Queue after adding: deque([6, 2, 3, 4, 5, 7]).
+	 LN : [57. 57. 56. 56. 56. 56. 55. 55.]
+	 RN : [57. 57. 57. 57. 57. 57. 56. 56.]
+	 Queue Understanding : deque([6, 2, 3, 4, 5, 7])
+08:09: I'm 1 and sending the token to 6.
+	 LN : [57. 57. 56. 56. 56. 56. 55. 55.]
+	 RN : [57. 57. 57. 57. 57. 57. 56. 56.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:09: I'm 1 and I recieved outstanding request from 0.
+	 LN : [57. 57. 56. 56. 56. 56. 55. 55.]
+	 RN : [58. 57. 57. 57. 57. 57. 56. 56.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:11: I'm 1 and want a token for the 58 time.
+	 LN : [57. 57. 56. 56. 56. 56. 55. 55.]
+	 RN : [58. 58. 57. 57. 57. 57. 56. 56.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:14: I'm 1 and I recieved outstanding request from 6.
+	 LN : [57. 57. 56. 56. 56. 56. 55. 55.]
+	 RN : [58. 58. 57. 57. 57. 57. 57. 56.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:18: I'm 1 and I recieved outstanding request from 2.
+	 LN : [57. 57. 56. 56. 56. 56. 55. 55.]
+	 RN : [58. 58. 58. 57. 57. 57. 57. 56.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:23: I'm 1 and I recieved outstanding request from 3.
+	 LN : [57. 57. 56. 56. 56. 56. 55. 55.]
+	 RN : [58. 58. 58. 58. 57. 57. 57. 56.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:27: I'm 1 and I recieved outstanding request from 4.
+	 LN : [57. 57. 56. 56. 56. 56. 55. 55.]
+	 RN : [58. 58. 58. 58. 58. 57. 57. 56.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:31: I'm 1 and I recieved outstanding request from 5.
+	 LN : [57. 57. 56. 56. 56. 56. 55. 55.]
+	 RN : [58. 58. 58. 58. 58. 58. 57. 56.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:35: I'm 1 and I recieved outstanding request from 7.
+	 LN : [57. 57. 56. 56. 56. 56. 55. 55.]
+	 RN : [58. 58. 58. 58. 58. 58. 57. 57.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:36: I'm 1 and I got a token.
+	 LN : [57. 57. 56. 56. 56. 56. 55. 55.]
+	 RN : [58. 58. 58. 58. 58. 58. 57. 57.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:36: I am 1 and execute 58 CS.
+	 LN : [58. 57. 57. 57. 57. 57. 56. 56.]
+	 RN : [58. 58. 58. 58. 58. 58. 57. 57.]
+	 Queue Understanding : deque([6, 2, 3, 4, 5])
+08:38: I'm 1 and finished 58 CS.
+	 LN : [58. 57. 57. 57. 57. 57. 56. 56.]
+	 RN : [58. 58. 58. 58. 58. 58. 57. 57.]
+	 Queue Understanding : deque([6, 2, 3, 4, 5])
+08:38: I'm 1 and it adds 7 to the queue. Queue after adding: deque([6, 2, 3, 4, 5, 7]).
+	 LN : [58. 58. 57. 57. 57. 57. 56. 56.]
+	 RN : [58. 58. 58. 58. 58. 58. 57. 57.]
+	 Queue Understanding : deque([6, 2, 3, 4, 5, 7])
+08:38: I'm 1 and sending the token to 6.
+	 LN : [58. 58. 57. 57. 57. 57. 56. 56.]
+	 RN : [58. 58. 58. 58. 58. 58. 57. 57.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:39: I'm 1 and I recieved outstanding request from 0.
+	 LN : [58. 58. 57. 57. 57. 57. 56. 56.]
+	 RN : [59. 58. 58. 58. 58. 58. 57. 57.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:40: I'm 1 and want a token for the 59 time.
+	 LN : [58. 58. 57. 57. 57. 57. 56. 56.]
+	 RN : [59. 59. 58. 58. 58. 58. 57. 57.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:46: I'm 1 and I recieved outstanding request from 6.
+	 LN : [58. 58. 57. 57. 57. 57. 56. 56.]
+	 RN : [59. 59. 58. 58. 58. 58. 58. 57.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:47: I'm 1 and I recieved outstanding request from 2.
+	 LN : [58. 58. 57. 57. 57. 57. 56. 56.]
+	 RN : [59. 59. 59. 58. 58. 58. 58. 57.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:51: I'm 1 and I recieved outstanding request from 3.
+	 LN : [58. 58. 57. 57. 57. 57. 56. 56.]
+	 RN : [59. 59. 59. 59. 58. 58. 58. 57.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:54: I'm 1 and I recieved outstanding request from 4.
+	 LN : [58. 58. 57. 57. 57. 57. 56. 56.]
+	 RN : [59. 59. 59. 59. 59. 58. 58. 57.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+08:57: I'm 1 and I recieved outstanding request from 5.
+	 LN : [58. 58. 57. 57. 57. 57. 56. 56.]
+	 RN : [59. 59. 59. 59. 59. 59. 58. 57.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+09:01: I'm 1 and I recieved outstanding request from 7.
+	 LN : [58. 58. 57. 57. 57. 57. 56. 56.]
+	 RN : [59. 59. 59. 59. 59. 59. 58. 58.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+09:05: I'm 1 and I got a token.
+	 LN : [58. 58. 57. 57. 57. 57. 56. 56.]
+	 RN : [59. 59. 59. 59. 59. 59. 58. 58.]
+	 Queue Understanding : deque([2, 3, 4, 5, 7])
+09:05: I am 1 and execute 59 CS.
+	 LN : [59. 58. 58. 58. 58. 58. 57. 57.]
+	 RN : [59. 59. 59. 59. 59. 59. 58. 58.]
+	 Queue Understanding : deque([2, 6, 3, 4, 5])
+09:08: I'm 1 and finished 59 CS.
+	 LN : [59. 58. 58. 58. 58. 58. 57. 57.]
+	 RN : [59. 59. 59. 59. 59. 59. 58. 58.]
+	 Queue Understanding : deque([2, 6, 3, 4, 5])
+09:08: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 6, 3, 4, 5, 7]).
+	 LN : [59. 59. 58. 58. 58. 58. 57. 57.]
+	 RN : [59. 59. 59. 59. 59. 59. 58. 58.]
+	 Queue Understanding : deque([2, 6, 3, 4, 5, 7])
+09:08: I'm 1 and sending the token to 2.
+	 LN : [59. 59. 58. 58. 58. 58. 57. 57.]
+	 RN : [59. 59. 59. 59. 59. 59. 58. 58.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:08: I'm 1 and I recieved outstanding request from 0.
+	 LN : [59. 59. 58. 58. 58. 58. 57. 57.]
+	 RN : [60. 59. 59. 59. 59. 59. 58. 58.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:11: I'm 1 and want a token for the 60 time.
+	 LN : [59. 59. 58. 58. 58. 58. 57. 57.]
+	 RN : [60. 60. 59. 59. 59. 59. 58. 58.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:13: I'm 1 and I recieved outstanding request from 2.
+	 LN : [59. 59. 58. 58. 58. 58. 57. 57.]
+	 RN : [60. 60. 60. 59. 59. 59. 58. 58.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:17: I'm 1 and I recieved outstanding request from 6.
+	 LN : [59. 59. 58. 58. 58. 58. 57. 57.]
+	 RN : [60. 60. 60. 59. 59. 59. 59. 58.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:21: I'm 1 and I recieved outstanding request from 3.
+	 LN : [59. 59. 58. 58. 58. 58. 57. 57.]
+	 RN : [60. 60. 60. 60. 59. 59. 59. 58.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:25: I'm 1 and I recieved outstanding request from 4.
+	 LN : [59. 59. 58. 58. 58. 58. 57. 57.]
+	 RN : [60. 60. 60. 60. 60. 59. 59. 58.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:27: I'm 1 and I recieved outstanding request from 5.
+	 LN : [59. 59. 58. 58. 58. 58. 57. 57.]
+	 RN : [60. 60. 60. 60. 60. 60. 59. 58.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:32: I'm 1 and I recieved outstanding request from 7.
+	 LN : [59. 59. 58. 58. 58. 58. 57. 57.]
+	 RN : [60. 60. 60. 60. 60. 60. 59. 59.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:35: I'm 1 and I got a token.
+	 LN : [59. 59. 58. 58. 58. 58. 57. 57.]
+	 RN : [60. 60. 60. 60. 60. 60. 59. 59.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:35: I am 1 and execute 60 CS.
+	 LN : [60. 59. 59. 59. 59. 59. 58. 58.]
+	 RN : [60. 60. 60. 60. 60. 60. 59. 59.]
+	 Queue Understanding : deque([2, 6, 3, 4, 5])
+09:37: I'm 1 and finished 60 CS.
+	 LN : [60. 59. 59. 59. 59. 59. 58. 58.]
+	 RN : [60. 60. 60. 60. 60. 60. 59. 59.]
+	 Queue Understanding : deque([2, 6, 3, 4, 5])
+09:37: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 6, 3, 4, 5, 7]).
+	 LN : [60. 60. 59. 59. 59. 59. 58. 58.]
+	 RN : [60. 60. 60. 60. 60. 60. 59. 59.]
+	 Queue Understanding : deque([2, 6, 3, 4, 5, 7])
+09:37: I'm 1 and sending the token to 2.
+	 LN : [60. 60. 59. 59. 59. 59. 58. 58.]
+	 RN : [60. 60. 60. 60. 60. 60. 59. 59.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:37: I'm 1 and I recieved outstanding request from 0.
+	 LN : [60. 60. 59. 59. 59. 59. 58. 58.]
+	 RN : [61. 60. 60. 60. 60. 60. 59. 59.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:39: I'm 1 and want a token for the 61 time.
+	 LN : [60. 60. 59. 59. 59. 59. 58. 58.]
+	 RN : [61. 61. 60. 60. 60. 60. 59. 59.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:42: I'm 1 and I recieved outstanding request from 2.
+	 LN : [60. 60. 59. 59. 59. 59. 58. 58.]
+	 RN : [61. 61. 61. 60. 60. 60. 59. 59.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:45: I'm 1 and I recieved outstanding request from 6.
+	 LN : [60. 60. 59. 59. 59. 59. 58. 58.]
+	 RN : [61. 61. 61. 60. 60. 60. 60. 59.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:49: I'm 1 and I recieved outstanding request from 3.
+	 LN : [60. 60. 59. 59. 59. 59. 58. 58.]
+	 RN : [61. 61. 61. 61. 60. 60. 60. 59.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:54: I'm 1 and I recieved outstanding request from 4.
+	 LN : [60. 60. 59. 59. 59. 59. 58. 58.]
+	 RN : [61. 61. 61. 61. 61. 60. 60. 59.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:55: I'm 1 and I recieved outstanding request from 5.
+	 LN : [60. 60. 59. 59. 59. 59. 58. 58.]
+	 RN : [61. 61. 61. 61. 61. 61. 60. 59.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:57: I'm 1 and I recieved outstanding request from 7.
+	 LN : [60. 60. 59. 59. 59. 59. 58. 58.]
+	 RN : [61. 61. 61. 61. 61. 61. 60. 60.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:59: I'm 1 and I got a token.
+	 LN : [60. 60. 59. 59. 59. 59. 58. 58.]
+	 RN : [61. 61. 61. 61. 61. 61. 60. 60.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+09:59: I am 1 and execute 61 CS.
+	 LN : [61. 60. 60. 60. 60. 60. 59. 59.]
+	 RN : [61. 61. 61. 61. 61. 61. 60. 60.]
+	 Queue Understanding : deque([2, 6, 3, 4, 5])
+10:04: I'm 1 and finished 61 CS.
+	 LN : [61. 60. 60. 60. 60. 60. 59. 59.]
+	 RN : [61. 61. 61. 61. 61. 61. 60. 60.]
+	 Queue Understanding : deque([2, 6, 3, 4, 5])
+10:04: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 6, 3, 4, 5, 7]).
+	 LN : [61. 61. 60. 60. 60. 60. 59. 59.]
+	 RN : [61. 61. 61. 61. 61. 61. 60. 60.]
+	 Queue Understanding : deque([2, 6, 3, 4, 5, 7])
+10:04: I'm 1 and sending the token to 2.
+	 LN : [61. 61. 60. 60. 60. 60. 59. 59.]
+	 RN : [61. 61. 61. 61. 61. 61. 60. 60.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+10:04: I'm 1 and I recieved outstanding request from 0.
+	 LN : [61. 61. 60. 60. 60. 60. 59. 59.]
+	 RN : [62. 61. 61. 61. 61. 61. 60. 60.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+10:05: I'm 1 and want a token for the 62 time.
+	 LN : [61. 61. 60. 60. 60. 60. 59. 59.]
+	 RN : [62. 62. 61. 61. 61. 61. 60. 60.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+10:10: I'm 1 and I recieved outstanding request from 2.
+	 LN : [61. 61. 60. 60. 60. 60. 59. 59.]
+	 RN : [62. 62. 62. 61. 61. 61. 60. 60.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+10:15: I'm 1 and I recieved outstanding request from 6.
+	 LN : [61. 61. 60. 60. 60. 60. 59. 59.]
+	 RN : [62. 62. 62. 61. 61. 61. 61. 60.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+10:18: I'm 1 and I recieved outstanding request from 3.
+	 LN : [61. 61. 60. 60. 60. 60. 59. 59.]
+	 RN : [62. 62. 62. 62. 61. 61. 61. 60.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+10:20: I'm 1 and I recieved outstanding request from 4.
+	 LN : [61. 61. 60. 60. 60. 60. 59. 59.]
+	 RN : [62. 62. 62. 62. 62. 61. 61. 60.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+10:25: I'm 1 and I recieved outstanding request from 5.
+	 LN : [61. 61. 60. 60. 60. 60. 59. 59.]
+	 RN : [62. 62. 62. 62. 62. 62. 61. 60.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+10:29: I'm 1 and I recieved outstanding request from 7.
+	 LN : [61. 61. 60. 60. 60. 60. 59. 59.]
+	 RN : [62. 62. 62. 62. 62. 62. 61. 61.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+10:32: I'm 1 and I got a token.
+	 LN : [61. 61. 60. 60. 60. 60. 59. 59.]
+	 RN : [62. 62. 62. 62. 62. 62. 61. 61.]
+	 Queue Understanding : deque([6, 3, 4, 5, 7])
+10:32: I am 1 and execute 62 CS.
+	 LN : [62. 61. 61. 61. 61. 61. 60. 60.]
+	 RN : [62. 62. 62. 62. 62. 62. 61. 61.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+10:36: I'm 1 and finished 62 CS.
+	 LN : [62. 61. 61. 61. 61. 61. 60. 60.]
+	 RN : [62. 62. 62. 62. 62. 62. 61. 61.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+10:36: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 6, 4, 5, 7]).
+	 LN : [62. 62. 61. 61. 61. 61. 60. 60.]
+	 RN : [62. 62. 62. 62. 62. 62. 61. 61.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5, 7])
+10:36: I'm 1 and sending the token to 2.
+	 LN : [62. 62. 61. 61. 61. 61. 60. 60.]
+	 RN : [62. 62. 62. 62. 62. 62. 61. 61.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+10:36: I'm 1 and I recieved outstanding request from 0.
+	 LN : [62. 62. 61. 61. 61. 61. 60. 60.]
+	 RN : [63. 62. 62. 62. 62. 62. 61. 61.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+10:38: I'm 1 and want a token for the 63 time.
+	 LN : [62. 62. 61. 61. 61. 61. 60. 60.]
+	 RN : [63. 63. 62. 62. 62. 62. 61. 61.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+10:42: I'm 1 and I recieved outstanding request from 2.
+	 LN : [62. 62. 61. 61. 61. 61. 60. 60.]
+	 RN : [63. 63. 63. 62. 62. 62. 61. 61.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+10:44: I'm 1 and I recieved outstanding request from 3.
+	 LN : [62. 62. 61. 61. 61. 61. 60. 60.]
+	 RN : [63. 63. 63. 63. 62. 62. 61. 61.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+10:48: I'm 1 and I recieved outstanding request from 6.
+	 LN : [62. 62. 61. 61. 61. 61. 60. 60.]
+	 RN : [63. 63. 63. 63. 62. 62. 62. 61.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+10:51: I'm 1 and I recieved outstanding request from 4.
+	 LN : [62. 62. 61. 61. 61. 61. 60. 60.]
+	 RN : [63. 63. 63. 63. 63. 62. 62. 61.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+10:57: I'm 1 and I recieved outstanding request from 5.
+	 LN : [62. 62. 61. 61. 61. 61. 60. 60.]
+	 RN : [63. 63. 63. 63. 63. 63. 62. 61.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+10:59: I'm 1 and I recieved outstanding request from 7.
+	 LN : [62. 62. 61. 61. 61. 61. 60. 60.]
+	 RN : [63. 63. 63. 63. 63. 63. 62. 62.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:00: I'm 1 and I got a token.
+	 LN : [62. 62. 61. 61. 61. 61. 60. 60.]
+	 RN : [63. 63. 63. 63. 63. 63. 62. 62.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:00: I am 1 and execute 63 CS.
+	 LN : [63. 62. 62. 62. 62. 62. 61. 61.]
+	 RN : [63. 63. 63. 63. 63. 63. 62. 62.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+11:03: I'm 1 and finished 63 CS.
+	 LN : [63. 62. 62. 62. 62. 62. 61. 61.]
+	 RN : [63. 63. 63. 63. 63. 63. 62. 62.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+11:03: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 6, 4, 5, 7]).
+	 LN : [63. 63. 62. 62. 62. 62. 61. 61.]
+	 RN : [63. 63. 63. 63. 63. 63. 62. 62.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5, 7])
+11:03: I'm 1 and sending the token to 2.
+	 LN : [63. 63. 62. 62. 62. 62. 61. 61.]
+	 RN : [63. 63. 63. 63. 63. 63. 62. 62.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:03: I'm 1 and I recieved outstanding request from 0.
+	 LN : [63. 63. 62. 62. 62. 62. 61. 61.]
+	 RN : [64. 63. 63. 63. 63. 63. 62. 62.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:05: I'm 1 and want a token for the 64 time.
+	 LN : [63. 63. 62. 62. 62. 62. 61. 61.]
+	 RN : [64. 64. 63. 63. 63. 63. 62. 62.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:09: I'm 1 and I recieved outstanding request from 2.
+	 LN : [63. 63. 62. 62. 62. 62. 61. 61.]
+	 RN : [64. 64. 64. 63. 63. 63. 62. 62.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:12: I'm 1 and I recieved outstanding request from 3.
+	 LN : [63. 63. 62. 62. 62. 62. 61. 61.]
+	 RN : [64. 64. 64. 64. 63. 63. 62. 62.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:14: I'm 1 and I recieved outstanding request from 6.
+	 LN : [63. 63. 62. 62. 62. 62. 61. 61.]
+	 RN : [64. 64. 64. 64. 63. 63. 63. 62.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:18: I'm 1 and I recieved outstanding request from 4.
+	 LN : [63. 63. 62. 62. 62. 62. 61. 61.]
+	 RN : [64. 64. 64. 64. 64. 63. 63. 62.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:20: I'm 1 and I recieved outstanding request from 5.
+	 LN : [63. 63. 62. 62. 62. 62. 61. 61.]
+	 RN : [64. 64. 64. 64. 64. 64. 63. 62.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:24: I'm 1 and I recieved outstanding request from 7.
+	 LN : [63. 63. 62. 62. 62. 62. 61. 61.]
+	 RN : [64. 64. 64. 64. 64. 64. 63. 63.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:27: I'm 1 and I got a token.
+	 LN : [63. 63. 62. 62. 62. 62. 61. 61.]
+	 RN : [64. 64. 64. 64. 64. 64. 63. 63.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:27: I am 1 and execute 64 CS.
+	 LN : [64. 63. 63. 63. 63. 63. 62. 62.]
+	 RN : [64. 64. 64. 64. 64. 64. 63. 63.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+11:29: I'm 1 and finished 64 CS.
+	 LN : [64. 63. 63. 63. 63. 63. 62. 62.]
+	 RN : [64. 64. 64. 64. 64. 64. 63. 63.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+11:29: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 6, 4, 5, 7]).
+	 LN : [64. 64. 63. 63. 63. 63. 62. 62.]
+	 RN : [64. 64. 64. 64. 64. 64. 63. 63.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5, 7])
+11:29: I'm 1 and sending the token to 2.
+	 LN : [64. 64. 63. 63. 63. 63. 62. 62.]
+	 RN : [64. 64. 64. 64. 64. 64. 63. 63.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:29: I'm 1 and I recieved outstanding request from 0.
+	 LN : [64. 64. 63. 63. 63. 63. 62. 62.]
+	 RN : [65. 64. 64. 64. 64. 64. 63. 63.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:31: I'm 1 and want a token for the 65 time.
+	 LN : [64. 64. 63. 63. 63. 63. 62. 62.]
+	 RN : [65. 65. 64. 64. 64. 64. 63. 63.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:35: I'm 1 and I recieved outstanding request from 2.
+	 LN : [64. 64. 63. 63. 63. 63. 62. 62.]
+	 RN : [65. 65. 65. 64. 64. 64. 63. 63.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:39: I'm 1 and I recieved outstanding request from 3.
+	 LN : [64. 64. 63. 63. 63. 63. 62. 62.]
+	 RN : [65. 65. 65. 65. 64. 64. 63. 63.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:42: I'm 1 and I recieved outstanding request from 6.
+	 LN : [64. 64. 63. 63. 63. 63. 62. 62.]
+	 RN : [65. 65. 65. 65. 64. 64. 64. 63.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:46: I'm 1 and I recieved outstanding request from 4.
+	 LN : [64. 64. 63. 63. 63. 63. 62. 62.]
+	 RN : [65. 65. 65. 65. 65. 64. 64. 63.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:47: I'm 1 and I recieved outstanding request from 5.
+	 LN : [64. 64. 63. 63. 63. 63. 62. 62.]
+	 RN : [65. 65. 65. 65. 65. 65. 64. 63.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:53: I'm 1 and I recieved outstanding request from 7.
+	 LN : [64. 64. 63. 63. 63. 63. 62. 62.]
+	 RN : [65. 65. 65. 65. 65. 65. 64. 64.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:54: I'm 1 and I got a token.
+	 LN : [64. 64. 63. 63. 63. 63. 62. 62.]
+	 RN : [65. 65. 65. 65. 65. 65. 64. 64.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:54: I am 1 and execute 65 CS.
+	 LN : [65. 64. 64. 64. 64. 64. 63. 63.]
+	 RN : [65. 65. 65. 65. 65. 65. 64. 64.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+11:56: I'm 1 and finished 65 CS.
+	 LN : [65. 64. 64. 64. 64. 64. 63. 63.]
+	 RN : [65. 65. 65. 65. 65. 65. 64. 64.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+11:56: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 6, 4, 5, 7]).
+	 LN : [65. 65. 64. 64. 64. 64. 63. 63.]
+	 RN : [65. 65. 65. 65. 65. 65. 64. 64.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5, 7])
+11:56: I'm 1 and sending the token to 2.
+	 LN : [65. 65. 64. 64. 64. 64. 63. 63.]
+	 RN : [65. 65. 65. 65. 65. 65. 64. 64.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:56: I'm 1 and I recieved outstanding request from 0.
+	 LN : [65. 65. 64. 64. 64. 64. 63. 63.]
+	 RN : [66. 65. 65. 65. 65. 65. 64. 64.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+11:57: I'm 1 and want a token for the 66 time.
+	 LN : [65. 65. 64. 64. 64. 64. 63. 63.]
+	 RN : [66. 66. 65. 65. 65. 65. 64. 64.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:01: I'm 1 and I recieved outstanding request from 2.
+	 LN : [65. 65. 64. 64. 64. 64. 63. 63.]
+	 RN : [66. 66. 66. 65. 65. 65. 64. 64.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:07: I'm 1 and I recieved outstanding request from 3.
+	 LN : [65. 65. 64. 64. 64. 64. 63. 63.]
+	 RN : [66. 66. 66. 66. 65. 65. 64. 64.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:11: I'm 1 and I recieved outstanding request from 6.
+	 LN : [65. 65. 64. 64. 64. 64. 63. 63.]
+	 RN : [66. 66. 66. 66. 65. 65. 65. 64.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:15: I'm 1 and I recieved outstanding request from 4.
+	 LN : [65. 65. 64. 64. 64. 64. 63. 63.]
+	 RN : [66. 66. 66. 66. 66. 65. 65. 64.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:18: I'm 1 and I recieved outstanding request from 5.
+	 LN : [65. 65. 64. 64. 64. 64. 63. 63.]
+	 RN : [66. 66. 66. 66. 66. 66. 65. 64.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:22: I'm 1 and I recieved outstanding request from 7.
+	 LN : [65. 65. 64. 64. 64. 64. 63. 63.]
+	 RN : [66. 66. 66. 66. 66. 66. 65. 65.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:23: I'm 1 and I got a token.
+	 LN : [65. 65. 64. 64. 64. 64. 63. 63.]
+	 RN : [66. 66. 66. 66. 66. 66. 65. 65.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:23: I am 1 and execute 66 CS.
+	 LN : [66. 65. 65. 65. 65. 65. 64. 64.]
+	 RN : [66. 66. 66. 66. 66. 66. 65. 65.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+12:26: I'm 1 and finished 66 CS.
+	 LN : [66. 65. 65. 65. 65. 65. 64. 64.]
+	 RN : [66. 66. 66. 66. 66. 66. 65. 65.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+12:27: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 6, 4, 5, 7]).
+	 LN : [66. 66. 65. 65. 65. 65. 64. 64.]
+	 RN : [66. 66. 66. 66. 66. 66. 65. 65.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5, 7])
+12:27: I'm 1 and sending the token to 2.
+	 LN : [66. 66. 65. 65. 65. 65. 64. 64.]
+	 RN : [66. 66. 66. 66. 66. 66. 65. 65.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:27: I'm 1 and I recieved outstanding request from 0.
+	 LN : [66. 66. 65. 65. 65. 65. 64. 64.]
+	 RN : [67. 66. 66. 66. 66. 66. 65. 65.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:29: I'm 1 and want a token for the 67 time.
+	 LN : [66. 66. 65. 65. 65. 65. 64. 64.]
+	 RN : [67. 67. 66. 66. 66. 66. 65. 65.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:34: I'm 1 and I recieved outstanding request from 2.
+	 LN : [66. 66. 65. 65. 65. 65. 64. 64.]
+	 RN : [67. 67. 67. 66. 66. 66. 65. 65.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:38: I'm 1 and I recieved outstanding request from 3.
+	 LN : [66. 66. 65. 65. 65. 65. 64. 64.]
+	 RN : [67. 67. 67. 67. 66. 66. 65. 65.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:41: I'm 1 and I recieved outstanding request from 6.
+	 LN : [66. 66. 65. 65. 65. 65. 64. 64.]
+	 RN : [67. 67. 67. 67. 66. 66. 66. 65.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:43: I'm 1 and I recieved outstanding request from 4.
+	 LN : [66. 66. 65. 65. 65. 65. 64. 64.]
+	 RN : [67. 67. 67. 67. 67. 66. 66. 65.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:46: I'm 1 and I recieved outstanding request from 5.
+	 LN : [66. 66. 65. 65. 65. 65. 64. 64.]
+	 RN : [67. 67. 67. 67. 67. 67. 66. 65.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:50: I'm 1 and I recieved outstanding request from 7.
+	 LN : [66. 66. 65. 65. 65. 65. 64. 64.]
+	 RN : [67. 67. 67. 67. 67. 67. 66. 66.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:52: I'm 1 and I got a token.
+	 LN : [66. 66. 65. 65. 65. 65. 64. 64.]
+	 RN : [67. 67. 67. 67. 67. 67. 66. 66.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:52: I am 1 and execute 67 CS.
+	 LN : [67. 66. 66. 66. 66. 66. 65. 65.]
+	 RN : [67. 67. 67. 67. 67. 67. 66. 66.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+12:55: I'm 1 and finished 67 CS.
+	 LN : [67. 66. 66. 66. 66. 66. 65. 65.]
+	 RN : [67. 67. 67. 67. 67. 67. 66. 66.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+12:55: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 6, 4, 5, 7]).
+	 LN : [67. 67. 66. 66. 66. 66. 65. 65.]
+	 RN : [67. 67. 67. 67. 67. 67. 66. 66.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5, 7])
+12:55: I'm 1 and sending the token to 2.
+	 LN : [67. 67. 66. 66. 66. 66. 65. 65.]
+	 RN : [67. 67. 67. 67. 67. 67. 66. 66.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:55: I'm 1 and I recieved outstanding request from 0.
+	 LN : [67. 67. 66. 66. 66. 66. 65. 65.]
+	 RN : [68. 67. 67. 67. 67. 67. 66. 66.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+12:58: I'm 1 and want a token for the 68 time.
+	 LN : [67. 67. 66. 66. 66. 66. 65. 65.]
+	 RN : [68. 68. 67. 67. 67. 67. 66. 66.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:01: I'm 1 and I recieved outstanding request from 2.
+	 LN : [67. 67. 66. 66. 66. 66. 65. 65.]
+	 RN : [68. 68. 68. 67. 67. 67. 66. 66.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:05: I'm 1 and I recieved outstanding request from 3.
+	 LN : [67. 67. 66. 66. 66. 66. 65. 65.]
+	 RN : [68. 68. 68. 68. 67. 67. 66. 66.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:09: I'm 1 and I recieved outstanding request from 6.
+	 LN : [67. 67. 66. 66. 66. 66. 65. 65.]
+	 RN : [68. 68. 68. 68. 67. 67. 67. 66.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:13: I'm 1 and I recieved outstanding request from 4.
+	 LN : [67. 67. 66. 66. 66. 66. 65. 65.]
+	 RN : [68. 68. 68. 68. 68. 67. 67. 66.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:18: I'm 1 and I recieved outstanding request from 5.
+	 LN : [67. 67. 66. 66. 66. 66. 65. 65.]
+	 RN : [68. 68. 68. 68. 68. 68. 67. 66.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:20: I'm 1 and I recieved outstanding request from 7.
+	 LN : [67. 67. 66. 66. 66. 66. 65. 65.]
+	 RN : [68. 68. 68. 68. 68. 68. 67. 67.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:22: I'm 1 and I got a token.
+	 LN : [67. 67. 66. 66. 66. 66. 65. 65.]
+	 RN : [68. 68. 68. 68. 68. 68. 67. 67.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:22: I am 1 and execute 68 CS.
+	 LN : [68. 67. 67. 67. 67. 67. 66. 66.]
+	 RN : [68. 68. 68. 68. 68. 68. 67. 67.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+13:25: I'm 1 and finished 68 CS.
+	 LN : [68. 67. 67. 67. 67. 67. 66. 66.]
+	 RN : [68. 68. 68. 68. 68. 68. 67. 67.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+13:25: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 6, 4, 5, 7]).
+	 LN : [68. 68. 67. 67. 67. 67. 66. 66.]
+	 RN : [68. 68. 68. 68. 68. 68. 67. 67.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5, 7])
+13:25: I'm 1 and sending the token to 2.
+	 LN : [68. 68. 67. 67. 67. 67. 66. 66.]
+	 RN : [68. 68. 68. 68. 68. 68. 67. 67.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:25: I'm 1 and I recieved outstanding request from 0.
+	 LN : [68. 68. 67. 67. 67. 67. 66. 66.]
+	 RN : [69. 68. 68. 68. 68. 68. 67. 67.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:27: I'm 1 and want a token for the 69 time.
+	 LN : [68. 68. 67. 67. 67. 67. 66. 66.]
+	 RN : [69. 69. 68. 68. 68. 68. 67. 67.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:33: I'm 1 and I recieved outstanding request from 2.
+	 LN : [68. 68. 67. 67. 67. 67. 66. 66.]
+	 RN : [69. 69. 69. 68. 68. 68. 67. 67.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:37: I'm 1 and I recieved outstanding request from 3.
+	 LN : [68. 68. 67. 67. 67. 67. 66. 66.]
+	 RN : [69. 69. 69. 69. 68. 68. 67. 67.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:39: I'm 1 and I recieved outstanding request from 6.
+	 LN : [68. 68. 67. 67. 67. 67. 66. 66.]
+	 RN : [69. 69. 69. 69. 68. 68. 68. 67.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:42: I'm 1 and I recieved outstanding request from 4.
+	 LN : [68. 68. 67. 67. 67. 67. 66. 66.]
+	 RN : [69. 69. 69. 69. 69. 68. 68. 67.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:45: I'm 1 and I recieved outstanding request from 5.
+	 LN : [68. 68. 67. 67. 67. 67. 66. 66.]
+	 RN : [69. 69. 69. 69. 69. 69. 68. 67.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:49: I'm 1 and I recieved outstanding request from 7.
+	 LN : [68. 68. 67. 67. 67. 67. 66. 66.]
+	 RN : [69. 69. 69. 69. 69. 69. 68. 68.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:49: I'm 1 and I got a token.
+	 LN : [68. 68. 67. 67. 67. 67. 66. 66.]
+	 RN : [69. 69. 69. 69. 69. 69. 68. 68.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:49: I am 1 and execute 69 CS.
+	 LN : [69. 68. 68. 68. 68. 68. 67. 67.]
+	 RN : [69. 69. 69. 69. 69. 69. 68. 68.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+13:54: I'm 1 and finished 69 CS.
+	 LN : [69. 68. 68. 68. 68. 68. 67. 67.]
+	 RN : [69. 69. 69. 69. 69. 69. 68. 68.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+13:54: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 6, 4, 5, 7]).
+	 LN : [69. 69. 68. 68. 68. 68. 67. 67.]
+	 RN : [69. 69. 69. 69. 69. 69. 68. 68.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5, 7])
+13:54: I'm 1 and sending the token to 2.
+	 LN : [69. 69. 68. 68. 68. 68. 67. 67.]
+	 RN : [69. 69. 69. 69. 69. 69. 68. 68.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:54: I'm 1 and I recieved outstanding request from 0.
+	 LN : [69. 69. 68. 68. 68. 68. 67. 67.]
+	 RN : [70. 69. 69. 69. 69. 69. 68. 68.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:57: I'm 1 and want a token for the 70 time.
+	 LN : [69. 69. 68. 68. 68. 68. 67. 67.]
+	 RN : [70. 70. 69. 69. 69. 69. 68. 68.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+13:58: I'm 1 and I recieved outstanding request from 2.
+	 LN : [69. 69. 68. 68. 68. 68. 67. 67.]
+	 RN : [70. 70. 70. 69. 69. 69. 68. 68.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:02: I'm 1 and I recieved outstanding request from 3.
+	 LN : [69. 69. 68. 68. 68. 68. 67. 67.]
+	 RN : [70. 70. 70. 70. 69. 69. 68. 68.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:06: I'm 1 and I recieved outstanding request from 6.
+	 LN : [69. 69. 68. 68. 68. 68. 67. 67.]
+	 RN : [70. 70. 70. 70. 69. 69. 69. 68.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:10: I'm 1 and I recieved outstanding request from 4.
+	 LN : [69. 69. 68. 68. 68. 68. 67. 67.]
+	 RN : [70. 70. 70. 70. 70. 69. 69. 68.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:15: I'm 1 and I recieved outstanding request from 5.
+	 LN : [69. 69. 68. 68. 68. 68. 67. 67.]
+	 RN : [70. 70. 70. 70. 70. 70. 69. 68.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:18: I'm 1 and I recieved outstanding request from 7.
+	 LN : [69. 69. 68. 68. 68. 68. 67. 67.]
+	 RN : [70. 70. 70. 70. 70. 70. 69. 69.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:20: I'm 1 and I got a token.
+	 LN : [69. 69. 68. 68. 68. 68. 67. 67.]
+	 RN : [70. 70. 70. 70. 70. 70. 69. 69.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:20: I am 1 and execute 70 CS.
+	 LN : [70. 69. 69. 69. 69. 69. 68. 68.]
+	 RN : [70. 70. 70. 70. 70. 70. 69. 69.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+14:24: I'm 1 and finished 70 CS.
+	 LN : [70. 69. 69. 69. 69. 69. 68. 68.]
+	 RN : [70. 70. 70. 70. 70. 70. 69. 69.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+14:24: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 6, 4, 5, 7]).
+	 LN : [70. 70. 69. 69. 69. 69. 68. 68.]
+	 RN : [70. 70. 70. 70. 70. 70. 69. 69.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5, 7])
+14:24: I'm 1 and sending the token to 2.
+	 LN : [70. 70. 69. 69. 69. 69. 68. 68.]
+	 RN : [70. 70. 70. 70. 70. 70. 69. 69.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:24: I'm 1 and I recieved outstanding request from 0.
+	 LN : [70. 70. 69. 69. 69. 69. 68. 68.]
+	 RN : [71. 70. 70. 70. 70. 70. 69. 69.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:26: I'm 1 and want a token for the 71 time.
+	 LN : [70. 70. 69. 69. 69. 69. 68. 68.]
+	 RN : [71. 71. 70. 70. 70. 70. 69. 69.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:27: I'm 1 and I recieved outstanding request from 2.
+	 LN : [70. 70. 69. 69. 69. 69. 68. 68.]
+	 RN : [71. 71. 71. 70. 70. 70. 69. 69.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:31: I'm 1 and I recieved outstanding request from 3.
+	 LN : [70. 70. 69. 69. 69. 69. 68. 68.]
+	 RN : [71. 71. 71. 71. 70. 70. 69. 69.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:36: I'm 1 and I recieved outstanding request from 6.
+	 LN : [70. 70. 69. 69. 69. 69. 68. 68.]
+	 RN : [71. 71. 71. 71. 70. 70. 70. 69.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:38: I'm 1 and I recieved outstanding request from 4.
+	 LN : [70. 70. 69. 69. 69. 69. 68. 68.]
+	 RN : [71. 71. 71. 71. 71. 70. 70. 69.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:43: I'm 1 and I recieved outstanding request from 5.
+	 LN : [70. 70. 69. 69. 69. 69. 68. 68.]
+	 RN : [71. 71. 71. 71. 71. 71. 70. 69.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:44: I'm 1 and I recieved outstanding request from 7.
+	 LN : [70. 70. 69. 69. 69. 69. 68. 68.]
+	 RN : [71. 71. 71. 71. 71. 71. 70. 70.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:47: I'm 1 and I got a token.
+	 LN : [70. 70. 69. 69. 69. 69. 68. 68.]
+	 RN : [71. 71. 71. 71. 71. 71. 70. 70.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:47: I am 1 and execute 71 CS.
+	 LN : [71. 70. 70. 70. 70. 70. 69. 69.]
+	 RN : [71. 71. 71. 71. 71. 71. 70. 70.]
+	 Queue Understanding : deque([2, 3, 6, 4])
+14:49: I'm 1 and finished 71 CS.
+	 LN : [71. 70. 70. 70. 70. 70. 69. 69.]
+	 RN : [71. 71. 71. 71. 71. 71. 70. 70.]
+	 Queue Understanding : deque([2, 3, 6, 4])
+14:49: I'm 1 and it adds 5 to the queue. Queue after adding: deque([2, 3, 6, 4, 5]).
+	 LN : [71. 71. 70. 70. 70. 70. 69. 69.]
+	 RN : [71. 71. 71. 71. 71. 71. 70. 70.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+14:49: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 6, 4, 5, 7]).
+	 LN : [71. 71. 70. 70. 70. 70. 69. 69.]
+	 RN : [71. 71. 71. 71. 71. 71. 70. 70.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5, 7])
+14:49: I'm 1 and sending the token to 2.
+	 LN : [71. 71. 70. 70. 70. 70. 69. 69.]
+	 RN : [71. 71. 71. 71. 71. 71. 70. 70.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:49: I'm 1 and I recieved outstanding request from 0.
+	 LN : [71. 71. 70. 70. 70. 70. 69. 69.]
+	 RN : [72. 71. 71. 71. 71. 71. 70. 70.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:52: I'm 1 and want a token for the 72 time.
+	 LN : [71. 71. 70. 70. 70. 70. 69. 69.]
+	 RN : [72. 72. 71. 71. 71. 71. 70. 70.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:56: I'm 1 and I recieved outstanding request from 2.
+	 LN : [71. 71. 70. 70. 70. 70. 69. 69.]
+	 RN : [72. 72. 72. 71. 71. 71. 70. 70.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+14:59: I'm 1 and I recieved outstanding request from 3.
+	 LN : [71. 71. 70. 70. 70. 70. 69. 69.]
+	 RN : [72. 72. 72. 72. 71. 71. 70. 70.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:05: I'm 1 and I recieved outstanding request from 6.
+	 LN : [71. 71. 70. 70. 70. 70. 69. 69.]
+	 RN : [72. 72. 72. 72. 71. 71. 71. 70.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:09: I'm 1 and I recieved outstanding request from 4.
+	 LN : [71. 71. 70. 70. 70. 70. 69. 69.]
+	 RN : [72. 72. 72. 72. 72. 71. 71. 70.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:12: I'm 1 and I recieved outstanding request from 5.
+	 LN : [71. 71. 70. 70. 70. 70. 69. 69.]
+	 RN : [72. 72. 72. 72. 72. 72. 71. 70.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:15: I'm 1 and I recieved outstanding request from 7.
+	 LN : [71. 71. 70. 70. 70. 70. 69. 69.]
+	 RN : [72. 72. 72. 72. 72. 72. 71. 71.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:16: I'm 1 and I got a token.
+	 LN : [71. 71. 70. 70. 70. 70. 69. 69.]
+	 RN : [72. 72. 72. 72. 72. 72. 71. 71.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:16: I am 1 and execute 72 CS.
+	 LN : [72. 71. 71. 71. 71. 71. 70. 70.]
+	 RN : [72. 72. 72. 72. 72. 72. 71. 71.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+15:20: I'm 1 and finished 72 CS.
+	 LN : [72. 71. 71. 71. 71. 71. 70. 70.]
+	 RN : [72. 72. 72. 72. 72. 72. 71. 71.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+15:20: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 6, 4, 5, 7]).
+	 LN : [72. 72. 71. 71. 71. 71. 70. 70.]
+	 RN : [72. 72. 72. 72. 72. 72. 71. 71.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5, 7])
+15:20: I'm 1 and sending the token to 2.
+	 LN : [72. 72. 71. 71. 71. 71. 70. 70.]
+	 RN : [72. 72. 72. 72. 72. 72. 71. 71.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:20: I'm 1 and I recieved outstanding request from 0.
+	 LN : [72. 72. 71. 71. 71. 71. 70. 70.]
+	 RN : [73. 72. 72. 72. 72. 72. 71. 71.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:22: I'm 1 and want a token for the 73 time.
+	 LN : [72. 72. 71. 71. 71. 71. 70. 70.]
+	 RN : [73. 73. 72. 72. 72. 72. 71. 71.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:23: I'm 1 and I recieved outstanding request from 2.
+	 LN : [72. 72. 71. 71. 71. 71. 70. 70.]
+	 RN : [73. 73. 73. 72. 72. 72. 71. 71.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:26: I'm 1 and I recieved outstanding request from 3.
+	 LN : [72. 72. 71. 71. 71. 71. 70. 70.]
+	 RN : [73. 73. 73. 73. 72. 72. 71. 71.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:32: I'm 1 and I recieved outstanding request from 6.
+	 LN : [72. 72. 71. 71. 71. 71. 70. 70.]
+	 RN : [73. 73. 73. 73. 72. 72. 72. 71.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:34: I'm 1 and I recieved outstanding request from 4.
+	 LN : [72. 72. 71. 71. 71. 71. 70. 70.]
+	 RN : [73. 73. 73. 73. 73. 72. 72. 71.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:39: I'm 1 and I recieved outstanding request from 5.
+	 LN : [72. 72. 71. 71. 71. 71. 70. 70.]
+	 RN : [73. 73. 73. 73. 73. 73. 72. 71.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:43: I'm 1 and I recieved outstanding request from 7.
+	 LN : [72. 72. 71. 71. 71. 71. 70. 70.]
+	 RN : [73. 73. 73. 73. 73. 73. 72. 72.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:46: I'm 1 and I got a token.
+	 LN : [72. 72. 71. 71. 71. 71. 70. 70.]
+	 RN : [73. 73. 73. 73. 73. 73. 72. 72.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:46: I am 1 and execute 73 CS.
+	 LN : [73. 72. 72. 72. 72. 72. 71. 71.]
+	 RN : [73. 73. 73. 73. 73. 73. 72. 72.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+15:50: I'm 1 and finished 73 CS.
+	 LN : [73. 72. 72. 72. 72. 72. 71. 71.]
+	 RN : [73. 73. 73. 73. 73. 73. 72. 72.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+15:50: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 6, 4, 5, 7]).
+	 LN : [73. 73. 72. 72. 72. 72. 71. 71.]
+	 RN : [73. 73. 73. 73. 73. 73. 72. 72.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5, 7])
+15:50: I'm 1 and sending the token to 2.
+	 LN : [73. 73. 72. 72. 72. 72. 71. 71.]
+	 RN : [73. 73. 73. 73. 73. 73. 72. 72.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:50: I'm 1 and I recieved outstanding request from 0.
+	 LN : [73. 73. 72. 72. 72. 72. 71. 71.]
+	 RN : [74. 73. 73. 73. 73. 73. 72. 72.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:53: I'm 1 and want a token for the 74 time.
+	 LN : [73. 73. 72. 72. 72. 72. 71. 71.]
+	 RN : [74. 74. 73. 73. 73. 73. 72. 72.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:56: I'm 1 and I recieved outstanding request from 2.
+	 LN : [73. 73. 72. 72. 72. 72. 71. 71.]
+	 RN : [74. 74. 74. 73. 73. 73. 72. 72.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+15:58: I'm 1 and I recieved outstanding request from 3.
+	 LN : [73. 73. 72. 72. 72. 72. 71. 71.]
+	 RN : [74. 74. 74. 74. 73. 73. 72. 72.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:03: I'm 1 and I recieved outstanding request from 6.
+	 LN : [73. 73. 72. 72. 72. 72. 71. 71.]
+	 RN : [74. 74. 74. 74. 73. 73. 73. 72.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:05: I'm 1 and I recieved outstanding request from 4.
+	 LN : [73. 73. 72. 72. 72. 72. 71. 71.]
+	 RN : [74. 74. 74. 74. 74. 73. 73. 72.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:10: I'm 1 and I recieved outstanding request from 5.
+	 LN : [73. 73. 72. 72. 72. 72. 71. 71.]
+	 RN : [74. 74. 74. 74. 74. 74. 73. 72.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:12: I'm 1 and I recieved outstanding request from 7.
+	 LN : [73. 73. 72. 72. 72. 72. 71. 71.]
+	 RN : [74. 74. 74. 74. 74. 74. 73. 73.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:15: I'm 1 and I got a token.
+	 LN : [73. 73. 72. 72. 72. 72. 71. 71.]
+	 RN : [74. 74. 74. 74. 74. 74. 73. 73.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:15: I am 1 and execute 74 CS.
+	 LN : [74. 73. 73. 73. 73. 73. 72. 72.]
+	 RN : [74. 74. 74. 74. 74. 74. 73. 73.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+16:19: I'm 1 and finished 74 CS.
+	 LN : [74. 73. 73. 73. 73. 73. 72. 72.]
+	 RN : [74. 74. 74. 74. 74. 74. 73. 73.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+16:19: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 6, 4, 5, 7]).
+	 LN : [74. 74. 73. 73. 73. 73. 72. 72.]
+	 RN : [74. 74. 74. 74. 74. 74. 73. 73.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5, 7])
+16:19: I'm 1 and sending the token to 2.
+	 LN : [74. 74. 73. 73. 73. 73. 72. 72.]
+	 RN : [74. 74. 74. 74. 74. 74. 73. 73.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:19: I'm 1 and I recieved outstanding request from 0.
+	 LN : [74. 74. 73. 73. 73. 73. 72. 72.]
+	 RN : [75. 74. 74. 74. 74. 74. 73. 73.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:22: I'm 1 and want a token for the 75 time.
+	 LN : [74. 74. 73. 73. 73. 73. 72. 72.]
+	 RN : [75. 75. 74. 74. 74. 74. 73. 73.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:25: I'm 1 and I recieved outstanding request from 2.
+	 LN : [74. 74. 73. 73. 73. 73. 72. 72.]
+	 RN : [75. 75. 75. 74. 74. 74. 73. 73.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:29: I'm 1 and I recieved outstanding request from 3.
+	 LN : [74. 74. 73. 73. 73. 73. 72. 72.]
+	 RN : [75. 75. 75. 75. 74. 74. 73. 73.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:31: I'm 1 and I recieved outstanding request from 6.
+	 LN : [74. 74. 73. 73. 73. 73. 72. 72.]
+	 RN : [75. 75. 75. 75. 74. 74. 74. 73.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:35: I'm 1 and I recieved outstanding request from 4.
+	 LN : [74. 74. 73. 73. 73. 73. 72. 72.]
+	 RN : [75. 75. 75. 75. 75. 74. 74. 73.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:38: I'm 1 and I recieved outstanding request from 5.
+	 LN : [74. 74. 73. 73. 73. 73. 72. 72.]
+	 RN : [75. 75. 75. 75. 75. 75. 74. 73.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:43: I'm 1 and I recieved outstanding request from 7.
+	 LN : [74. 74. 73. 73. 73. 73. 72. 72.]
+	 RN : [75. 75. 75. 75. 75. 75. 74. 74.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:45: I'm 1 and I got a token.
+	 LN : [74. 74. 73. 73. 73. 73. 72. 72.]
+	 RN : [75. 75. 75. 75. 75. 75. 74. 74.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:45: I am 1 and execute 75 CS.
+	 LN : [75. 74. 74. 74. 74. 74. 73. 73.]
+	 RN : [75. 75. 75. 75. 75. 75. 74. 74.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+16:49: I'm 1 and finished 75 CS.
+	 LN : [75. 74. 74. 74. 74. 74. 73. 73.]
+	 RN : [75. 75. 75. 75. 75. 75. 74. 74.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+16:49: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 6, 4, 5, 7]).
+	 LN : [75. 75. 74. 74. 74. 74. 73. 73.]
+	 RN : [75. 75. 75. 75. 75. 75. 74. 74.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5, 7])
+16:49: I'm 1 and sending the token to 2.
+	 LN : [75. 75. 74. 74. 74. 74. 73. 73.]
+	 RN : [75. 75. 75. 75. 75. 75. 74. 74.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:49: I'm 1 and I recieved outstanding request from 0.
+	 LN : [75. 75. 74. 74. 74. 74. 73. 73.]
+	 RN : [76. 75. 75. 75. 75. 75. 74. 74.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:51: I'm 1 and want a token for the 76 time.
+	 LN : [75. 75. 74. 74. 74. 74. 73. 73.]
+	 RN : [76. 76. 75. 75. 75. 75. 74. 74.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+16:55: I'm 1 and I recieved outstanding request from 2.
+	 LN : [75. 75. 74. 74. 74. 74. 73. 73.]
+	 RN : [76. 76. 76. 75. 75. 75. 74. 74.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:01: I'm 1 and I recieved outstanding request from 3.
+	 LN : [75. 75. 74. 74. 74. 74. 73. 73.]
+	 RN : [76. 76. 76. 76. 75. 75. 74. 74.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:03: I'm 1 and I recieved outstanding request from 6.
+	 LN : [75. 75. 74. 74. 74. 74. 73. 73.]
+	 RN : [76. 76. 76. 76. 75. 75. 75. 74.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:08: I'm 1 and I recieved outstanding request from 4.
+	 LN : [75. 75. 74. 74. 74. 74. 73. 73.]
+	 RN : [76. 76. 76. 76. 76. 75. 75. 74.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:10: I'm 1 and I recieved outstanding request from 5.
+	 LN : [75. 75. 74. 74. 74. 74. 73. 73.]
+	 RN : [76. 76. 76. 76. 76. 76. 75. 74.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:15: I'm 1 and I recieved outstanding request from 7.
+	 LN : [75. 75. 74. 74. 74. 74. 73. 73.]
+	 RN : [76. 76. 76. 76. 76. 76. 75. 75.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:18: I'm 1 and I got a token.
+	 LN : [75. 75. 74. 74. 74. 74. 73. 73.]
+	 RN : [76. 76. 76. 76. 76. 76. 75. 75.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:18: I am 1 and execute 76 CS.
+	 LN : [76. 75. 75. 75. 75. 75. 74. 74.]
+	 RN : [76. 76. 76. 76. 76. 76. 75. 75.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+17:21: I'm 1 and finished 76 CS.
+	 LN : [76. 75. 75. 75. 75. 75. 74. 74.]
+	 RN : [76. 76. 76. 76. 76. 76. 75. 75.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+17:21: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 6, 4, 5, 7]).
+	 LN : [76. 76. 75. 75. 75. 75. 74. 74.]
+	 RN : [76. 76. 76. 76. 76. 76. 75. 75.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5, 7])
+17:21: I'm 1 and sending the token to 2.
+	 LN : [76. 76. 75. 75. 75. 75. 74. 74.]
+	 RN : [76. 76. 76. 76. 76. 76. 75. 75.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:21: I'm 1 and I recieved outstanding request from 0.
+	 LN : [76. 76. 75. 75. 75. 75. 74. 74.]
+	 RN : [77. 76. 76. 76. 76. 76. 75. 75.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:22: I'm 1 and want a token for the 77 time.
+	 LN : [76. 76. 75. 75. 75. 75. 74. 74.]
+	 RN : [77. 77. 76. 76. 76. 76. 75. 75.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:26: I'm 1 and I recieved outstanding request from 2.
+	 LN : [76. 76. 75. 75. 75. 75. 74. 74.]
+	 RN : [77. 77. 77. 76. 76. 76. 75. 75.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:29: I'm 1 and I recieved outstanding request from 3.
+	 LN : [76. 76. 75. 75. 75. 75. 74. 74.]
+	 RN : [77. 77. 77. 77. 76. 76. 75. 75.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:34: I'm 1 and I recieved outstanding request from 6.
+	 LN : [76. 76. 75. 75. 75. 75. 74. 74.]
+	 RN : [77. 77. 77. 77. 76. 76. 76. 75.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:36: I'm 1 and I recieved outstanding request from 4.
+	 LN : [76. 76. 75. 75. 75. 75. 74. 74.]
+	 RN : [77. 77. 77. 77. 77. 76. 76. 75.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:40: I'm 1 and I recieved outstanding request from 5.
+	 LN : [76. 76. 75. 75. 75. 75. 74. 74.]
+	 RN : [77. 77. 77. 77. 77. 77. 76. 75.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:43: I'm 1 and I recieved outstanding request from 7.
+	 LN : [76. 76. 75. 75. 75. 75. 74. 74.]
+	 RN : [77. 77. 77. 77. 77. 77. 76. 76.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:43: I'm 1 and I got a token.
+	 LN : [76. 76. 75. 75. 75. 75. 74. 74.]
+	 RN : [77. 77. 77. 77. 77. 77. 76. 76.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:43: I am 1 and execute 77 CS.
+	 LN : [77. 76. 76. 76. 76. 76. 75. 75.]
+	 RN : [77. 77. 77. 77. 77. 77. 76. 76.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+17:46: I'm 1 and finished 77 CS.
+	 LN : [77. 76. 76. 76. 76. 76. 75. 75.]
+	 RN : [77. 77. 77. 77. 77. 77. 76. 76.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+17:46: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 6, 4, 5, 7]).
+	 LN : [77. 77. 76. 76. 76. 76. 75. 75.]
+	 RN : [77. 77. 77. 77. 77. 77. 76. 76.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5, 7])
+17:46: I'm 1 and sending the token to 2.
+	 LN : [77. 77. 76. 76. 76. 76. 75. 75.]
+	 RN : [77. 77. 77. 77. 77. 77. 76. 76.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:46: I'm 1 and I recieved outstanding request from 0.
+	 LN : [77. 77. 76. 76. 76. 76. 75. 75.]
+	 RN : [78. 77. 77. 77. 77. 77. 76. 76.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:48: I'm 1 and want a token for the 78 time.
+	 LN : [77. 77. 76. 76. 76. 76. 75. 75.]
+	 RN : [78. 78. 77. 77. 77. 77. 76. 76.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:54: I'm 1 and I recieved outstanding request from 2.
+	 LN : [77. 77. 76. 76. 76. 76. 75. 75.]
+	 RN : [78. 78. 78. 77. 77. 77. 76. 76.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+17:56: I'm 1 and I recieved outstanding request from 3.
+	 LN : [77. 77. 76. 76. 76. 76. 75. 75.]
+	 RN : [78. 78. 78. 78. 77. 77. 76. 76.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+18:00: I'm 1 and I recieved outstanding request from 6.
+	 LN : [77. 77. 76. 76. 76. 76. 75. 75.]
+	 RN : [78. 78. 78. 78. 77. 77. 77. 76.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+18:03: I'm 1 and I recieved outstanding request from 4.
+	 LN : [77. 77. 76. 76. 76. 76. 75. 75.]
+	 RN : [78. 78. 78. 78. 78. 77. 77. 76.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+18:05: I'm 1 and I recieved outstanding request from 5.
+	 LN : [77. 77. 76. 76. 76. 76. 75. 75.]
+	 RN : [78. 78. 78. 78. 78. 78. 77. 76.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+18:10: I'm 1 and I recieved outstanding request from 7.
+	 LN : [77. 77. 76. 76. 76. 76. 75. 75.]
+	 RN : [78. 78. 78. 78. 78. 78. 77. 77.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+18:11: I'm 1 and I got a token.
+	 LN : [77. 77. 76. 76. 76. 76. 75. 75.]
+	 RN : [78. 78. 78. 78. 78. 78. 77. 77.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+18:11: I am 1 and execute 78 CS.
+	 LN : [78. 77. 77. 77. 77. 77. 76. 76.]
+	 RN : [78. 78. 78. 78. 78. 78. 77. 77.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+18:16: I'm 1 and finished 78 CS.
+	 LN : [78. 77. 77. 77. 77. 77. 76. 76.]
+	 RN : [78. 78. 78. 78. 78. 78. 77. 77.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5])
+18:16: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 6, 4, 5, 7]).
+	 LN : [78. 78. 77. 77. 77. 77. 76. 76.]
+	 RN : [78. 78. 78. 78. 78. 78. 77. 77.]
+	 Queue Understanding : deque([2, 3, 6, 4, 5, 7])
+18:16: I'm 1 and sending the token to 2.
+	 LN : [78. 78. 77. 77. 77. 77. 76. 76.]
+	 RN : [78. 78. 78. 78. 78. 78. 77. 77.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+18:16: I'm 1 and I recieved outstanding request from 0.
+	 LN : [78. 78. 77. 77. 77. 77. 76. 76.]
+	 RN : [79. 78. 78. 78. 78. 78. 77. 77.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+18:19: I'm 1 and want a token for the 79 time.
+	 LN : [78. 78. 77. 77. 77. 77. 76. 76.]
+	 RN : [79. 79. 78. 78. 78. 78. 77. 77.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+18:20: I'm 1 and I recieved outstanding request from 2.
+	 LN : [78. 78. 77. 77. 77. 77. 76. 76.]
+	 RN : [79. 79. 79. 78. 78. 78. 77. 77.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+18:23: I'm 1 and I recieved outstanding request from 3.
+	 LN : [78. 78. 77. 77. 77. 77. 76. 76.]
+	 RN : [79. 79. 79. 79. 78. 78. 77. 77.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+18:27: I'm 1 and I recieved outstanding request from 6.
+	 LN : [78. 78. 77. 77. 77. 77. 76. 76.]
+	 RN : [79. 79. 79. 79. 78. 78. 78. 77.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+18:29: I'm 1 and I recieved outstanding request from 4.
+	 LN : [78. 78. 77. 77. 77. 77. 76. 76.]
+	 RN : [79. 79. 79. 79. 79. 78. 78. 77.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+18:32: I'm 1 and I recieved outstanding request from 5.
+	 LN : [78. 78. 77. 77. 77. 77. 76. 76.]
+	 RN : [79. 79. 79. 79. 79. 79. 78. 77.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+18:36: I'm 1 and I recieved outstanding request from 7.
+	 LN : [78. 78. 77. 77. 77. 77. 76. 76.]
+	 RN : [79. 79. 79. 79. 79. 79. 78. 78.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+18:39: I'm 1 and I got a token.
+	 LN : [78. 78. 77. 77. 77. 77. 76. 76.]
+	 RN : [79. 79. 79. 79. 79. 79. 78. 78.]
+	 Queue Understanding : deque([3, 6, 4, 5, 7])
+18:39: I am 1 and execute 79 CS.
+	 LN : [79. 78. 78. 78. 78. 78. 77. 77.]
+	 RN : [79. 79. 79. 79. 79. 79. 78. 78.]
+	 Queue Understanding : deque([2, 3, 4, 6, 5])
+18:41: I'm 1 and finished 79 CS.
+	 LN : [79. 78. 78. 78. 78. 78. 77. 77.]
+	 RN : [79. 79. 79. 79. 79. 79. 78. 78.]
+	 Queue Understanding : deque([2, 3, 4, 6, 5])
+18:41: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 6, 5, 7]).
+	 LN : [79. 79. 78. 78. 78. 78. 77. 77.]
+	 RN : [79. 79. 79. 79. 79. 79. 78. 78.]
+	 Queue Understanding : deque([2, 3, 4, 6, 5, 7])
+18:41: I'm 1 and sending the token to 2.
+	 LN : [79. 79. 78. 78. 78. 78. 77. 77.]
+	 RN : [79. 79. 79. 79. 79. 79. 78. 78.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+18:41: I'm 1 and I recieved outstanding request from 0.
+	 LN : [79. 79. 78. 78. 78. 78. 77. 77.]
+	 RN : [80. 79. 79. 79. 79. 79. 78. 78.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+18:43: I'm 1 and want a token for the 80 time.
+	 LN : [79. 79. 78. 78. 78. 78. 77. 77.]
+	 RN : [80. 80. 79. 79. 79. 79. 78. 78.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+18:47: I'm 1 and I recieved outstanding request from 2.
+	 LN : [79. 79. 78. 78. 78. 78. 77. 77.]
+	 RN : [80. 80. 80. 79. 79. 79. 78. 78.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+18:49: I'm 1 and I recieved outstanding request from 3.
+	 LN : [79. 79. 78. 78. 78. 78. 77. 77.]
+	 RN : [80. 80. 80. 80. 79. 79. 78. 78.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+18:53: I'm 1 and I recieved outstanding request from 4.
+	 LN : [79. 79. 78. 78. 78. 78. 77. 77.]
+	 RN : [80. 80. 80. 80. 80. 79. 78. 78.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+18:57: I'm 1 and I recieved outstanding request from 6.
+	 LN : [79. 79. 78. 78. 78. 78. 77. 77.]
+	 RN : [80. 80. 80. 80. 80. 79. 79. 78.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:01: I'm 1 and I recieved outstanding request from 5.
+	 LN : [79. 79. 78. 78. 78. 78. 77. 77.]
+	 RN : [80. 80. 80. 80. 80. 80. 79. 78.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:04: I'm 1 and I recieved outstanding request from 7.
+	 LN : [79. 79. 78. 78. 78. 78. 77. 77.]
+	 RN : [80. 80. 80. 80. 80. 80. 79. 79.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:06: I'm 1 and I got a token.
+	 LN : [79. 79. 78. 78. 78. 78. 77. 77.]
+	 RN : [80. 80. 80. 80. 80. 80. 79. 79.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:06: I am 1 and execute 80 CS.
+	 LN : [80. 79. 79. 79. 79. 79. 78. 78.]
+	 RN : [80. 80. 80. 80. 80. 80. 79. 79.]
+	 Queue Understanding : deque([2, 3, 4, 6, 5])
+19:10: I'm 1 and finished 80 CS.
+	 LN : [80. 79. 79. 79. 79. 79. 78. 78.]
+	 RN : [80. 80. 80. 80. 80. 80. 79. 79.]
+	 Queue Understanding : deque([2, 3, 4, 6, 5])
+19:10: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 6, 5, 7]).
+	 LN : [80. 80. 79. 79. 79. 79. 78. 78.]
+	 RN : [80. 80. 80. 80. 80. 80. 79. 79.]
+	 Queue Understanding : deque([2, 3, 4, 6, 5, 7])
+19:10: I'm 1 and sending the token to 2.
+	 LN : [80. 80. 79. 79. 79. 79. 78. 78.]
+	 RN : [80. 80. 80. 80. 80. 80. 79. 79.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:10: I'm 1 and I recieved outstanding request from 0.
+	 LN : [80. 80. 79. 79. 79. 79. 78. 78.]
+	 RN : [81. 80. 80. 80. 80. 80. 79. 79.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:11: I'm 1 and want a token for the 81 time.
+	 LN : [80. 80. 79. 79. 79. 79. 78. 78.]
+	 RN : [81. 81. 80. 80. 80. 80. 79. 79.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:14: I'm 1 and I recieved outstanding request from 2.
+	 LN : [80. 80. 79. 79. 79. 79. 78. 78.]
+	 RN : [81. 81. 81. 80. 80. 80. 79. 79.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:19: I'm 1 and I recieved outstanding request from 3.
+	 LN : [80. 80. 79. 79. 79. 79. 78. 78.]
+	 RN : [81. 81. 81. 81. 80. 80. 79. 79.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:22: I'm 1 and I recieved outstanding request from 4.
+	 LN : [80. 80. 79. 79. 79. 79. 78. 78.]
+	 RN : [81. 81. 81. 81. 81. 80. 79. 79.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:24: I'm 1 and I recieved outstanding request from 6.
+	 LN : [80. 80. 79. 79. 79. 79. 78. 78.]
+	 RN : [81. 81. 81. 81. 81. 80. 80. 79.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:29: I'm 1 and I recieved outstanding request from 5.
+	 LN : [80. 80. 79. 79. 79. 79. 78. 78.]
+	 RN : [81. 81. 81. 81. 81. 81. 80. 79.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:30: I'm 1 and I recieved outstanding request from 7.
+	 LN : [80. 80. 79. 79. 79. 79. 78. 78.]
+	 RN : [81. 81. 81. 81. 81. 81. 80. 80.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:33: I'm 1 and I got a token.
+	 LN : [80. 80. 79. 79. 79. 79. 78. 78.]
+	 RN : [81. 81. 81. 81. 81. 81. 80. 80.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:33: I am 1 and execute 81 CS.
+	 LN : [81. 80. 80. 80. 80. 80. 79. 79.]
+	 RN : [81. 81. 81. 81. 81. 81. 80. 80.]
+	 Queue Understanding : deque([2, 3, 4, 6])
+19:38: I'm 1 and finished 81 CS.
+	 LN : [81. 80. 80. 80. 80. 80. 79. 79.]
+	 RN : [81. 81. 81. 81. 81. 81. 80. 80.]
+	 Queue Understanding : deque([2, 3, 4, 6])
+19:38: I'm 1 and it adds 5 to the queue. Queue after adding: deque([2, 3, 4, 6, 5]).
+	 LN : [81. 81. 80. 80. 80. 80. 79. 79.]
+	 RN : [81. 81. 81. 81. 81. 81. 80. 80.]
+	 Queue Understanding : deque([2, 3, 4, 6, 5])
+19:38: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 6, 5, 7]).
+	 LN : [81. 81. 80. 80. 80. 80. 79. 79.]
+	 RN : [81. 81. 81. 81. 81. 81. 80. 80.]
+	 Queue Understanding : deque([2, 3, 4, 6, 5, 7])
+19:38: I'm 1 and sending the token to 2.
+	 LN : [81. 81. 80. 80. 80. 80. 79. 79.]
+	 RN : [81. 81. 81. 81. 81. 81. 80. 80.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:38: I'm 1 and I recieved outstanding request from 0.
+	 LN : [81. 81. 80. 80. 80. 80. 79. 79.]
+	 RN : [82. 81. 81. 81. 81. 81. 80. 80.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:41: I'm 1 and want a token for the 82 time.
+	 LN : [81. 81. 80. 80. 80. 80. 79. 79.]
+	 RN : [82. 82. 81. 81. 81. 81. 80. 80.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:45: I'm 1 and I recieved outstanding request from 2.
+	 LN : [81. 81. 80. 80. 80. 80. 79. 79.]
+	 RN : [82. 82. 82. 81. 81. 81. 80. 80.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:47: I'm 1 and I recieved outstanding request from 3.
+	 LN : [81. 81. 80. 80. 80. 80. 79. 79.]
+	 RN : [82. 82. 82. 82. 81. 81. 80. 80.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:52: I'm 1 and I recieved outstanding request from 4.
+	 LN : [81. 81. 80. 80. 80. 80. 79. 79.]
+	 RN : [82. 82. 82. 82. 82. 81. 80. 80.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:55: I'm 1 and I recieved outstanding request from 6.
+	 LN : [81. 81. 80. 80. 80. 80. 79. 79.]
+	 RN : [82. 82. 82. 82. 82. 81. 81. 80.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+19:59: I'm 1 and I recieved outstanding request from 5.
+	 LN : [81. 81. 80. 80. 80. 80. 79. 79.]
+	 RN : [82. 82. 82. 82. 82. 82. 81. 80.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+20:02: I'm 1 and I recieved outstanding request from 7.
+	 LN : [81. 81. 80. 80. 80. 80. 79. 79.]
+	 RN : [82. 82. 82. 82. 82. 82. 81. 81.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+20:04: I'm 1 and I got a token.
+	 LN : [81. 81. 80. 80. 80. 80. 79. 79.]
+	 RN : [82. 82. 82. 82. 82. 82. 81. 81.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+20:04: I am 1 and execute 82 CS.
+	 LN : [82. 81. 81. 81. 81. 81. 80. 80.]
+	 RN : [82. 82. 82. 82. 82. 82. 81. 81.]
+	 Queue Understanding : deque([2, 3, 4, 6, 5])
+20:07: I'm 1 and finished 82 CS.
+	 LN : [82. 81. 81. 81. 81. 81. 80. 80.]
+	 RN : [82. 82. 82. 82. 82. 82. 81. 81.]
+	 Queue Understanding : deque([2, 3, 4, 6, 5])
+20:07: I'm 1 and it adds 7 to the queue. Queue after adding: deque([2, 3, 4, 6, 5, 7]).
+	 LN : [82. 82. 81. 81. 81. 81. 80. 80.]
+	 RN : [82. 82. 82. 82. 82. 82. 81. 81.]
+	 Queue Understanding : deque([2, 3, 4, 6, 5, 7])
+20:07: I'm 1 and sending the token to 2.
+	 LN : [82. 82. 81. 81. 81. 81. 80. 80.]
+	 RN : [82. 82. 82. 82. 82. 82. 81. 81.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+20:07: I'm 1 and I recieved outstanding request from 0.
+	 LN : [82. 82. 81. 81. 81. 81. 80. 80.]
+	 RN : [83. 82. 82. 82. 82. 82. 81. 81.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+20:09: I'm 1 and want a token for the 83 time.
+	 LN : [82. 82. 81. 81. 81. 81. 80. 80.]
+	 RN : [83. 83. 82. 82. 82. 82. 81. 81.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+20:10: I'm 1 and I recieved outstanding request from 2.
+	 LN : [82. 82. 81. 81. 81. 81. 80. 80.]
+	 RN : [83. 83. 83. 82. 82. 82. 81. 81.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+20:15: I'm 1 and I recieved outstanding request from 3.
+	 LN : [82. 82. 81. 81. 81. 81. 80. 80.]
+	 RN : [83. 83. 83. 83. 82. 82. 81. 81.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+20:19: I'm 1 and I recieved outstanding request from 4.
+	 LN : [82. 82. 81. 81. 81. 81. 80. 80.]
+	 RN : [83. 83. 83. 83. 83. 82. 81. 81.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+20:24: I'm 1 and I recieved outstanding request from 6.
+	 LN : [82. 82. 81. 81. 81. 81. 80. 80.]
+	 RN : [83. 83. 83. 83. 83. 82. 82. 81.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+20:27: I'm 1 and I recieved outstanding request from 5.
+	 LN : [82. 82. 81. 81. 81. 81. 80. 80.]
+	 RN : [83. 83. 83. 83. 83. 83. 82. 81.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+20:30: I'm 1 and I recieved outstanding request from 7.
+	 LN : [82. 82. 81. 81. 81. 81. 80. 80.]
+	 RN : [83. 83. 83. 83. 83. 83. 82. 82.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+20:32: I'm 1 and I got a token.
+	 LN : [82. 82. 81. 81. 81. 81. 80. 80.]
+	 RN : [83. 83. 83. 83. 83. 83. 82. 82.]
+	 Queue Understanding : deque([3, 4, 6, 5, 7])
+20:32: I am 1 and execute 83 CS.
+	 LN : [83. 82. 82. 82. 82. 82. 81. 81.]
+	 RN : [83. 83. 83. 83. 83. 83. 82. 82.]
+	 Queue Understanding : deque([2, 3, 4, 6, 5])

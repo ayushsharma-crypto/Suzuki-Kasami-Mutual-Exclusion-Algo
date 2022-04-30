@@ -7,7 +7,7 @@ from threading import Thread
 from time import sleep
 import sys
 from datetime import datetime
-
+import os
 
 
 comm = MPI.COMM_WORLD
@@ -18,6 +18,7 @@ REQUEST_MESSAGE_TYPE = 'RN'
 TOKEN_MESSAGE_TYPE = 'token'
 
 directory = 'Log' + sys.argv[1]
+os.makedirs(directory, exist_ok=True)
 
 LOCKS = {
     "request": threading.Lock(),
